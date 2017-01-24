@@ -1,2 +1,5 @@
-# curso_python3
-Curso python3
+# Curso: Introducción a python3
+
+## Unidades
+
+1. Introducción a python
