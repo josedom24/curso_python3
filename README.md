@@ -23,7 +23,6 @@
 14. Usos especificos de variables: contadores, acumuladores e indicadores
 15. Estrucruas de control: Repetitivas.
 16. Ejercicios de repetitivas
-
 17. Introducción a la orientación a objetos
 18. Colecciones: Listas
 19. Métodos principales de la clase Lista
@@ -36,9 +35,7 @@
 25. Métodos principales de la clase Diccionario
 26. Ejercicios de diccionarios
 
-### Concepto un poco más avanzados
+### Conceptos un poco más avanzados
 
 27. 
-
-
 
