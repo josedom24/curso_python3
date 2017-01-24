@@ -37,5 +37,26 @@
 
 ### Conceptos un poco más avanzados
 
-27. 
+27. Trabajar con ficheros
+28. Excepciones
+29. Módulos, paquetes y namespaces
+30. Introducciones a los módulos del sistema: os y sys
+31. Introducción a diversos módulo útiles
+32. Funciones
+33. Ejercicios con funciones
+34. Programación funcional: Ejemplo completo 
 
+### Programación orientada a objetos
+
+35. Clases y ojetos
+36. Ejercicios de clases y objetos
+37. Polimorfismo
+38. Herencia
+39. Delegación
+40. POO: Ejemplo completo
+
+
+
+Funciones: Built-in Functions https://docs.python.org/3/library/functions.html
+Función lambda
+Decoradores
