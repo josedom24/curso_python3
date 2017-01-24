@@ -57,6 +57,6 @@
 
 
 
-Funciones: Built-in Functions https://docs.python.org/3/library/functions.html
-Función lambda
-Decoradores
+* Funciones: Built-in Functions https://docs.python.org/3/library/functions.html
+* Función lambda
+* Decoradores
