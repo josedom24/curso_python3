@@ -4,7 +4,7 @@
 
 ### Introducción
 
-1. Introducción a python
+1. [Introducción a python](u1)
 2. Python2 us python3
 3. Instalación de python3
 4. Entornos de desarrollos y editores de texto
