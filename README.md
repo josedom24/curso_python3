@@ -27,6 +27,8 @@
 	* En Pytho3 tenemos el concepto de tipo.
 	* Los tipos más importantes en python3 son: numéricos, secuencias, mapas, cadenas, clases, objetos.
 	* Otros tipos: Iterador, conjuntos
+7. Variables
+	* Definición, borrado y ámbito
 
 ### Tipos de datos numericos
 
@@ -49,39 +51,71 @@
 	* Listas, tuplas, rangos
 	* Características principales de las secuencias
 10. Tipo de datos secuencia: Listas
+	* Definición de una lista. Constructor list
+	* Las listas son mutables
+	* Indexación y recorrido de una lista
+	* Funciones predefinidas: len,sum, max, min,...
+	* Operadores in, not in, +, *
+	* Slice 
+	* Métodos principales
+	* Listas multidimensionales
+	* ¿Cómo se copian las listas?
+20. Ejercicio de listas
 11. Tipo de datos secuencia: Tuplas
+	* Definición de una tupla. Constructor tuple
+	* Las listas son inmutables
+	* Indexación de una tubla
+	* Métodos principales
+	* Conversión entre listas y tuplas
 12. Tipo de datos secuencia: Rangos
-
-12. Tipo de datos cadenas de caracteres.
+	* Definción de un rango. Constructor range
+	* Recorrido de un rango
+	* Métodos principales de range
+	* Creación de listas a partir de rangos
 10. Codificación de caracteres
+12. Tipo de datos cadenas de caracteres.
+	* Definción de cadenas.  Constructor str
+	* Indexación y recorrido de cadenas
+	* Slice
+	* Métodos principales
+	* Funciones str, repr, ascii
+	* Conversión de cadenas a números, y de números a cedenas
+	* Codificación de las cadenas en python3
 14. Tipo de datos: datos binarios (bytes)
+	* Introducción al manejo de datos binarios
+	* Métodos principales
 15. Tipo de datos conjuntos
 	* Set, frozenset
+	* Métodos principales
 
 ### Tipos de datos mapas
 
 16. Tipo de datos mapa
-	* diccionarios
+	* Definición de diccionarios. Constructor dict
+	* Acceso, modificación y recorrido de diccionarios
+	* Métodos principales
 	* dictviews
 
 ### Entrada y salida de información
 
 6. Entrada y salida
+	* Función print (palabra reservada end)
+	* 4.7.2. printf-style String Formatting¶
+	* Función input
 11. Ejercicios de programas sencillos.
 
 ### Estructura de control
 
 12. Estructuras de control: Alternativas.
-13. Ejerciccios de alternativas
-14. Usos especificos de variables: contadores, acumuladores e indicadores
-15. Estrucruas de control: Repetitivas.
+13. Ejercicios de alternativas
+14. Usos específicos de variables: contadores, acumuladores e indicadores
+15. Estructuras de control: Repetitivas.
 16. Ejercicios de repetitivas
 17. Introducción a la orientación a objetos
-18. Colecciones: Listas
-19. Métodos principales de la clase Lista
-20. Ejercicio de listas
-21. Colecciones: Tuplas
-21. Métodos principales de la clase Tupla
+
+19. 
+
+
 22. Métodos principales de la clase String
 23. Ejercicios de strings
 24. Colecciones: Diccionarios
@@ -98,6 +132,15 @@
 32. Funciones
 33. Ejercicios con funciones
 34. Programación funcional: Ejemplo completo 
+
+### Programación funcional
+
+1. Función map
+2. Función filter
+3. Función reduce
+4. Función lambda
+5. list comprehension
+
 
 ### Programación orientada a objetos
 
