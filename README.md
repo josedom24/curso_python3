@@ -8,16 +8,69 @@
 2. Python2 us python3
 3. Instalación de python3
 4. Entornos de desarrollos y editores de texto
+5. Interprete mejorado: ipython3
 5. Mi primer programa en python3
+	* Uso del interprete
+	* Escribimos un programa
+	* Ejecutamos el programa con el interprete
+	* Codificacíon de caracteres en el fichero fuente
+	* Ejecución de programas usando [shebang](https://es.wikipedia.org/wiki/Shebang)
 
-### Conceptos básicos
+### Estructura del lenguaje
+
+6. Funciones predefinidas
+	* Se muestran las más utilizadas.
+	* A lo largo del curso se van utilzando las que necesitemos
+7. Constantes predefinidas
+	* False,True,None, ...
+6. Tipos de datos 
+	* En Pytho3 tenemos el concepto de tipo.
+	* Los tipos más importantes en python3 son: numéricos, secuencias, mapas, cadenas, clases, objetos.
+	* Otros tipos: Iterador, conjuntos
+
+### Tipos de datos numericos
+
+7. Tipo de datos numéricos: 
+	* enteros
+	* reales
+	* complejos
+	* Operaciones aritméticas.
+	* Funciones predefinidas que trabajan con números
+	* Conversión de tipos
+8. Tipo de dato booleanos. 
+	* Tipo booleano es un subtipo de un tipo entero
+	* Operadores booleanos
+	* Operadores de comparación
+	* ¿Qué valores se interpretan como FALSO?
+
+### Tipos de datos secuencia
+
+9. Tipo de datos secuencia
+	* Listas, tuplas, rangos
+	* Características principales de las secuencias
+10. Tipo de datos secuencia: Listas
+11. Tipo de datos secuencia: Tuplas
+12. Tipo de datos secuencia: Rangos
+
+12. Tipo de datos cadenas de caracteres.
+10. Codificación de caracteres
+14. Tipo de datos: datos binarios (bytes)
+15. Tipo de datos conjuntos
+	* Set, frozenset
+
+### Tipos de datos mapas
+
+16. Tipo de datos mapa
+	* diccionarios
+	* dictviews
+
+### Entrada y salida de información
 
 6. Entrada y salida
-7. Tipo de datos númericos: enteros, reales. Operaciones aritméticas.
-8. Tipo de dato lógico. Operaciones lógicas.
-9. Introducción a las cadenas de caracteres.
-10. Codificación de caracteres
 11. Ejercicios de programas sencillos.
+
+### Estructura de control
+
 12. Estructuras de control: Alternativas.
 13. Ejerciccios de alternativas
 14. Usos especificos de variables: contadores, acumuladores e indicadores
