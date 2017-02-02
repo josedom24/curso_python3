@@ -12,6 +12,7 @@
 5. Mi primer programa en python3
 	* Uso del interprete
 	* Escribimos un programa
+	* La importancia de la tabulación
 	* Ejecutamos el programa con el interprete
 	* Codificacíon de caracteres en el fichero fuente
 	* Ejecución de programas usando [shebang](https://es.wikipedia.org/wiki/Shebang)
@@ -60,15 +61,16 @@
 	* Métodos principales
 	* Listas multidimensionales
 	* ¿Cómo se copian las listas?
-20. Ejercicio de listas
+
 11. Tipo de datos secuencia: Tuplas
 	* Definición de una tupla. Constructor tuple
 	* Las listas son inmutables
 	* Indexación de una tubla
 	* Métodos principales
 	* Conversión entre listas y tuplas
+
 12. Tipo de datos secuencia: Rangos
-	* Definción de un rango. Constructor range
+	* Definición de un rango. Constructor range
 	* Recorrido de un rango
 	* Métodos principales de range
 	* Creación de listas a partir de rangos
@@ -81,6 +83,7 @@
 	* Funciones str, repr, ascii
 	* Conversión de cadenas a números, y de números a cedenas
 	* Codificación de las cadenas en python3
+
 14. Tipo de datos: datos binarios (bytes)
 	* Introducción al manejo de datos binarios
 	* Métodos principales
@@ -96,40 +99,77 @@
 	* Métodos principales
 	* dictviews
 
+
 ### Entrada y salida de información
 
-6. Entrada y salida
+6. Entrada y salida estándar
 	* Función print (palabra reservada end)
 	* 4.7.2. printf-style String Formatting¶
 	* Función input
-11. Ejercicios de programas sencillos.
 
-### Estructura de control
+### Ejercicios tipos de datos
+
+11. Ejercicios de programas sencillos.
+12. Ejercicios de listas
+12. Ejercicios de cadenas
+12. Ejercicios de diccionaios
+
+### Estructuras de control
 
 12. Estructuras de control: Alternativas.
-13. Ejercicios de alternativas
-14. Usos específicos de variables: contadores, acumuladores e indicadores
+	* Alternativas simples
+	* Alternativas dobles
+	* Alternativas múltiples
+	* Expresión reducida del if 
 15. Estructuras de control: Repetitivas.
+	* for
+	* while
+	* Instrucciones break, continue, else y pass
+	* Recorriendo varias listas. Función zip()
+
+### Ejercicios estructuras de control
+
+16. Ejercicios de alternativas
 16. Ejercicios de repetitivas
-17. Introducción a la orientación a objetos
-
-19. 
 
 
-22. Métodos principales de la clase String
-23. Ejercicios de strings
-24. Colecciones: Diccionarios
-25. Métodos principales de la clase Diccionario
-26. Ejercicios de diccionarios
+### Trabajar con ficheros
 
-### Conceptos un poco más avanzados
+27. Lectura y escritura de ficheros de textos
+	* Objeto fichero
+	* Modos de acceso
+	* Metodos principales
+28. Gestionar ficheros CSV
+	* Módulo csv
+	* Funciones principales
+29. Gestionar ficheros json
+	* Módulo json
+	* Funciones principales
 
-27. Trabajar con ficheros
+### Errores y Excepciones
+
 28. Excepciones
-29. Módulos, paquetes y namespaces
+	* Errores sintácticos y errores de ejecución
+	* Excepciones. Tipos.
+	* Manejando excepciones. try, except, else, finally
+	* Lanzando excepciones. raise
+
+### Módulos, paquetes y namespaces
+
+29. Definición Módulos, paquetes y namespaces
+30. Importando módulos
+	* import
+	* from ... import
+	* Función dir()
+	* Función help()
+
 30. Introducciones a los módulos del sistema: os y sys
 31. Introducción a diversos módulo útiles
+
+### Programación imperativa
+
 32. Funciones
+ __name__
 33. Ejercicios con funciones
 34. Programación funcional: Ejemplo completo 
 
@@ -152,7 +192,3 @@
 40. POO: Ejemplo completo
 
 
-
-* Funciones: Built-in Functions https://docs.python.org/3/library/functions.html
-* Función lambda
-* Decoradores
