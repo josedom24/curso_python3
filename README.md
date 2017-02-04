@@ -81,52 +81,66 @@
 	* Las listas son mutables
 	* Indexación y recorrido de una lista
 	* Funciones predefinidas: len, sum, max, min, sorted
+	* Concatenación de listas
 	* Operadores in, not in, +, *
 	* Slice 
-	* Métodos principales
 	* Función enumerate()
 	* Listas multidimensionales
 	* ¿Cómo se copian las listas?
 
-3. Operaciones avanzadas con listas
+3. Métodos principales de listas
+	* Métodos de inserción: append, extend, insert
+	* Métodos de eliminación: pop, remove
+	* Métodos de ordenación: reverse, sort, 
+	* Métodos de búsqueda: count, index
+
+4. Operaciones avanzadas con listas
 
 	* Función map
 	* Función filter
 	* Función reduce
 	* list comprehension
 
-4. Tipo de datos secuencia: Tuplas
+5. Tipo de datos secuencia: Tuplas
 	* Definición de una tupla. Constructor tuple
 	* Las listas son inmutables
 	* Indexación de una tubla
 	* Métodos principales
 	* Conversión entre listas y tuplas
 
-5. Tipo de datos secuencia: Rangos
+6. Tipo de datos secuencia: Rangos
 	* Definición de un rango. Constructor range
 	* Recorrido de un rango
 	* Métodos principales de range
 	* Creación de listas a partir de rangos
-6. Codificación de caracteres
+
+7. Codificación de caracteres
 	* Introducción a la codificación de caracteres
 	* Funciones chr() y ord()
-7. Tipo de datos cadenas de caracteres.
+
+8. Tipo de datos cadenas de caracteres.
 	* Definición de cadenas.  Constructor str
 	* Indexación y recorrido de cadenas
 	* Slice
-	* Métodos principales
+	* Concatenación de cadenas
 	* Funciones str, repr, ascii
 	* Conversión de cadenas a números, y de números a cedenas. 
 	* Función bin()
-	* Codificación de las cadenas en python3
 
-8. Tipo de datos: datos binarios (bytes)
+9. Métodos principales de cadenas
+	* Métodos de formato: capitalize, lower, upper, swapcase, title, center, ljust, rjust, zfill
+	* Métodos de búsqueda: count, find
+	* Métodos de validación: statrswith, endswith, isalnum, isalpha, isdigit, islower, isupper, isspace, istitle
+	* Métodos de sustitución: format, replace, strip, lstrip, rstrip
+	* Métodos de unión y división: join, partition, split, splitlines, 
+
+10. Tipo de datos: datos binarios (bytes)
 	* Introducción al manejo de datos binarios
 	* Métodos principales
-9. Tipo de datos conjuntos
+11. Tipo de datos conjuntos
 	* Set, frozenset
 	* Métodos principales
-10. Tipo de datos iterador y generador
+12. Tipo de datos iterador y generador
 	* Iteradores
 	* Función next(), reversed()
 	* Generadores
@@ -135,10 +149,14 @@
 
 1. Tipo de datos mapa
 	* Definición de diccionarios. Constructor dict
+	* Contar elementos de un diccionario: len
 	* Acceso, modificación y recorrido de diccionarios
-	* Métodos principales
 	* dictviews
 
+2. Métodos principales de diccionarios
+	* Métodos de eliminación: clear
+	* Métodos de agregado y creación: copy, dict.fromkeys, update, setdefault
+	* Métodos de retorno: get, has_ket, items, Keys, values
 
 	### Entrada y salida de información
 
@@ -153,7 +171,7 @@
 1. Ejercicios de programas sencillos.
 2. Ejercicios de listas
 3. Ejercicios de cadenas
-4. Ejercicios de diccionaios
+4. Ejercicios de diccionarios
 
 	### Estructuras de control
 
