@@ -14,24 +14,40 @@
 	* Escribimos un programa
 	* La importancia de la tabulación
 	* Ejecutamos el programa con el interprete
-	* Codificacíon de caracteres en el fichero fuente
+	* Codificación de caracteres en el fichero fuente
 	* Ejecución de programas usando [shebang](https://es.wikipedia.org/wiki/Shebang)
+	* Guía de estilo
 
 ### Estructura del lenguaje
 
+5. Estructura del programa
+	* Instrucciones. Estructura secuencial
+	* Los comentarios
+	* La importancia de la tabulación
+	* Función help()
 6. Funciones predefinidas
 	* Se muestran las más utilizadas.
-	* A lo largo del curso se van utilzando las que necesitemos
+	* A lo largo del curso se van utilizando las que necesitemos
 7. Constantes predefinidas
 	* False,True,None, ...
+7. Datos
+	* Literales, variables y expresiones
+	* Nombres de variables y palabras reservadas
+	* Definición, borrado y ámbito de variables
+	* Operación. Precedencia de operadores
 6. Tipos de datos 
 	* En Pytho3 tenemos el concepto de tipo.
+	* Función type()
 	* Los tipos más importantes en python3 son: numéricos, secuencias, mapas, cadenas, clases, objetos.
 	* Otros tipos: Iterador, conjuntos
-7. Variables
-	* Definición, borrado y ámbito
+7. Asignando datos a las variables
+	* En python todo es una referencia (puntero)
+	* Objetos mutables e inmutables
+	* Inmutables son los números, las cadenas o las tuplas.
+	* Mutables son otros objetos como los diccionarios o las listas.
 
-### Tipos de datos numericos
+
+### Tipos de datos numéricos
 
 7. Tipo de datos numéricos: 
 	* enteros
@@ -76,7 +92,7 @@
 	* Creación de listas a partir de rangos
 10. Codificación de caracteres
 12. Tipo de datos cadenas de caracteres.
-	* Definción de cadenas.  Constructor str
+	* Definición de cadenas.  Constructor str
 	* Indexación y recorrido de cadenas
 	* Slice
 	* Métodos principales
@@ -161,17 +177,46 @@
 	* import
 	* from ... import
 	* Función dir()
-	* Función help()
+	
 
-30. Introducciones a los módulos del sistema: os y sys
-31. Introducción a diversos módulo útiles
+30. Introducciones a los módulos estándares
+	* Módulo os
+	* Módulos sys. Ejecución se scripts con argumentos
+	* Módulo glob
+	* Módulo re
+	* Módulo math
+	* Módulo random
+	* Módulo datetime
+	* Módulo calendar
+31. Instalación de módulos
+	* pip
 
 ### Programación imperativa
 
-32. Funciones
- __name__
+32. Introducción a las Funciones
+	* Introducción a la programación imperativa
+	* Definición de funciones
+	* Ámbito de variables. Sentencia global
+	* Argumentos formales y argumentos reales
+	* Llamada a una función
+	* La instrucción return
+
+33. Conceptos avanzados sobre funciones
+	* Parámetros con valores por defecto
+	* Tipos de argumentos: posicionales o keyword
+	* Lista de argumentos arbitrarios
+	* Desempaquetar argumentos: pasar listas y diccionarios
+	* Devolver múltiples resultados
+	* Documentando las funciones
+	* El método main()
+	* Decoradores
+
+34. Funciones recursivas
+
+### Ejercicios programación imperativa
+
 33. Ejercicios con funciones
-34. Programación funcional: Ejemplo completo 
+34. Programación imperativa: Ejemplo completo 
 
 ### Programación funcional
 
@@ -184,11 +229,33 @@
 
 ### Programación orientada a objetos
 
-35. Clases y ojetos
+35. Clases y objetos
+	* Introducción a la POO
+	* Definición de clases: atributos y métodos
+	* Método constructor __init__
+	* Atributos de objetos
+	* Definiendo métodos. El parámetro self
+	* Definición de objetos
+
+36. Conceptos avanzados de clases y objetos
+	* Atributos de clase (estáticas)
+	* Atributos privados 
+	* Métodos estáticos
+	* Métodos de clase
+	* Propiedades: getters, setters, deleter
+	* __str__ y __repr__
+	* Comparación de objetos __eq__
+
+37. Herencia
+	* Concepto de herencia
+	* La función super()
+	* Herencia múltiple
+	* Polimorfismo y delegación
+
+
+### Ejercicios programación orientada a objetos
+
 36. Ejercicios de clases y objetos
-37. Polimorfismo
-38. Herencia
-39. Delegación
 40. POO: Ejemplo completo
 
 
