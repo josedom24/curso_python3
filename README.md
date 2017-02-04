@@ -7,9 +7,17 @@
 1. [Introducción a python](u1)
 2. Python2 us python3
 3. Instalación de python3
+	* Instalación en linux debian/Ubuntu
+	* Instalación en otras distribuciones linux
+	* Instalación en Windows
+	* Instalación en Mac
+	* Interprete mejorado ipython3
 4. Entornos de desarrollos y editores de texto
-5. Interprete mejorado: ipython3
-6. Mi primer programa en python3
+	* IDE python
+	* Editores de textos
+	* IDE us Editores de texto
+	* Características de los editores de textos
+5. Mi primer programa en python3
 	* Uso del interprete
 	* Escribimos un programa
 	* La importancia de la tabulación
