@@ -2,7 +2,7 @@
 
 ## Unidades
 
-	### Introducción
+### Introducción
 
 1. [Introducción a python](u1)
 2. Python2 us python3
@@ -20,7 +20,7 @@
 
 	### Estructura del lenguaje
 
-7. Estructura del programa
+1. Estructura del programa
 	* Instrucciones. Estructura secuencial
 	* Los comentarios
 	* La importancia de la tabulación
@@ -47,8 +47,7 @@
 	* Inmutables son los números, las cadenas o las tuplas.
 	* Mutables son otros objetos como los diccionarios o las listas.
 
-
-### Tipos de datos numéricos
+	### Tipos de datos numéricos
 
 1. Tipo de datos numéricos: 
 	* enteros
@@ -64,7 +63,7 @@
 	* ¿Qué valores se interpretan como FALSO?
 	* Funciones all() y any()
 
-### Tipos de datos secuencia
+	### Tipos de datos secuencia
 
 1. Tipo de datos secuencia
 	* Listas, tuplas, rangos
@@ -124,7 +123,7 @@
 	* Función next(), reversed()
 	* Generadores
 
-### Tipos de datos mapas
+	### Tipos de datos mapas
 
 1. Tipo de datos mapa
 	* Definición de diccionarios. Constructor dict
@@ -133,7 +132,7 @@
 	* dictviews
 
 
-### Entrada y salida de información
+	### Entrada y salida de información
 
 1. Entrada y salida estándar
 	* Función print (palabra reservada end)
@@ -141,14 +140,14 @@
 	* Función input
 	* Función format()
 
-### Ejercicios tipos de datos
+	### Ejercicios tipos de datos
 
 1. Ejercicios de programas sencillos.
 2. Ejercicios de listas
 3. Ejercicios de cadenas
 4. Ejercicios de diccionaios
 
-### Estructuras de control
+	### Estructuras de control
 
 5. Estructuras de control: Alternativas.
 	* Alternativas simples
@@ -161,13 +160,12 @@
 	* Instrucciones break, continue, else y pass
 	* Recorriendo varias listas. Función zip()
 
-### Ejercicios estructuras de control
+	### Ejercicios estructuras de control
 
 1. Ejercicios de alternativas
 2. Ejercicios de repetitivas
 
-
-### Trabajar con ficheros
+	### Trabajar con ficheros
 
 1. Lectura y escritura de ficheros de textos
 	* Función open()
@@ -181,7 +179,7 @@
 	* Módulo json
 	* Funciones principales
 
-### Errores y Excepciones
+	### Errores y Excepciones
 
 1. Excepciones
 	* Errores sintácticos y errores de ejecución
@@ -189,14 +187,13 @@
 	* Manejando excepciones. try, except, else, finally
 	* Lanzando excepciones. raise
 
-### Módulos, paquetes y namespaces
+	### Módulos, paquetes y namespaces
 
 1. Definición Módulos, paquetes y namespaces
 2. Importando módulos
 	* import
 	* from ... import
 	* Función dir()
-	
 
 3. Introducciones a los módulos estándares
 	* Módulo os
@@ -210,7 +207,7 @@
 4. Instalación de módulos
 	* pip
 
-### Programación imperativa
+	### Programación imperativa
 
 1. Introducción a las Funciones
 	* Introducción a la programación imperativa
@@ -232,12 +229,12 @@
 3. Funciones lambda
 4. Funciones recursivas
 
-### Ejercicios programación imperativa
+	### Ejercicios programación imperativa
 
 1. Ejercicios con funciones
 2. Programación imperativa: Ejemplo completo 
 
-### Programación orientada a objetos
+	### Programación orientada a objetos
 
 1. Clases y objetos
 	* Introducción a la POO
@@ -264,7 +261,7 @@
 	* Polimorfismo y delegación
 
 
-### Ejercicios programación orientada a objetos
+	### Ejercicios programación orientada a objetos
 
 1. Ejercicios de clases y objetos
 2. POO: Ejemplo completo
