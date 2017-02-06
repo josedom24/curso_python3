@@ -2,9 +2,9 @@
 
 ## Unidades
 
-### Introducción
+### [Introducción](1-Introducción/)
 
-1. [Introducción a python](u1)
+1. Introducción a python
 2. Python2 us python3
 3. Instalación de python3
 	* Instalación en linux debian/Ubuntu

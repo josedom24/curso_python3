@@ -4,11 +4,11 @@
 
 Python es un lenguaje:
 
-* **intrepetado**
-* **alto nivel**
-* **multiparadigma**, ya que soporta **orientación a objetos**, **programación imperativa**  y **programación funcional**.
-* **multipltaforma**
-* **libre**
+* Intrepetado
+* Alto nivel
+* Multiparadigma, ya que soporta **orientación a objetos**, **programación imperativa**  y **programación funcional**.
+* Multipltaforma
+* Libre
 
 ## ¿Por qué elegir python?
 
