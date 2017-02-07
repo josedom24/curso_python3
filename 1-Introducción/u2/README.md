@@ -1,5 +1,4 @@
 # Python2 us Python3
-# Notas
 
 ## python 2.x y python 3.x
 
