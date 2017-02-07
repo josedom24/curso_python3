@@ -1,7 +1,7 @@
 ### Introducción
 
 1. [Introducción a python](u1)
-2. Python2 us python3
+2. [Python2 us python3](u2)
 3. Instalación de python3
 	* Instalación en linux debian/Ubuntu
 	* Instalación en otras distribuciones linux
