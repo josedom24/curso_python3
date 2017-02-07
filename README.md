@@ -11,7 +11,6 @@
 	* Instalación en otras distribuciones linux
 	* Instalación en Windows
 	* Instalación en Mac
-	* Interprete mejorado ipython3
 4. Entornos de desarrollos y editores de texto
 	* IDE python
 	* Editores de textos

@@ -2,12 +2,11 @@
 
 1. [Introducción a python](u1)
 2. [Python2 us python3](u2)
-3. Instalación de python3
+3. [Instalación de python3](u3)
 	* Instalación en linux debian/Ubuntu
 	* Instalación en otras distribuciones linux
 	* Instalación en Windows
 	* Instalación en Mac
-	* Interprete mejorado ipython3
 4. Entornos de desarrollos y editores de texto
 	* IDE python
 	* Editores de textos
