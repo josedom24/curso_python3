@@ -12,7 +12,7 @@ En el [post: What’s New In Python 3.0](https://docs.python.org/3.0/whatsnew/3.
 
 Te debes asegurar si las bibliotecas que vas a utilizar son compatibles con la versión que vas a utilizar. El problema en los últimos años ha sido que no todas las librerías se habían exportado a la versión 3. En los últimos tiempo la versión 3 es suficientemente madura para se utilizada y muchos de las librerías y software más utilizado ya está exportado. Puedes ver la lista de los paquetes exportados a la versión 3 en la página [http://python3wos.appspot.com/](http://python3wos.appspot.com/).
 
-Si es totalmente necesario, porque la librería que necesito no está portada tendr´iamos que usar la versión 2, pero hay que tener en cuenta que python 2.x es un lenguaje antiguo con errores, por lo tanto merece la pena hacer un esfuerzo y buscad alternativas para usar la versión 3. Si tienes código en la antigua versión, también existen herramienta para realizar la portabilidad: [Porting Python Code to 3.x](https://wiki.python.org/moin/PortingPythonToPy3k).
+Si es totalmente necesario, porque la librería que necesito no está portada tendríamos que usar la versión 2, pero hay que tener en cuenta que python 2.x es un lenguaje antiguo con errores, por lo tanto merece la pena hacer un esfuerzo y buscad alternativas para usar la versión 3. Si tienes código en la antigua versión, también existen herramientas para realizar la portabilidad: [Porting Python Code to 3.x](https://wiki.python.org/moin/PortingPythonToPy3k).
 
 ## Las principales difreencia entre python 2.x y 3.x
 
