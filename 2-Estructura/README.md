@@ -1,6 +1,5 @@
 ### Estructura del lenguaje
 
-:start="6"
 6. Estructura del programa
 	* Instrucciones. Estructura secuencial
 	* Los comentarios
