@@ -1,6 +1,6 @@
 ### Estructura del lenguaje
 
-6. Estructura del programa
+6. [Estructura del programa](u6)
 	* Instrucciones. Estructura secuencial
 	* Los comentarios
 	* La importancia de la tabulación

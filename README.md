@@ -25,7 +25,7 @@
 	* Ejecución de programas usando [shebang](https://es.wikipedia.org/wiki/Shebang)
 	* Guía de estilo
 
-	### Estructura del lenguaje
+	### [Estructura del lenguaje](2-Estructura/)
 
 1. Estructura del programa
 	* Instrucciones. Estructura secuencial
