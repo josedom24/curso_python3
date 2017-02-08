@@ -16,6 +16,11 @@ if num >=0:
 		print (num)
 		num = num +1
 
+# El punto y coma “;” se puede usar para separar varias sentencias 
+# en una misma línea, pero no se aconseja su uso.
+
+edad = 15; print(edad)
+
 # Cuando el bloque a sangrar sólo ocupa una línea ésta puede
 # escribirse después de los dos puntos:   
 
