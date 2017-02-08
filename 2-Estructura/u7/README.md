@@ -16,3 +16,7 @@ Tenemos una serie de funciones predefinidas en python3:
 	compile() 	  globals() 	map() 		 reversed() __import__()
 	complex() 	  hasattr() 	max() 		 round() 	 
 	delattr() 	  hash() 		memoryview() set() 	 
+
+Todas estas funciones y algunos elmentos comunes del lenguaje están definidas en el módulo [builtins](https://docs.python.org/3/library/builtins.html)-
+
+## Algunos ejemplos de funciones
