@@ -32,9 +32,10 @@
 	* Los comentarios
 	* La importancia de la tabulación
 	* http://python-para-impacientes.blogspot.com.es/2014/01/escritura-de-programas-recomendaciones.html
-	* Función help()
+	
 2. Funciones predefinidas
 	* Se muestran las más utilizadas.
+	* Función help()
 	* A lo largo del curso se van utilizando las que necesitemos
 3. Constantes predefinidas
 	* False,True,None, ...

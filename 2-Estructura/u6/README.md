@@ -1,61 +1,24 @@
-# Mi primer programa en python3
+# Estructura del programa
 
-La documentación de este curso esta escrita usando la distribución GNU/Linux Debian Jessie. Algunas particularidades pueden cambiar en otras versiones, distribuciones o sistemas operativos.
+* Un programa python está formado por instrucciones que acaban en un caracter de "salto de línea". 
+* El punto y coma “;” se puede usar para separar varias sentencias en una misma línea, pero no se aconseja su uso.
+* Una línea empiza en la primera posición, si tenemos instrucciones dentro de un bloque de una estrucura de control de flujo habra que hacer una identación.
+* La identación se puede hacer con espacios y tabulaciones pero ambos tipos no se pueden mezclar. Se recomienda usar 4 espacios.
+* La barra invertida "\" al final de línea se emplea para dividir una línea muy larga en dos o más líneas.
+* Las expresiones entre paréntesis "()", llaves "{}" y corchetes "[]" separadas por comas "," se pueden escribir ocupando varias líneas.
+* Cuando el bloque a sangrar sólo ocupa una línea ésta puede escribirse después de los dos punto.
 
-## Uso del interprete
+## Comentarios
 
-Al instalar python3 el ejecutable del interprete lo podemos encontrar en `/usr/bin/python3`. Este directorio por defecto está en el PATH, por lo tanto lo podemos ejecutar directamente en el terminal. Por lo tanto para entrar en el modo interactivo, donde podemos ejecutar instrucción por instrucción interactivamente, ejecutamos:
+Se utiliza el caracter `#` para indicar los comentarios.
 
-	$ python3
-	Python 3.4.2 (default, Oct  8 2014, 10:45:20) 
-	[GCC 4.9.1] on linux
-	Type "help", "copyright", "credits" or "license" for more information.
-	>>> 
+## Palabras reservadas
 
-Si tenemos nuestro programa en un fichero fuente (suele tener extensión `py`), por ejemplo `programa.py`,lo ejecutaríamos de la siguiente manera.
-	
-	$ python3 programa.py
+	False      class      finally    is         return
+	None       continue   for        lambda     try
+	True       def        from       nonlocal   while
+	and        del        global     not        with
+	as         elif       if         or         yield
+	assert     else       import     pass
+	break      except     in         raise
 
-Por defecto la codificación de nuestro código fuente es UTF-8, por lo que no debemos tener ningún problema con los caracteres utilizados en nuestro programaos. Si por cualquier motivo necesitamos cambiar la codificación de los caracteres, en la primera línea de nuestro programa necesitaríamos poner:
-
-	# -*- coding: encoding -
-
-Por ejemplo:
-
-	# -*- coding: cp-1252 -*-
-
-## Escribimos un programa
-
-Un ejemplo de nuestro primer programa, podría ser este "hola mundo" un poco modificado:
-
-	numero = 5
-	if numero == 5:
-		print ("Hola mundo!!!")
-
-La indentación de la última línea es importante (se puede hacer con espacios o con tabulador), en python se utiliza para indicar bloques de instrucciones definidas por las estructuras de control (if, while, for, ...). 
-
-Para ejecutar este programa (guardado en `hola.py`):
-
-	$ python3 hola.py
-	$ Hola mundo!!!
-
-## Ejecución de programas usando [shebang](https://es.wikipedia.org/wiki/Shebangn)
-
-Podemos ejecutar directamente el fichero utilizando en la primera línea el shebang, donde se indica el ejecutable que vamos a utilizar.
-
-	#!/usr/bin/python3
-
-También podemos usar el programa `env` para preguntar al sistema por la ruta el interprete de python:
-
-	#!/usr/bin/env python
-
-Por supuesto tenemos que dar permisos de ejecución al fichero.
-
-	$ chmod +x hola.py
-
- 	$ ./hola.py
-	$ Hola mundo!!!
-
-## Guía de estilo
-
-Puede encontrar la guía de estilos para escribir código python en [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/).
