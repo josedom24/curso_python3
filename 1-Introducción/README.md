@@ -7,12 +7,12 @@
 	* Instalación en otras distribuciones linux
 	* Instalación en Windows
 	* Instalación en Mac
-4. Entornos de desarrollos y editores de texto
+4. [Entornos de desarrollos y editores de texto](u4)
 	* IDE python
 	* Editores de textos
 	* IDE us Editores de texto
 	* Características de los editores de textos
-5. Mi primer programa en python3
+5. [Mi primer programa en python3](u5)
 	* Uso del interprete
 	* Escribimos un programa
 	* La importancia de la tabulación
