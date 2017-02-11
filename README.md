@@ -19,27 +19,23 @@
 5. [Mi primer programa en python3](u5)
 	* Uso del interprete
 	* Escribimos un programa
-	* La importancia de la tabulación
-	* Ejecutamos el programa con el interprete
-	* Codificación de caracteres en el fichero fuente
 	* Ejecución de programas usando [shebang](https://es.wikipedia.org/wiki/Shebang)
 	* Guía de estilo
 
 	### Estructura del lenguaje
 
 6. [Estructura del programa](u6)
-	* Instrucciones. Estructura secuencial
+	* Estrucutra de programa
 	* Los comentarios
-	* La importancia de la tabulación
 	* Palabras reservadas
+	* Ejemplo
 7. [Funciones y constantes predefinidas](u7)
-	* Se muestran las más utilizadas.
-	* Función help()
-	* A lo largo del curso se van utilizando las que necesitemos
-	* Constantes: False,True,None, ...
+	* Funciones predefinidas
+	* Algunos ejemplos de funciones
+	* Constantes predefinidas: False,True,None, ...
+	* Ayuda, función help()
 8. [Datos](u8)
 	* Literales, variables y expresiones
-	* Nombres de variables
 	* Definición, borrado y ámbito de variables
 	* Operación. Precedencia de operadores
 9. [Tipos de datos](u9)
@@ -53,7 +49,6 @@
 	* Operadores de identidad
 	* Operadores de asignación
 	* Asignación múltiple
-	
 
 	### Tipos de datos numéricos
 
