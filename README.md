@@ -44,13 +44,14 @@
 	* Definición, borrado y ámbito de variables
 	* Operación. Precedencia de operadores
 9. [Tipos de datos](u9)
-	* En Pytho3 tenemos el concepto de tipo.
+	* Clasificación de tipos de datos
 	* Función type()
-	* Los tipos más importantes en python3 son: numéricos, secuencias, mapas, cadenas, clases, objetos.
-	* Otros tipos: Iterador, conjuntos
+	* Función isistance()
+	
 10. Asignando datos a las variables
 	* En python todo es una referencia (puntero)
 	* Operadores de asignación (https://www.tutorialspoint.com/python3/python_basic_operators.htm)
+	* Asignación múltiple (https://www.tutorialspoint.com/python3/python_variable_types.htm)
 	* Función id()
 	* Objetos mutables e inmutables
 	* Inmutables son los números, las cadenas o las tuplas.
