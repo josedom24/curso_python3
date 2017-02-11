@@ -68,4 +68,26 @@ Veamos ejemplos de expresiones:
 	a + 7
 	(a ** 2) + b
 
-### 
+### Definición, borrado y ámbito de variables
+
+Como hemos comentado anteriormente para crear una variable simplemente tenemos que utilizar un operador de asignación, el más utilizado `=` para que referencia un valor. Si queremos borrar la variable utilizamos la instrucción `del`. Por ejemplo:
+
+	>>> a = 5
+	>>> a
+	5
+	>>> del a
+	>>> a
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	NameError: name 'a' is not defined
+
+Podemos tener también variables que no tengan asignado ningún tipo de datos:
+
+	>>> a = None
+	>>> type(a)
+	<class 'NoneType'>
+
+El ámbito de una variable se refiere a la zona del programa donde se ha definido y existe esa variable. Como primera aproximación las variables creadas dentro de funciones o clases tienen un ámbito local, es decir no existen fuera de la función o clase. Concretaremos cuando estudiamos estos aspectos más profundamente.
+
+### Precedencia de operadores en python
+
