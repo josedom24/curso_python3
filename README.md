@@ -50,6 +50,7 @@
 	* Otros tipos: Iterador, conjuntos
 10. Asignando datos a las variables
 	* En python todo es una referencia (puntero)
+	* Operadores de asignación (https://www.tutorialspoint.com/python3/python_basic_operators.htm)
 	* Función id()
 	* Objetos mutables e inmutables
 	* Inmutables son los números, las cadenas o las tuplas.
