@@ -46,14 +46,14 @@
 	* Clasificación de tipos de datos
 	* Función type()
 	* Función isistance()
-10. [Asignando datos a las variables](u10)
-	* En python todo es una referencia (puntero)
-	* Operadores de asignación (https://www.tutorialspoint.com/python3/python_basic_operators.htm)
-	* Asignación múltiple (https://www.tutorialspoint.com/python3/python_variable_types.htm)
+10. [Trabajando con variables](u10)
+	* ¿Qué es el tipado dinámico?
+	* Objetos inmutables y mutables
 	* Función id()
-	* Objetos mutables e inmutables
-	* Inmutables son los números, las cadenas o las tuplas.
-	* Mutables son otros objetos como los diccionarios o las listas.
+	* Operadores de identidad
+	* Operadores de asignación
+	* Asignación múltiple
+	
 
 	### Tipos de datos numéricos
 
