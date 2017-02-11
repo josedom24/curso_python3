@@ -38,3 +38,29 @@ En el módulo [builtins](https://docs.python.org/3/library/builtins.html) se def
 * `None` especifica que alguna variables u objeto no tiene asignado ningún tipo.
 
 Hay alguna constante más que veremos a los largo del curso si es necesario.
+
+## Ayuda en python
+
+Un función fundamental cuando queremos obtener información sobre los distintos aspectos del lenguaje es `help`. Podemos usarla entrar en una sesión interactiva:
+
+	>>> help()	
+
+	Welcome to Python 3.4's help utility!	
+
+	If this is your first time using Python, you should definitely check out
+	the tutorial on the Internet at http://docs.python.org/3.4/tutorial/.	
+
+	Enter the name of any module, keyword, or topic to get help on writing
+	Python programs and using Python modules.  To quit this help utility and
+	return to the interpreter, just type "quit".	
+
+	To get a list of available modules, keywords, symbols, or topics, type
+	"modules", "keywords", "symbols", or "topics".  Each module also comes
+	with a one-line summary of what it does; to list the modules whose name
+	or summary contain a given string such as "spam", type "modules spam".
+
+	help>
+
+O pidiendo ayuda de una termino determinado, por ejemplo:
+
+	>>> help(print)

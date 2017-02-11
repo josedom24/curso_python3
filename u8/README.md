@@ -21,7 +21,7 @@ Nos permiten representar cadenas de caracteres. Para delimitar las cadenas podem
 	'''Podemos \n
 	ir al cine'''
 
-Las cadenas anteriores son del tipo `str`, si queremos representar una cadena de tipo `byte` podremoas hacerlo de la siguiente nera:
+Las cadenas anteriores son del tipo `str`, si queremos representar una cadena de tipo `byte` podremos hacerlo de la siguiente manera:
 
 	b'Hola'
 	B"Muy bien"
