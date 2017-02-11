@@ -22,11 +22,11 @@ Podemos concreatar aún más los tipos de datos (o clases) de los objetos que ma
 
 En realidad todo tiene definido su tipo o clase:
 
-	* Ficheros
-	* Módulos
-	* Funciones
-	* Excepciones
-	* Clases 
+* Ficheros
+* Módulos
+* Funciones
+* Excepciones
+* Clases 
 
 ## Función type() 
 
