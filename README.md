@@ -27,28 +27,28 @@
 
 	### Estructura del lenguaje
 
-1. [Estructura del programa](u6)
+6. [Estructura del programa](u6)
 	* Instrucciones. Estructura secuencial
 	* Los comentarios
 	* La importancia de la tabulación
-	* http://python-para-impacientes.blogspot.com.es/2014/01/escritura-de-programas-recomendaciones.html
+	* Palabras reservadas
 	
-2. [Funciones y constantes predefinidas](u7)
+7. [Funciones y constantes predefinidas](u7)
 	* Se muestran las más utilizadas.
 	* Función help()
 	* A lo largo del curso se van utilizando las que necesitemos
 	* Constantes: False,True,None, ...
-3. Datos
+8. Datos
 	* Literales, variables y expresiones
-	* Nombres de variables y palabras reservadas
+	* Nombres de variables
 	* Definición, borrado y ámbito de variables
 	* Operación. Precedencia de operadores
-4. Tipos de datos 
+9. Tipos de datos 
 	* En Pytho3 tenemos el concepto de tipo.
 	* Función type()
 	* Los tipos más importantes en python3 son: numéricos, secuencias, mapas, cadenas, clases, objetos.
 	* Otros tipos: Iterador, conjuntos
-5. Asignando datos a las variables
+10. Asignando datos a las variables
 	* En python todo es una referencia (puntero)
 	* Función id()
 	* Objetos mutables e inmutables
@@ -57,7 +57,7 @@
 
 	### Tipos de datos numéricos
 
-1. Tipo de datos numéricos: 
+11. Tipo de datos numéricos: 
 	* enteros
 	* reales
 	* complejos
