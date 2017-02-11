@@ -38,12 +38,12 @@
 	* Función help()
 	* A lo largo del curso se van utilizando las que necesitemos
 	* Constantes: False,True,None, ...
-8. Datos
+8. [Datos](u8)
 	* Literales, variables y expresiones
 	* Nombres de variables
 	* Definición, borrado y ámbito de variables
 	* Operación. Precedencia de operadores
-9. Tipos de datos 
+9. [Tipos de datos](u9)
 	* En Pytho3 tenemos el concepto de tipo.
 	* Función type()
 	* Los tipos más importantes en python3 son: numéricos, secuencias, mapas, cadenas, clases, objetos.
