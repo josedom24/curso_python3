@@ -12,6 +12,14 @@ Al instalar python3 el ejecutable del interprete lo podemos encontrar en `/usr/b
 	Type "help", "copyright", "credits" or "license" for more information.
 	>>> 
 
+En el modo interactivo, la última expresión impresa es asignada a la variable _.
+
+	>>> 4 +3
+	7
+	>>> 3 + _
+	10
+
+
 Si tenemos nuestro programa en un fichero fuente (suele tener extensión `py`), por ejemplo `programa.py`,lo ejecutaríamos de la siguiente manera.
 	
 	$ python3 programa.py
