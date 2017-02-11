@@ -2,21 +2,21 @@
 
 ## Unidades
 
-### [Introducción](1-Introducción/)
+### Introducción
 
-1. Introducción a python
-2. Python2 us python3
-3. Instalación de python3
+1. [Introducción a python](u1)
+2. [Python2 us python3](u2)
+3. [Instalación de python3](u3)
 	* Instalación en linux debian/Ubuntu
 	* Instalación en otras distribuciones linux
 	* Instalación en Windows
 	* Instalación en Mac
-4. Entornos de desarrollos y editores de texto
+4. [Entornos de desarrollos y editores de texto](u4)
 	* IDE python
 	* Editores de textos
 	* IDE us Editores de texto
 	* Características de los editores de textos
-5. Mi primer programa en python3
+5. [Mi primer programa en python3](u5)
 	* Uso del interprete
 	* Escribimos un programa
 	* La importancia de la tabulación
@@ -25,31 +25,30 @@
 	* Ejecución de programas usando [shebang](https://es.wikipedia.org/wiki/Shebang)
 	* Guía de estilo
 
-	### [Estructura del lenguaje](2-Estructura/)
+	### Estructura del lenguaje
 
-1. Estructura del programa
+1. [Estructura del programa](u6)
 	* Instrucciones. Estructura secuencial
 	* Los comentarios
 	* La importancia de la tabulación
 	* http://python-para-impacientes.blogspot.com.es/2014/01/escritura-de-programas-recomendaciones.html
 	
-2. Funciones predefinidas
+2. [Funciones y constantes predefinidas](u7)
 	* Se muestran las más utilizadas.
 	* Función help()
 	* A lo largo del curso se van utilizando las que necesitemos
-3. Constantes predefinidas
-	* False,True,None, ...
-4. Datos
+	* Constantes: False,True,None, ...
+3. Datos
 	* Literales, variables y expresiones
 	* Nombres de variables y palabras reservadas
 	* Definición, borrado y ámbito de variables
 	* Operación. Precedencia de operadores
-5. Tipos de datos 
+4. Tipos de datos 
 	* En Pytho3 tenemos el concepto de tipo.
 	* Función type()
 	* Los tipos más importantes en python3 son: numéricos, secuencias, mapas, cadenas, clases, objetos.
 	* Otros tipos: Iterador, conjuntos
-6. Asignando datos a las variables
+5. Asignando datos a las variables
 	* En python todo es una referencia (puntero)
 	* Función id()
 	* Objetos mutables e inmutables
