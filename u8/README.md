@@ -12,6 +12,8 @@ Los literales nos permiten representar valores. Estos valores pueden ser de dife
 
 Para los números reales utilizamos un punto para separar la parte entera de la decimal (12.3, 45.6). Podemos indicar que la parte decimal es 0, por ejemplo 10., o la parte entera es 0, por ejemplo .001, Para la representación de números muy grandes o muy pequeños podemos usar la representación exponencial (Ejemplos: 3.14e-10,1e100).
 
+Por último que también podemos representar números complejos, con una parte real y otra imaginaria (Ejemplo: 1+2j)
+
 **Literales cadenas**
 
 Nos permiten representar cadenas de caracteres. Para delimitar las cadenas podemos usar el carácter ' o el carácter ". También podemos utilizar la combinación ''' cuando la cadena ocupa más de una línea. Ejemplos.
@@ -54,21 +56,7 @@ El nombre de una variable, ha de empezar por una letra o por el carácter guión
 
 Hay que tener en cuanta que python distingue entre mayúsculas y minúsculas en el nombre de una variable, pero se recomienda usar sólo minúsculas.
 
-### Expresiones
-
-Una expresión es una combinación de variables, literales, operadores, funciones y expresiones, que tras su evaluación o cálculo nos devuelven un valor de un determinado tipo. Los operadores que podemos utilizar se clasifican según el tipo de datos con los que trabajen y podemos poner algunos ejemplos:
-
-	+       -       *       **      /       //      %
-	<<      >>      &       |       ^       ~
-	<       >       <=      >=      ==      !=
-	-=      *=      /=      //=     %=
-
-Veamos ejemplos de expresiones:
-
-	a + 7
-	(a ** 2) + b
-
-### Definición, borrado y ámbito de variables
+#### Definición, borrado y ámbito de variables
 
 Como hemos comentado anteriormente para crear una variable simplemente tenemos que utilizar un operador de asignación, el más utilizado `=` para que referencia un valor. Si queremos borrar la variable utilizamos la instrucción `del`. Por ejemplo:
 
@@ -89,5 +77,50 @@ Podemos tener también variables que no tengan asignado ningún tipo de datos:
 
 El ámbito de una variable se refiere a la zona del programa donde se ha definido y existe esa variable. Como primera aproximación las variables creadas dentro de funciones o clases tienen un ámbito local, es decir no existen fuera de la función o clase. Concretaremos cuando estudiamos estos aspectos más profundamente.
 
-### Precedencia de operadores en python
+
+### Expresiones
+
+Una expresión es una combinación de variables, literales, operadores, funciones y expresiones, que tras su evaluación o cálculo nos devuelven un valor de un determinado tipo. 
+
+Veamos ejemplos de expresiones:
+
+	a + 7
+	(a ** 2) + b
+
+
+### Operadores. Precedencia de operadores en python
+
+Los operadores que podemos utilizar se clasifican según el tipo de datos con los que trabajen y podemos poner algunos ejemplos:
+
+	+       -       *       **      /       //      %
+	<<      >>      &       |       ^       ~
+	<       >       <=      >=      ==      !=
+	-=      *=      /=      //=     %=
+
+Podemos clasificaros en varios tipos:
+
+* Operadores aritméticos
+* Operadores de cadenas
+* Operadores de comparación
+* Operadores lógicos
+* Operadores a nivel de bit
+* Operadores de pertenencia
+* Operadores de identidad
+
+La procedencia de operadores es la siguiente:
+
+1. Los paréntesis rompen la procedencia.
+2. La potencia (**)
+3. Operadores unarios (~ + -)
+4. Multiplicar, dividir, módulo y división entera (* /% // )
+5. Suma y resta (+ -)
+6. Desplazamiento nivel de bit (>> <<)
+7. Operador binario AND (&)
+8. Operadores binario OR y XOR (^ |)
+9. Operadores de comparación (<= < > >=)
+10. Operadores de igualdad (<> == !=)
+11. Operadores de asignación (= %= /= //= -= += *= **=)
+12. Operadores de identidad (is, is not)
+13. Operadores de pertenencia (in, in not)
+14. Operadores lógicos (not, or, and)
 
