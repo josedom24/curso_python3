@@ -70,7 +70,7 @@
 	### Tipos de datos secuencia
 
 1. Tipo de datos secuencia
-	* Listas, tuplas, rangos
+	* Listas, tuplas, rangos, cadenas de caracteres y bytes
 	* Características principales de las secuencias
 2. Tipo de datos secuencia: Listas
 	* Definición de una lista. Constructor list
@@ -111,6 +111,7 @@
 	* Creación de listas a partir de rangos
 
 7. Codificación de caracteres
+http://python-para-impacientes.blogspot.com.es/2014/07/tipos-de-cadenas-unicode-byte-y.html
 	* Introducción a la codificación de caracteres
 	* Funciones chr() y ord()
 
@@ -133,6 +134,7 @@
 10. Tipo de datos: datos binarios (bytes)
 	* Introducción al manejo de datos binarios
 	* Métodos principales
+	* Métodos encode(), decode()
 11. Tipo de datos conjuntos
 	* Set, frozenset
 	* Métodos principales
