@@ -2,7 +2,7 @@
 
 ## Tipo booleano
 
-El tipoo booleano o lógico se considera en python3 como un subtipo del tipo entero. Se puede representar dos valores: verdadero o false (True, False).
+El tipo booleano o lógico se considera en python3 como un subtipo del tipo entero. Se puede representar dos valores: verdadero o false (True, False).
 
 ## ¿Qué valores se interpretan como FALSO?
 
