@@ -28,3 +28,5 @@ Los operadores booleanos se utilizan para operar sobre expresiones booleanas y s
 
 ## Funciones all() y any()
 
+* `all(iterador)`: Recibe un iterador, por ejemplo una lista, y devuelve True si todos los elementos son verdaderos o el iterador está vacío. 
+* `any(iterador)`: Recibe un iterador, por ejemplo una lista, y devuelve True si alguno de sus elemento es verdadero, sino devuelve False.
