@@ -62,9 +62,9 @@
 	* Conversión de tipos
 12. [Tipo de dato booleanos](u12) 
 	* Tipo booleano
+	* ¿Qué valores se interpretan como FALSO?
 	* Operadores booleanos
 	* Operadores de comparación
-	* ¿Qué valores se interpretan como FALSO?
 	* Funciones all() y any()
 
 	### Tipos de datos secuencia
