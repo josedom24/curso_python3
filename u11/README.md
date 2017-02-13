@@ -55,3 +55,50 @@ Como hemos visto en la unidad anterior son tipos de datos inmutables.
 	7.6
 
 
+## Operadores a nivel de bit
+
+* `x | y`: x OR y	bitwise or of x and y 	 
+* `x ^ y`: x XOR y 	 
+* `x & y`: a AND y 	 
+* `x << n`: Desplazamiento a la izquierda **n** bits.
+* `x >> n`: Desplazamiento a la derecha **n** bits.
+* `~x`: Devuelve los bits invertidos.
+
+## Conversión de tipos
+
+* `int(x)`: Convierte el valor a entero.
+* `float(x)`: Convierte el valor a float.
+* `complex(x)`: Convierte el valor a un complejo sin parte imaginaria.
+* `complex(x,y)`: Convierta el valor a un complejo, cuya parte real es x y la parte imaginaria y.
+
+Los valores que se reciben también pueden ser cadenas de caracteres (str).
+
+*Ejemplos*
+
+	>>> a=int(7.2)
+	>>> a
+	7
+	>>> type(a)
+	<class 'int'>
+	>>> a=int("345")
+	>>> a
+	345
+	>>> type(a)
+	<class 'int'>
+	>>> b=float(1)
+	>>> b
+	1.0
+	>>> type(b)
+	<class 'float'>
+	>>> b=float("1.234")
+	>>> b
+	1.234
+	>>> type(b)
+	<class 'float'>
+
+Por último si queremos convertir una cadena a entero, la cadena debe estar formada por caracteres numéricos, sino es así, obtenemos un error:
+
+	a=int("123.3")
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	ValueError: invalid literal for int() with base 10: '123.3'
