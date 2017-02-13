@@ -52,14 +52,15 @@
 
 	### Tipos de datos numéricos
 
-11. Tipo de datos numéricos: 
-	* enteros
-	* reales
-	* complejos
-	* Operaciones aritméticas.
+11. [Tipo de datos numéricos](u11) 
+	* Enteros
+	* Reales
+	* Complejos
+	* Operadores aritméticos
+	* Operadores a nivel de bit
 	* Funciones predefinidas que trabajan con números: abs(), divmod(), hex() oct(x), pow(), round()
 	* Conversión de tipos
-2. Tipo de dato booleanos. 
+12. Tipo de dato booleanos. 
 	* Tipo booleano es un subtipo de un tipo entero
 	* Operadores booleanos
 	* Operadores de comparación
