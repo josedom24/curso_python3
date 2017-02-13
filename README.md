@@ -131,7 +131,7 @@ http://python-para-impacientes.blogspot.com.es/2014/07/tipos-de-cadenas-unicode-
 	* Métodos de sustitución: format, replace, strip, lstrip, rstrip
 	* Métodos de unión y división: join, partition, split, splitlines, 
 
-10. Tipo de datos: datos binarios (bytes)
+10. Tipo de datos: datos binarios (bytes, bytearray)
 	* Introducción al manejo de datos binarios
 	* Métodos principales
 	* Métodos encode(), decode()
