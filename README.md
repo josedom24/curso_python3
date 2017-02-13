@@ -56,12 +56,12 @@
 	* Enteros
 	* Reales
 	* Complejos
-	* Operadores aritméticos
-	* Operadores a nivel de bit
+	* Operadores aritmético
 	* Funciones predefinidas que trabajan con números: abs(), divmod(), hex() oct(x), pow(), round()
+	* Operadores a nivel de bit
 	* Conversión de tipos
-12. Tipo de dato booleanos. 
-	* Tipo booleano es un subtipo de un tipo entero
+12. [Tipo de dato booleanos](u12) 
+	* Tipo booleano
 	* Operadores booleanos
 	* Operadores de comparación
 	* ¿Qué valores se interpretan como FALSO?
