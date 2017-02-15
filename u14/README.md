@@ -44,10 +44,33 @@ Como veíamos en el apartado de [Tipo de datos secuencia](../u13) podemos realiz
 	* `lista[start:]`    	  # Elementos desde la posición start hasta el final
 	* `lista[:end]`      	  # Elementos desde el principio hata la posición end-1
 	* `lista[:]` 		 	  # Todos Los elementos	    
-	* `lista[start:end:step]` # Igual que el anterior pero dantos step saltos.
+	* `lista[start:end:step]` # Igual que el anterior pero dando step saltos.
  		
  	Se pueden utilizar también índices negativos, por ejemplo: `lista[::-1]`
 
+## Funciones predefinidas que trabajan con listas
+
+	>>> lista1 = [20,40,10,40,50]
+	>>> len(lista1)
+	5
+	>>> max(lista1)
+	50
+	>>> min(lista1)
+	10
+	>>> sum(lista1)
+	150
+	>>> sorted(lista1)
+	[10, 20, 30, 40, 50]
+	>>> sorted(lista1,reverse=True)
+	[50, 40, 30, 20, 10]
+
+Veamos con más detenimiento la función `enumerate`: que recibe una secuencia y devuelve un objeto enumerado como tuplas:
+
+	>>> seasons = ['Primavera', 'Verano', 'Otoño', 'Invierno']
+	>>> list(enumerate(seasons))
+	[(0, 'Primavera'), (1, 'Verano'), (2, 'Otoño'), (3, 'Invierno')]
+	>>> list(enumerate(seasons, start=1))
+	[(1, 'Primavera'), (2, 'Verano'), (3, 'Otoño'), (4, 'Invierno')]
 
 
 ## Las listas son mutables
@@ -62,7 +85,7 @@ Como hemos indicado anteriormente las listas es un tipo de datos mutable. Eso ti
 
 ### ¿Cómo se copian las listas?
 
-Por lo tanto si queremos cpoiar una lista en otra podemos hacerlo de la siguiente manera:
+Por lo tanto si queremos copiar una lista en otra podemos hacerlo de la siguiente manera:
 
 	>>> lista1 = [1,2,3]
 	>>> lista2=lista1[:]
@@ -70,13 +93,19 @@ Por lo tanto si queremos cpoiar una lista en otra podemos hacerlo de la siguient
 	>>> lista2
 	[1, 2, 3]
 
+## Listas multidimensionales
 
+A la hora de definir las listas hemos indicado que podemos guardar en ellas datos de cualquier tipo, y evidentemente podemos guardar listas dentro de listas. 
 
-	
-	* Funciones predefinidas: len, sum, max, min, sorted
-	* Concatenación de listas
-	* Operadores in, not in, +, *
-	* Slice 
-	* Función enumerate()
-	* Listas multidimensionales
-	* 
+	>>> tabla = [[1,2,3],[4,5,6],[7,8,9]]
+	>>> tabla[1][1]
+	5
+
+	>>> for fila in tabla:
+	...   for elem in fila:
+	...      print(elem,end="")
+	...   print()
+	 
+	123
+	456
+	789

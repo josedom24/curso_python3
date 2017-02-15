@@ -75,16 +75,9 @@
 14. [Tipo de datos secuencia: Listas](u14)
 	* Construcción de una lista
 	* Operaciones básicas con listas
-	* Las listas son mutables
-	* Indexación y recorrido de una lista
-	* Funciones predefinidas: len, sum, max, min, sorted
-	* Concatenación de listas
-	* Operadores in, not in, +, *
-	* Slice 
-	* Función enumerate()
+	* Las listas son mutables. ¿Cómo se copian las listas?
 	* Listas multidimensionales
-	* ¿Cómo se copian las listas?
-
+	
 3. Métodos principales de listas
 	* Métodos de inserción: append, extend, insert
 	* Métodos de eliminación: pop, remove
