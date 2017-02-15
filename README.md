@@ -73,7 +73,7 @@
 	* Enumeración de los tipos secuencias
 	* Características principales de las secuencias
 14. [Tipo de datos secuencia: Listas](u14)
-	* Definición de una lista. Constructor list
+	* Construcción de una lista
 	* Las listas son mutables
 	* Indexación y recorrido de una lista
 	* Funciones predefinidas: len, sum, max, min, sorted
