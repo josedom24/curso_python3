@@ -74,6 +74,7 @@
 	* Características principales de las secuencias
 14. [Tipo de datos secuencia: Listas](u14)
 	* Construcción de una lista
+	* Operaciones básicas con listas
 	* Las listas son mutables
 	* Indexación y recorrido de una lista
 	* Funciones predefinidas: len, sum, max, min, sorted
