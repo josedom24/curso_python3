@@ -37,7 +37,7 @@
 8. [Datos](u8)
 	* Literales, variables y expresiones
 	* Definición, borrado y ámbito de variables
-	* Operación. Precedencia de operadores
+	* Operadores. Precedencia de operadores
 9. [Tipos de datos](u9)
 	* Clasificación de tipos de datos
 	* Función type()
@@ -70,9 +70,9 @@
 	### Tipos de datos secuencia
 
 13. [Tipo de datos secuencia](u13)
-	* Enúmeración de los tipos secuencias
+	* Enumeración de los tipos secuencias
 	* Características principales de las secuencias
-2. Tipo de datos secuencia: Listas
+14. [Tipo de datos secuencia: Listas](u14)
 	* Definición de una lista. Constructor list
 	* Las listas son mutables
 	* Indexación y recorrido de una lista
@@ -120,6 +120,7 @@ http://python-para-impacientes.blogspot.com.es/2014/07/tipos-de-cadenas-unicode-
 	* Indexación y recorrido de cadenas
 	* Slice
 	* Concatenación de cadenas
+	* Comparación de cadenas
 	* Funciones str, repr, ascii
 	* Conversión de cadenas a números, y de números a cedenas. 
 	* Función bin()
