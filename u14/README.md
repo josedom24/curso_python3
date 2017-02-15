@@ -85,13 +85,17 @@ Como hemos indicado anteriormente las listas es un tipo de datos mutable. Eso ti
 
 ### ¿Cómo se copian las listas?
 
-Por lo tanto si queremos copiar una lista en otra podemos hacerlo de la siguiente manera:
+Por lo tanto si queremos copiar una lista en otra podemos hacerlo de varias formas:
 
 	>>> lista1 = [1,2,3]
 	>>> lista2=lista1[:]
 	>>> lista1[1] = 10
 	>>> lista2
 	[1, 2, 3]
+
+	>>> lista2 = list(lista1)	
+
+	>>> lista2 = lista1.copy()
 
 ## Listas multidimensionales
 

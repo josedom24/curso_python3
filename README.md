@@ -78,11 +78,12 @@
 	* Las listas son mutables. ¿Cómo se copian las listas?
 	* Listas multidimensionales
 	
-3. Métodos principales de listas
+15. [Métodos principales de listas](u15)
 	* Métodos de inserción: append, extend, insert
 	* Métodos de eliminación: pop, remove
 	* Métodos de ordenación: reverse, sort, 
 	* Métodos de búsqueda: count, index
+	* Método de copia: copy
 
 4. Operaciones avanzadas con listas
 
