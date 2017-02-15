@@ -69,8 +69,8 @@
 
 	### Tipos de datos secuencia
 
-1. Tipo de datos secuencia
-	* Listas, tuplas, rangos, cadenas de caracteres y bytes
+13. [Tipo de datos secuencia](u13)
+	* Enúmeración de los tipos secuencias
 	* Características principales de las secuencias
 2. Tipo de datos secuencia: Listas
 	* Definición de una lista. Constructor list
