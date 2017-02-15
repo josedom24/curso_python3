@@ -18,8 +18,7 @@ Vamos a ver distintos ejemplos partiendo de una lista, que es una secuencia muta
 
 	lista = [1,2,3,4,5,6]
 
-* Las secuencias se pueden recorrer:
-
+* Las secuencias se pueden recorrer
 	>>> for num in lista:
 	...   print(num,end="")
 	123456
