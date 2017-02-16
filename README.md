@@ -93,12 +93,15 @@
 	* Métodos de búsqueda: count, index
 	* Método de copia: copy
 
-18. [Operaciones avanzadas con secuencias](u18)
+18. [Operaciones avanzadas con secuencias](u18cd u1)
 
 	* Función map
 	* Función filter
 	* Función reduce
 	* list comprehension
+
+19. Ejercicios de listas
+
 
 5. Tipo de datos secuencia: Tuplas
 	* Definición de una tupla. Constructor tuple
@@ -135,6 +138,8 @@ http://python-para-impacientes.blogspot.com.es/2014/07/tipos-de-cadenas-unicode-
 	* Métodos de sustitución: format, replace, strip, lstrip, rstrip
 	* Métodos de unión y división: join, partition, split, splitlines, 
 
+3. Ejercicios de cadenas
+
 10. Tipo de datos: datos binarios (bytes, bytearray)
 	* Introducción al manejo de datos binarios
 	* Métodos principales
@@ -162,11 +167,6 @@ http://python-para-impacientes.blogspot.com.es/2014/07/tipos-de-cadenas-unicode-
 
 	### Entrada y salida de información
 
-
-
-
-2. Ejercicios de listas
-3. Ejercicios de cadenas
 4. Ejercicios de diccionarios
 
 	### Estructuras de control
