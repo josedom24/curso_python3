@@ -93,7 +93,7 @@
 	* Métodos de búsqueda: count, index
 	* Método de copia: copy
 
-18. [Operaciones avanzadas con secuencias](u18cd u1)
+18. [Operaciones avanzadas con secuencias](u18)
 
 	* Función map
 	* Función filter
