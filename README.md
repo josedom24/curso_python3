@@ -85,7 +85,7 @@
 	* Métodos de búsqueda: count, index
 	* Método de copia: copy
 
-4. Operaciones avanzadas con listas
+16. [Operaciones avanzadas con secuencias](u16)
 
 	* Función map
 	* Función filter
