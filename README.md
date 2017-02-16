@@ -67,25 +67,33 @@
 	* Operadores de comparación
 	* Funciones all() y any()
 
+13. Entrada y salida estándar
+	* Función print (palabra reservada end)
+	* 4.7.2. printf-style String Formatting¶
+	* Función input
+	* Función format()
+
+14. Ejercicios de programas sencillos.
+
 	### Tipos de datos secuencia
 
-13. [Tipo de datos secuencia](u13)
+15. [Tipo de datos secuencia](u15)
 	* Enumeración de los tipos secuencias
 	* Características principales de las secuencias
-14. [Tipo de datos secuencia: Listas](u14)
+16. [Tipo de datos secuencia: Listas](u16)
 	* Construcción de una lista
 	* Operaciones básicas con listas
 	* Las listas son mutables. ¿Cómo se copian las listas?
 	* Listas multidimensionales
 	
-15. [Métodos principales de listas](u15)
+17. [Métodos principales de listas](u17)
 	* Métodos de inserción: append, extend, insert
 	* Métodos de eliminación: pop, remove
 	* Métodos de ordenación: reverse, sort, 
 	* Métodos de búsqueda: count, index
 	* Método de copia: copy
 
-16. [Operaciones avanzadas con secuencias](u16)
+18. [Operaciones avanzadas con secuencias](u18)
 
 	* Función map
 	* Función filter
@@ -154,15 +162,9 @@ http://python-para-impacientes.blogspot.com.es/2014/07/tipos-de-cadenas-unicode-
 
 	### Entrada y salida de información
 
-1. Entrada y salida estándar
-	* Función print (palabra reservada end)
-	* 4.7.2. printf-style String Formatting¶
-	* Función input
-	* Función format()
 
-	### Ejercicios tipos de datos
 
-1. Ejercicios de programas sencillos.
+
 2. Ejercicios de listas
 3. Ejercicios de cadenas
 4. Ejercicios de diccionarios
