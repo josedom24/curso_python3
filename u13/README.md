@@ -1,44 +1,32 @@
-# Entrada y salida estándar
+# Tipo de datos booleanos
 
-## Función input
+## Tipo booleano
 
-No permite leer por teclado información. Devuelve una cadena de caracteres y puede tener como argumento una cadena que se muestra en pantalla.
+El tipo booleano o lógico se considera en python3 como un subtipo del tipo entero. Se puede representar dos valores: verdadero o false (True, False).
 
-*Ejemplos*
+## ¿Qué valores se interpretan como FALSO?
 
-	>>> nombre=input("Nombre:")
-	Nombre:jose
-	>>> nombre
-	'jose'
-	>>> edad=int(input("Edad:"))
-	Edad:23
-	>>> edad
-	23
-	
-## Función print
+Cuando se evalua una expresión, hay determinados valores que se interpretan como False:
 
-No permite escribir en la salida estándar. Podemos indicar varios datos a imprimir, que por defecto serán separado por un espacio (se puede indicar el separador) y por defecto se termina con un carácter salto de línea `\n` (también podemos indicar el carácter final). Podemos también imprimir varias cadenas de texto utilizando la concatenación.
+* `None`
+* `False`
+* Cualquier número 0. (0, 0.0, 0j)
+* Cualquier secuencia vacía ([], (), '')
+* Cualquir diccionario vacío ({})
 
-*Ejemplos*
+## Operadores booleanos
 
-	>>> print(1,2,3)
-	1 2 3
-	>>> print(1,2,3,sep="-")
-	1-2-3
-	>>> print(1,2,3,sep="-",end=".")
-	1-2-3.>>> 
+Los operadores booleanos se utilizan para operar sobre expresiones booleanas y se suelen utilizar en las estructuras de control alternativas (if, while):
 
-	>>> print("Hola son las",6,"de la tarde")
-	Hola son las 6 de la tarde
-	>>> print("Hola son las "+str(6)+" de la tarde")
-	Hola son las 6 de la tarde
+* `x or y`: Si x es falso entonces y, sino x. Este operados sólo evalua el segundo argumento si el primero es False.
+* `x and y`: Si x es falso entonces x, sino y. Este operados sólo evalua el segundo argumento si el primero es True.
+* `not x`: Si x es falso entonces True, sino False.
 
-## Formateando la salida¶
-	
-Existe dos formas de indicar el formato de impresión de las cadenas. En la documentación encontramos el [estilo antiguo](https://docs.python.org/2/library/stdtypes.html#string-formatting) y el [estilo nuevo](https://docs.python.org/3/library/string.html#string-formatting).
+## Operadores de comparación
 
-Para utilizar el nuevo estilo en python3 tenemos una función `format` y un método `format` en la clase `str`.
+`== != >= > <= <`
 
+## Funciones all() y any()
 
-
-	* Función format()
+* `all(iterador)`: Recibe un iterador, por ejemplo una lista, y devuelve True si todos los elementos son verdaderos o el iterador está vacío. 
+* `any(iterador)`: Recibe un iterador, por ejemplo una lista, y devuelve True si alguno de sus elemento es verdadero, sino devuelve False.

@@ -50,9 +50,15 @@
 	* Operadores de asignación
 	* Asignación múltiple
 
+11. [Entrada y salida estándar](u11)
+	* Función input
+	* Función print
+	* Formateando la salida¶
+	* Función format()
+
 	### Tipos de datos numéricos
 
-11. [Tipo de datos numéricos](u11) 
+12. [Tipo de datos numéricos](u12) 
 	* Enteros
 	* Reales
 	* Complejos
@@ -60,20 +66,16 @@
 	* Funciones predefinidas que trabajan con números: abs(), divmod(), hex() oct(x), pow(), round()
 	* Operadores a nivel de bit
 	* Conversión de tipos
-12. [Tipo de dato booleanos](u12) 
+13. [Tipo de dato booleanos](u13) 
 	* Tipo booleano
 	* ¿Qué valores se interpretan como FALSO?
 	* Operadores booleanos
 	* Operadores de comparación
 	* Funciones all() y any()
 
-13. Entrada y salida estándar
-	* Función print (palabra reservada end)
-	* 4.7.2. printf-style String Formatting¶
-	* Función input
-	* Función format()
 
-14. Ejercicios de programas sencillos.
+
+14. Ejercicios de programas sencillos
 
 	### Tipos de datos secuencia
 
