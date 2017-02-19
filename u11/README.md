@@ -33,7 +33,7 @@ No permite escribir en la salida estándar. Podemos indicar varios datos a impri
 	>>> print("Hola son las "+str(6)+" de la tarde")
 	Hola son las 6 de la tarde
 
-## Formateando cadenas de caracteres¶
+## Formateando cadenas de caracteres
 	
 Existe dos formas de indicar el formato de impresión de las cadenas. En la documentación encontramos el [estilo antiguo](https://docs.python.org/2/library/stdtypes.html#string-formatting) y el [estilo nuevo](https://docs.python.org/3/library/string.html#string-formatting).
 

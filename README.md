@@ -53,7 +53,7 @@
 11. [Entrada y salida estándar](u11)
 	* Función input
 	* Función print
-	* Formateando la salida¶
+	* Formateando cadenas de caracteres
 	* Función format()
 
 	### Tipos de datos numéricos
@@ -74,8 +74,7 @@
 	* Funciones all() y any()
 
 
-
-14. Ejercicios de programas sencillos
+14. [Ejercicios de programas sencillos](u14)
 
 	### Tipos de datos secuencia
 
