@@ -122,12 +122,12 @@
 23. [Ejercicios de listas](u23)
 
 
-5. Tipo de datos secuencia: Tuplas
-	* Definición de una tupla. Constructor tuple
-	* Las listas son inmutables
-	* Indexación de una tubla
+24. [Tipo de datos secuencia: Tuplas](u24)
+	* Construcción de una tupla
+	* Empaquetado y desempaquetado de tuplas
+	* Operaciones básicas con tuplas
+	* Las tuplas son inmutables
 	* Métodos principales
-	* Conversión entre listas y tuplas
 
 6. Tipo de datos secuencia: Rangos
 	* Definición de un rango. Constructor range
