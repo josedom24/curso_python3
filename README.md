@@ -77,7 +77,7 @@
 
 	### Estructuras de control
 
-15. Estructuras de control: Alternativas.
+15. [Estructura de control: Alternativas](u15)
 	* Alternativas simples
 	* Alternativas dobles
 	* Alternativas múltiples
