@@ -85,9 +85,9 @@
 
 16. Ejercicios de alternativas
 
-17. Estructuras de control: Repetitivas.
-	* for
+17. Estructura de control: Repetitivas.
 	* while
+	* for
 	* Instrucciones break, continue, else y pass
 	* Recorriendo varias listas. Función zip()
 
