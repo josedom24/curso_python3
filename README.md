@@ -73,28 +73,46 @@
 	* Operadores de comparación
 	* Funciones all() y any()
 
-
 14. [Ejercicios de programas sencillos](u14)
+
+	### Estructuras de control
+
+15. Estructuras de control: Alternativas.
+	* Alternativas simples
+	* Alternativas dobles
+	* Alternativas múltiples
+	* Expresión reducida del if 
+
+16. Ejercicios de alternativas
+
+17. Estructuras de control: Repetitivas.
+	* for
+	* while
+	* Instrucciones break, continue, else y pass
+	* Recorriendo varias listas. Función zip()
+
+18. Ejercicios de repetitivas
+
 
 	### Tipos de datos secuencia
 
-15. [Tipo de datos secuencia](u15)
+15. [Tipo de datos secuencia](u19)
 	* Enumeración de los tipos secuencias
 	* Características principales de las secuencias
-16. [Tipo de datos secuencia: Listas](u16)
+16. [Tipo de datos secuencia: Listas](u20)
 	* Construcción de una lista
 	* Operaciones básicas con listas
 	* Las listas son mutables. ¿Cómo se copian las listas?
 	* Listas multidimensionales
 	
-17. [Métodos principales de listas](u17)
+17. [Métodos principales de listas](u21)
 	* Métodos de inserción: append, extend, insert
 	* Métodos de eliminación: pop, remove
 	* Métodos de ordenación: reverse, sort, 
 	* Métodos de búsqueda: count, index
 	* Método de copia: copy
 
-18. [Operaciones avanzadas con secuencias](u18)
+18. [Operaciones avanzadas con secuencias](u22)
 
 	* Función map
 	* Función filter
@@ -170,23 +188,7 @@ http://python-para-impacientes.blogspot.com.es/2014/07/tipos-de-cadenas-unicode-
 
 4. Ejercicios de diccionarios
 
-	### Estructuras de control
 
-5. Estructuras de control: Alternativas.
-	* Alternativas simples
-	* Alternativas dobles
-	* Alternativas múltiples
-	* Expresión reducida del if 
-6. Estructuras de control: Repetitivas.
-	* for
-	* while
-	* Instrucciones break, continue, else y pass
-	* Recorriendo varias listas. Función zip()
-
-	### Ejercicios estructuras de control
-
-1. Ejercicios de alternativas
-2. Ejercicios de repetitivas
 
 	### Trabajar con ficheros
 
