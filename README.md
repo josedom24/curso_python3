@@ -119,7 +119,7 @@
 	* Función reduce
 	* list comprehension
 
-23. Ejercicios de listas
+23. [Ejercicios de listas](u23)
 
 
 5. Tipo de datos secuencia: Tuplas
