@@ -83,7 +83,7 @@
 	* Alternativas múltiples
 	* Expresión reducida del if 
 
-16. Ejercicios de alternativas
+16. [Ejercicios de alternativas](u16)
 
 17. [Estructura de control: Repetitivas](u17)
 	* while
