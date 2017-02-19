@@ -85,7 +85,7 @@
 
 16. Ejercicios de alternativas
 
-17. Estructura de control: Repetitivas.
+17. [Estructura de control: Repetitivas](u17)
 	* while
 	* for
 	* Instrucciones break, continue, else y pass
