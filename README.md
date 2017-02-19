@@ -88,8 +88,8 @@
 17. [Estructura de control: Repetitivas](u17)
 	* while
 	* for
-	* Instrucciones break, continue, else y pass
-	* Recorriendo varias listas. Función zip()
+	* Instrucciones break, continue y pass
+	* Recorriendo varias secuencias. Función zip()
 
 18. Ejercicios de repetitivas
 
