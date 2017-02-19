@@ -96,30 +96,30 @@
 
 	### Tipos de datos secuencia
 
-15. [Tipo de datos secuencia](u19)
+19. [Tipo de datos secuencia](u19)
 	* Enumeración de los tipos secuencias
 	* Características principales de las secuencias
-16. [Tipo de datos secuencia: Listas](u20)
+20. [Tipo de datos secuencia: Listas](u20)
 	* Construcción de una lista
 	* Operaciones básicas con listas
 	* Las listas son mutables. ¿Cómo se copian las listas?
 	* Listas multidimensionales
 	
-17. [Métodos principales de listas](u21)
+21. [Métodos principales de listas](u21)
 	* Métodos de inserción: append, extend, insert
 	* Métodos de eliminación: pop, remove
 	* Métodos de ordenación: reverse, sort, 
 	* Métodos de búsqueda: count, index
 	* Método de copia: copy
 
-18. [Operaciones avanzadas con secuencias](u22)
+22. [Operaciones avanzadas con secuencias](u22)
 
 	* Función map
 	* Función filter
 	* Función reduce
 	* list comprehension
 
-19. Ejercicios de listas
+23. Ejercicios de listas
 
 
 5. Tipo de datos secuencia: Tuplas

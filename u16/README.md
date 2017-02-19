@@ -1,4 +1,4 @@
-#
+# Ejercicios de alternativas
 
 
 Realiza un programa que pida dos números ‘a’ y ‘b’ e indique si su suma es positiva, negativa o cero.
