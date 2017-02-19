@@ -2,6 +2,8 @@
 
 1. Escribir un programa que pregunte al usuario su nombre, y luego lo salude.
 
+Solución
+
 	#!/usr/bin/env python
 	nombre=input("Dime tu nombre:")
 	print ("Hola %s" % nombre)
