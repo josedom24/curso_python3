@@ -91,7 +91,7 @@
 	* Instrucciones break, continue y pass
 	* Recorriendo varias secuencias. Función zip()
 
-18. Ejercicios de repetitivas
+18. [Ejercicios de repetitivas](u18)
 
 
 	### Tipos de datos secuencia
