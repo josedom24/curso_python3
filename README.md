@@ -147,12 +147,12 @@
 	* Comparación de cadenas
 	* Funciones str, repr, ascii, bin
 
-9. Métodos principales de cadenas
-	* Métodos de formato: capitalize, lower, upper, swapcase, title, center, ljust, rjust, zfill
-	* Métodos de búsqueda: count, find
-	* Métodos de validación: statrswith, endswith, isalnum, isalpha, isdigit, islower, isupper, isspace, istitle
-	* Métodos de sustitución: format, replace, strip, lstrip, rstrip
-	* Métodos de unión y división: join, partition, split, splitlines, 
+28. [Métodos principales de cadenas](curso/u28)
+	* Métodos de formato
+	* Métodos de búsqueda
+	* Métodos de validación
+	* Métodos de sustitución
+	* Métodos de unión y división
 
 3. Ejercicios de cadenas
 
