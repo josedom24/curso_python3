@@ -132,8 +132,7 @@
 25. [Tipo de datos secuencia: Rangos](curso/u25)
 	* Definición de un rango. Constructor range
 	* Recorrido de un rango
-	* Métodos principales de range
-	* Creación de listas a partir de rangos
+	* Operaciones básicas con range
 
 7. Codificación de caracteres
 http://python-para-impacientes.blogspot.com.es/2014/07/tipos-de-cadenas-unicode-byte-y.html
