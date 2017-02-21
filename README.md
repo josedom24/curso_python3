@@ -140,15 +140,12 @@
 	* La codificación de caracteres en python3
 	* Funciones chr() y ord()
 
-8. Tipo de datos cadenas de caracteres.
-	* Definición de cadenas.  Constructor str
-	* Indexación y recorrido de cadenas
-	* Slice
-	* Concatenación de cadenas
+27. [Tipo de datos cadenas de caracteres](curso/u27)
+	* Definición de cadenas. Constructor str
+	* Operaciones básicas con listas
+	* Las cadenas son inmutables
 	* Comparación de cadenas
-	* Funciones str, repr, ascii
-	* Conversión de cadenas a números, y de números a cedenas. 
-	* Función bin()
+	* Funciones str, repr, ascii, bin
 
 9. Métodos principales de cadenas
 	* Métodos de formato: capitalize, lower, upper, swapcase, title, center, ljust, rjust, zfill

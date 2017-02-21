@@ -41,7 +41,7 @@ En las tuplas se pueden realizar las siguientes operaciones:
 * Indexación
 * Slice
 
-Entre las funciones definidas podemos usar: `len`, `max`, `min`, `sorted`
+Entre las funciones definidas podemos usar: `len`, `max`, `min`, `sorted`.
 
 ## Las tuplas son inmutables
 
