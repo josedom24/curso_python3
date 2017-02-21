@@ -18,9 +18,11 @@ UTF-8 es un sistema de codificación de longitud variable para Unicode. Esto sig
 
 En Python 3.x las cadenas de caracteres pueden ser de tres tipos: Unicode, Byte y Bytearray.
 
-* El tipo Unicode permite caracteres de múltiples lenguajes y cada carácter en una cadena tendrá un valor inmutable. 
-* El tipo Byte sólo permitirá caracteres ASCII y los caracteres son también inmutables.
-* El tipo Bytearray es como el tipo Byte pero, en este caso, los caracteres de una cadena si son mutables.
+* El tipo `unicode` permite caracteres de múltiples lenguajes y cada carácter en una cadena tendrá un valor inmutable. 
+* El tipo `byte` sólo permitirá caracteres ASCII y los caracteres son también inmutables.
+* El tipo `bytearray` es como el tipo `byte` pero, en este caso, los caracteres de una cadena si son mutables.
+
+Algo que debe entenderse (e insiste Mark Pilgrim en su libro **Dive into Python**) es que "los bytes no son caracteres, los bytes son bytes; un carácter es en realidad una abstracción; y una cadena de caracteres es una sucesión de abstracciones".
 
 ## Funciones chr() y ord()
 
@@ -31,3 +33,9 @@ En Python 3.x las cadenas de caracteres pueden ser de tres tipos: Unicode, Byte 
 	>>> chr(1004)
 	'Ϭ'
 
+* `ord(c)`: recibe un carácter `c` y devuelve el código unicode correspondiente.
+
+	>>> ord("a")
+	97
+	>>> ord("Ϭ")
+	1004
