@@ -22,20 +22,20 @@ En Python 3.x las cadenas de caracteres pueden ser de tres tipos: Unicode, Byte 
 * El tipo `byte` sólo permitirá caracteres ASCII y los caracteres son también inmutables.
 * El tipo `bytearray` es como el tipo `byte` pero, en este caso, los caracteres de una cadena si son mutables.
 
-Algo que debe entenderse (e insiste Mark Pilgrim en su libro **Dive into Python**) es que "los bytes no son caracteres, los bytes son bytes; un carácter es en realidad una abstracción; y una cadena de caracteres es una sucesión de abstracciones".
+Algo que debe entenderse (e insiste Mark Pilgrim en su libro *Dive into Python*) es que "los bytes no son caracteres, los bytes son bytes; un carácter es en realidad una abstracción; y una cadena de caracteres es una sucesión de abstracciones".
 
 ## Funciones chr() y ord()
 
 * `chr(i)`: Nos devuelve el carácter Unicode que representa el código `i`.
 
-	>>> chr(97)
-	'a'
-	>>> chr(1004)
-	'Ϭ'
+		>>> chr(97)
+		'a'
+		>>> chr(1004)
+		'Ϭ'
 
 * `ord(c)`: recibe un carácter `c` y devuelve el código unicode correspondiente.
 
-	>>> ord("a")
-	97
-	>>> ord("Ϭ")
-	1004
+		>>> ord("a")
+		97
+		>>> ord("Ϭ")
+		1004
