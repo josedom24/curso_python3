@@ -134,9 +134,10 @@
 	* Recorrido de un rango
 	* Operaciones básicas con range
 
-7. Codificación de caracteres
-http://python-para-impacientes.blogspot.com.es/2014/07/tipos-de-cadenas-unicode-byte-y.html
+26. [Codificación de caracteres](curso/u26)
+
 	* Introducción a la codificación de caracteres
+	* La codificación de caracteres en python3
 	* Funciones chr() y ord()
 
 8. Tipo de datos cadenas de caracteres.
