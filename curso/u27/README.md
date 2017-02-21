@@ -40,7 +40,7 @@ Entre las funciones definidas podemos usar: `len`, `max`, `min`, `sorted`.
 
 ## Comparación de cadenas
 
-LAs cadenas se comparan caracter a caracter, en el momento en que dos caracteres no son iguales se compara alfabeticamente (es decir, se convierte a código unicode y se comparan). 
+LAs cadenas se comparan carácter a carácter, en el momento en que dos caracteres no son iguales se compara alfabéticamente (es decir, se convierte a código unicode y se comparan). 
 
 *Ejemplos*
 
@@ -59,7 +59,7 @@ LAs cadenas se comparan caracter a caracter, en el momento en que dos caracteres
 
 ## Funciones repr, ascii, bin
 
-* `repr(objeto)`: Devuelve una cadena de caraacteres que representa la información de un objeto.
+* `repr(objeto)`: Devuelve una cadena de caracteres que representa la información de un objeto.
 
 		>>> repr(range(10))
 		'range(0, 10)'
@@ -72,7 +72,7 @@ LAs cadenas se comparan caracter a caracter, en el momento en que dos caracteres
 		>>> ascii("piña")
 		"'pi\\xf1a'"
 
-* `bin(numero)`: Devuelve una cadena de caracteres que corresponde a la respresentación binaria del número recibido.
+* `bin(numero)`: Devuelve una cadena de caracteres que corresponde a la representación binaria del número recibido.
 
 		>>> bin(213)
 		'0b11010101'	
