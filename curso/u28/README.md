@@ -15,69 +15,71 @@ Cuando creamos una cadena de caracteres estamos creando un objeto de la clase `s
 	cadena.index         cadena.isupper       cadena.rpartition    cadena.zfill
 
 
-## Métodos de inserción: append, extend, insert
+## Métodos de formato
 
-	>>> lista = [1,2,3]
-	>>> lista.append(4)
-	>>> lista
-	[1, 2, 3, 4]
+	>>> cad = "hola, como estás?"
+	>>> print(cad.capitalize())
+	Hola, como estás?
 
-	>>> lista2 = [5,6]
-	>>> lista.extend(lista2)
-	>>> lista
-	[1, 2, 3, 4, 5, 6]	
+	>>> cad = "Hola Mundo" 
+	>>> print(cad.lower())
+	hola mundo
 
-	>>> lista.insert(1,100)
-	>>> lista
-	[1, 100, 2, 3, 4, 5, 6]
+	>>> cad = "hola mundo"
+	>>> print(cad.upper())
+	HOLA MUNDO
 
-## Métodos de eliminación: pop, remove
+	>>> cad = "Hola Mundo"
+	>>> print(cad.swapcase())
+	hOLA mUNDO
 
-	>>> lista.pop()
-	6
-	>>> lista
-	[1, 100, 2, 3, 4, 5]
+	>>> cad = "hola mundo"
+	>>> print(cad.title())
+	Hola Mundo
 
-	>>> lista.pop(1)
-	100
-	>>> lista
-	[1, 2, 3, 4, 5]
+	>>> print(cad.center(50))
+	                    hola mundo                    
+	>>> print(cad.center(50,"="))
+	====================hola mundo====================
 
-	>>> lista.remove(3)
-	>>> lista
-	[1, 2, 4, 5]
+	>>> print(cad.ljust(50,"="))
+	hola mundo========================================
+	>>> print(cad.rjust(50,"="))
+	========================================hola mundo
 
-## Métodos de ordenación: reverse, sort, 
+	>>> num = 123
+	>>> print(str(num).zfill(12))
+	000000000123
 
-	>>> lista.reverse()
-	>>> lista
-	[5, 4, 2, 1]
+## Métodos de búsqueda
 
-	>>> lista.sort()
-	>>> lista
-	[1, 2, 4, 5]
-
-	>>> lista.sort(reverse=True)
-	>>> lista
-	[5, 4, 2, 1]
-
-## Métodos de búsqueda: count, index
-
-	>>> lista.count(5)
+	>>> cad = "bienvenido a mi aplicación"
+	>>> cad.count("a")
+	3
+	>>> cad.count("a",16)
+	2
+	>>> cad.count("a",10,16)
 	1
 
-	>>> lista.append(5)
-	>>> lista
-	[5, 4, 2, 1, 5]
-	>>> lista.index(5)
-	0
-	>>> lista.index(5,1)
-	4
-	>>> lista.index(5,1,4)
-	Traceback (most recent call last):
-	  File "<stdin>", line 1, in <module>
-	ValueError: 5 is not in list
+	>>> cad.find("mi")
+	13
+	>>> cad.find("hola")
+	-1
 
-## Método de copia: copy
+## Métodos de validación
 
-	>>> lista2 = lista1.copy()
+	>>> cad.startswith("b")
+	True
+	>>> cad.startswith("m")
+	False
+	>>> cad.startswith("m",13)
+	True
+
+	>>> cad.endswith("ción")
+	True
+	>>> cad.endswith("ción",0,10)
+	False
+	>>> cad.endswith("nido",0,10)
+	True
+
+Otras funciones de validación: `isalnum()`, `isalpha()`, `isdigit()`, `islower()`, `isupper()`, `isspace()`, `istitle()`,...
