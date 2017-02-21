@@ -4,19 +4,19 @@
 
 ### Introducción
 
-1. [Introducción a python](u1)
-2. [Python2 us python3](u2)
-3. [Instalación de python3](u3)
+1. [Introducción a python](curso/u1)
+2. [Python2 us python3](curso/u2)
+3. [Instalación de python3](curso/u3)
 	* Instalación en linux debian/Ubuntu
 	* Instalación en otras distribuciones linux
 	* Instalación en Windows
 	* Instalación en Mac
-4. [Entornos de desarrollos y editores de texto](u4)
+4. [Entornos de desarrollos y editores de texto](curso/u4)
 	* IDE python
 	* Editores de textos
 	* IDE us Editores de texto
 	* Características de los editores de textos
-5. [Mi primer programa en python3](u5)
+5. [Mi primer programa en python3](curso/u5)
 	* Uso del interprete
 	* Escribimos un programa
 	* Ejecución de programas usando [shebang](https://es.wikipedia.org/wiki/Shebang)
@@ -24,25 +24,25 @@
 
 	### Estructura del lenguaje
 
-6. [Estructura del programa](u6)
+6. [Estructura del programa](curso/u6)
 	* Estrucutra de programa
 	* Los comentarios
 	* Palabras reservadas
 	* Ejemplo
-7. [Funciones y constantes predefinidas](u7)
+7. [Funciones y constantes predefinidas](curso/u7)
 	* Funciones predefinidas
 	* Algunos ejemplos de funciones
 	* Constantes predefinidas: False,True,None, ...
 	* Ayuda, función help()
-8. [Datos](u8)
+8. [Datos](curso/u8)
 	* Literales, variables y expresiones
 	* Definición, borrado y ámbito de variables
 	* Operadores. Precedencia de operadores
-9. [Tipos de datos](u9)
+9. [Tipos de datos](curso/u9)
 	* Clasificación de tipos de datos
 	* Función type()
 	* Función isistance()
-10. [Trabajando con variables](u10)
+10. [Trabajando con variables](curso/u10)
 	* ¿Qué es el tipado dinámico?
 	* Objetos inmutables y mutables
 	* Función id()
@@ -50,7 +50,7 @@
 	* Operadores de asignación
 	* Asignación múltiple
 
-11. [Entrada y salida estándar](u11)
+11. [Entrada y salida estándar](curso/u11)
 	* Función input
 	* Función print
 	* Formateando cadenas de caracteres
@@ -58,7 +58,7 @@
 
 	### Tipos de datos numéricos
 
-12. [Tipo de datos numéricos](u12) 
+12. [Tipo de datos numéricos](curso/u12) 
 	* Enteros
 	* Reales
 	* Complejos
@@ -66,70 +66,70 @@
 	* Funciones predefinidas que trabajan con números: abs(), divmod(), hex() oct(x), pow(), round()
 	* Operadores a nivel de bit
 	* Conversión de tipos
-13. [Tipo de dato booleanos](u13) 
+13. [Tipo de dato booleanos](curso/u13) 
 	* Tipo booleano
 	* ¿Qué valores se interpretan como FALSO?
 	* Operadores booleanos
 	* Operadores de comparación
 	* Funciones all() y any()
 
-14. [Ejercicios de programas sencillos](u14)
+14. [Ejercicios de programas sencillos](curso/u14)
 
 	### Estructuras de control
 
-15. [Estructura de control: Alternativas](u15)
+15. [Estructura de control: Alternativas](curso/u15)
 	* Alternativas simples
 	* Alternativas dobles
 	* Alternativas múltiples
 	* Expresión reducida del if 
 
-16. [Ejercicios de alternativas](u16)
+16. [Ejercicios de alternativas](curso/u16)
 
-17. [Estructura de control: Repetitivas](u17)
+17. [Estructura de control: Repetitivas](curso/u17)
 	* while
 	* for
 	* Instrucciones break, continue y pass
 	* Recorriendo varias secuencias. Función zip()
 
-18. [Ejercicios de repetitivas](u18)
+18. [Ejercicios de repetitivas](curso/u18)
 
 
 	### Tipos de datos secuencia
 
-19. [Tipo de datos secuencia](u19)
+19. [Tipo de datos secuencia](curso/u19)
 	* Enumeración de los tipos secuencias
 	* Características principales de las secuencias
-20. [Tipo de datos secuencia: Listas](u20)
+20. [Tipo de datos secuencia: Listas](curso/u20)
 	* Construcción de una lista
 	* Operaciones básicas con listas
 	* Las listas son mutables. ¿Cómo se copian las listas?
 	* Listas multidimensionales
 	
-21. [Métodos principales de listas](u21)
+21. [Métodos principales de listas](curso/u21)
 	* Métodos de inserción: append, extend, insert
 	* Métodos de eliminación: pop, remove
 	* Métodos de ordenación: reverse, sort, 
 	* Métodos de búsqueda: count, index
 	* Método de copia: copy
 
-22. [Operaciones avanzadas con secuencias](u22)
+22. [Operaciones avanzadas con secuencias](curso/u22)
 
 	* Función map
 	* Función filter
 	* Función reduce
 	* list comprehension
 
-23. [Ejercicios de listas](u23)
+23. [Ejercicios de listas](curso/u23)
 
 
-24. [Tipo de datos secuencia: Tuplas](u24)
+24. [Tipo de datos secuencia: Tuplas](curso/u24)
 	* Construcción de una tupla
 	* Empaquetado y desempaquetado de tuplas
 	* Operaciones básicas con tuplas
 	* Las tuplas son inmutables
 	* Métodos principales
 
-6. Tipo de datos secuencia: Rangos
+25. [Tipo de datos secuencia: Rangos](curso/u25)
 	* Definición de un rango. Constructor range
 	* Recorrido de un rango
 	* Métodos principales de range
