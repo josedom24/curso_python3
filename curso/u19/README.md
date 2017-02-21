@@ -4,7 +4,7 @@ Los tipos de datos secuencia me permiten guardar una sucesión de datos de difer
 
 * Las listas (`list`): Me permiten guardar un conjunto de datos que se pueden repetir y que pueden ser de distintos tipos. Es un tipo mutable.
 * Las tuplas (`tuple`): Sirven para los mismo que las listas, pero en este caso es un tipo inmutable. 
-* Los rangos (`range`): No guardar una secuencias permite crear secuencias de números. Es un tipo inmutable y se suelen utilizar para realizar bucles.
+* Los rangos (`range`): Es un tipo de secuencias que nos permite crear secuencias de números. Es un tipo inmutable y se suelen utilizar para realizar bucles.
 * Las cadenas de caracteres (`str`): Me permiten guardar secuencias de caracteres. Es un tipo inmutable. 
 * Las secuencias de bytes (`byte`): Me permite guardar valores binarios representados por caracteres ASCII. Es un tipo inmutable.
 * Las secuencias de bytes (`bytearray`): En este caso son iguales que las anteriores, pero son de tipo mutables.
