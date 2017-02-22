@@ -154,7 +154,7 @@
 	* Métodos de sustitución
 	* Métodos de unión y división
 
-3. Ejercicios de cadenas
+29. [Ejercicios de cadenas](curso/u29)
 
 10. Tipo de datos: datos binarios (bytes, bytearray)
 	* Introducción al manejo de datos binarios
