@@ -22,9 +22,9 @@ Solución
 
 Crea un programa python que lea una cadena de caracteres y muestre la siguiente información:
 
-    * La primera letra de cada palabra. Por ejemplo, si recibe Universal Serial Bus debe devolver USB.
-    * Dicha cadena con la primera letra de cada palabra en mayúsculas. Por ejemplo, si recibe república argentina debe devolver República Argentina.
-	* Las palabras que comiencen con la letra A. Por ejemplo, si recibe Antes de ayer debe devolver Antes ayer.
+* La primera letra de cada palabra. Por ejemplo, si recibe Universal Serial Bus debe devolver USB.
+* Dicha cadena con la primera letra de cada palabra en mayúsculas. Por ejemplo, si recibe república argentina debe devolver República Argentina.
+* Las palabras que comiencen con la letra A. Por ejemplo, si recibe Antes de ayer debe devolver Antes ayer.
 
 Solución
 
@@ -48,8 +48,8 @@ Solución
 
 Escribir funciones que dadas dos cadenas de caracteres:
 
-    * Indique si la segunda cadena es una subcadena de la primera. Por ejemplo, cadena es una subcadena de subcadena.
-    * Devuelva la que sea anterior en orden alfábetico. Por ejemplo, si recibe kde y gnome debe devolver gnome.
+* Indique si la segunda cadena es una subcadena de la primera. Por ejemplo, cadena es una subcadena de subcadena.
+* Devuelva la que sea anterior en orden alfábetico. Por ejemplo, si recibe kde y gnome debe devolver gnome.
 
 Solución
 
@@ -67,9 +67,9 @@ scribir un programa python que dado una palabra diga si es un palíndromo. Un pa
 
 Solución
 
-	#!/usr/bin/env python
-	cad1=input("Cadena:")	
-	if cad1.lower()==cad1[::-1].lower():
-	    print("palindromo")
-	else:
-	    print("no palindromo")
+#!/usr/bin/env python
+cad1=input("Cadena:")	
+if cad1.lower()==cad1[::-1].lower():
+    print("palindromo")
+else:
+    print("no palindromo")
