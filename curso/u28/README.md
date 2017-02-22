@@ -66,6 +66,12 @@ Cuando creamos una cadena de caracteres estamos creando un objeto de la clase `s
 	>>> cad.find("hola")
 	-1
 
+	>>> cad.rfind("a")
+	21
+
+
+El método `index()` y `rindex()` son similares a los anteriores pero provocan una excepción `ValueError` cuando no encuentra la subcadena. 
+
 ## Métodos de validación
 
 	>>> cad.startswith("b")
@@ -126,10 +132,20 @@ De forma similar `lstrip(["caracter"])` y `rstrip(["caracter"])`.
 	Nº 0000-0275-0000 (ID: 275)
 
 	>>> hora = "12:23"
+	>>> print(hora.rpartition(":"))
+	('12', ':', '23')
 	>>> print(hora.partition(":"))
 	('12', ':', '23')
+	>>> hora = "12:23:12"
+	>>> print(hora.partition(":"))
+	('12', ':', '23:12')
 	>>> print(hora.split(":"))
-	['12', '23']
+	['12', '23', '12']
+	>>> print(hora.rpartition(":"))
+	('12:23', ':', '12')
+	>>> print(hora.rsplit(":",1))
+	['12:23', '12']
+
 
 	>>> texto = "Linea 1\nLinea 2\nLinea 3" 
 	>>> print(texto.splitlines())
