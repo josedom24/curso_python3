@@ -157,34 +157,37 @@
 29. [Ejercicios de cadenas](curso/u29)
 
 30. [Tipo de datos binarios: bytes, bytearray](curso/u30)
-	* Introducción al manejo de datos binarios
-	* Métodos principales
+	* Definición de bytes. Constructor bytes
+	* Definición de bytearray. Constructor bytearray
+	* Operaciones básicas con bytes y bytearray
+	* Los bytes son inmutables, los bytearray son inmutables
+	* Métodos de bytes y bytearray
 	* Métodos encode(), decode()
-11. Tipo de datos conjuntos
-	* Set, frozenset
+31. [Tipo de datos conjuntos: set, frozenset](curso/u31)
+	* Definición de conjuntos. Constructor set
+	* Definición de frozenset. Constructor frozenset
+	* Operaciones básicas con bytes y bytearray
+	* Los set son inmutables, los frozenset son inmutables
 	* Métodos principales
-12. Tipo de datos iterador y generador
+32. Tipo de datos iterador y generador
 	* Iteradores
 	* Función next(), reversed()
 	* Generadores
 
 	### Tipos de datos mapas
 
-1. Tipo de datos mapa
+33. Tipo de datos mapa
 	* Definición de diccionarios. Constructor dict
 	* Contar elementos de un diccionario: len
 	* Acceso, modificación y recorrido de diccionarios
 	* dictviews
 
-2. Métodos principales de diccionarios
+34. Métodos principales de diccionarios
 	* Métodos de eliminación: clear
 	* Métodos de agregado y creación: copy, dict.fromkeys, update, setdefault
 	* Métodos de retorno: get, has_ket, items, Keys, values
 
-	### Entrada y salida de información
-
-4. Ejercicios de diccionarios
-
+35. Ejercicios de diccionarios
 
 
 	### Trabajar con ficheros
