@@ -156,7 +156,7 @@
 
 29. [Ejercicios de cadenas](curso/u29)
 
-10. Tipo de datos: datos binarios (bytes, bytearray)
+30. [Tipo de datos binarios: bytes, bytearray](curso/u30)
 	* Introducción al manejo de datos binarios
 	* Métodos principales
 	* Métodos encode(), decode()

@@ -78,6 +78,15 @@ Veamos con más detenimiento la función `enumerate`: que recibe una secuencia y
 Como hemos indicado anteriormente las listas es un tipo de datos mutable. Eso tiene para nostros varias consecuencias, por ejemplo podemos obtener resultados como se los que se muestran a continuación:
 
 	>>> lista1 = [1,2,3]
+	>>> lista1[2]=4
+	>>> lista1
+	[1, 2, 4]
+	>>> del lista1[2]
+	>>> lista1
+	[1, 2]
+
+
+	>>> lista1 = [1,2,3]
 	>>> lista2 = lista1
 	>>> lista1[1] = 10
 	>>> lista2

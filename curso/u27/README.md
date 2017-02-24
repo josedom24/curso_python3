@@ -11,7 +11,7 @@ Podemos definir una cadena de caracteres de distintas formas:
 	>>> cad3 = '''Hola,
 		que tal?'''
 
-Tambíen podemos crear cadenas con el constructor `str` a partir de otros tipos de datos.
+También podemos crear cadenas con el constructor `str` a partir de otros tipos de datos.
 
 	>>> cad1=str(1)
 	>>> cad2=str(2.45)
@@ -40,7 +40,7 @@ Entre las funciones definidas podemos usar: `len`, `max`, `min`, `sorted`.
 
 ## Comparación de cadenas
 
-LAs cadenas se comparan carácter a carácter, en el momento en que dos caracteres no son iguales se compara alfabéticamente (es decir, se convierte a código unicode y se comparan). 
+Las cadenas se comparan carácter a carácter, en el momento en que dos caracteres no son iguales se compara alfabéticamente (es decir, se convierte a código unicode y se comparan). 
 
 *Ejemplos*
 
