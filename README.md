@@ -188,7 +188,7 @@
 
 	### Trabajar con ficheros
 
-1. Lectura y escritura de ficheros de textos
+36. [Lectura y escritura de ficheros de textos](curso/u36)
 	* Función open()
 	* Objeto fichero
 	* Modos de acceso
