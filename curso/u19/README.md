@@ -8,8 +8,8 @@ Los tipos de datos secuencia me permiten guardar una sucesión de datos de difer
 * Las cadenas de caracteres (`str`): Me permiten guardar secuencias de caracteres. Es un tipo inmutable. 
 * Las secuencias de bytes (`byte`): Me permite guardar valores binarios representados por caracteres ASCII. Es un tipo inmutable.
 * Las secuencias de bytes (`bytearray`): En este caso son iguales que las anteriores, pero son de tipo mutables.
-* Los conjuntos (`set`): Me permiteng guardas conjuntos de datos, en los que no se existen repeticiones. Es un tipo inmutable.
-* Los conjuntos (`frozenset`): Son igales que los anteriores, pero son tipos mutables.
+* Los conjuntos (`set`): Me permiteng guardas conjuntos de datos, en los que no se existen repeticiones. Es un tipo mutable.
+* Los conjuntos (`frozenset`): Son igales que los anteriores, pero son tipos inmutables.
 
 
 ## Características principales de las secuencias
