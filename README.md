@@ -166,7 +166,7 @@
 31. [Tipo de datos conjuntos: set, frozenset](curso/u31)
 	* Definición de conjuntos. Constructor set
 	* Definición de frozenset. Constructor frozenset
-	* Operaciones básicas con bytes y bytearray
+	* Operaciones básicas con set y frozenset
 	* Los set son inmutables, los frozenset son mutables
 	* Métodos principales
 32. Tipo de datos iterador y generador
