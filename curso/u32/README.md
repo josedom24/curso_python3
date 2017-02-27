@@ -44,7 +44,7 @@ La función `reversed()` devuelve un iterador con los elementos invertidos, desd
 
 ## El módulo itertools
 
-El módulo []itertools](https://docs.python.org/3.4/library/itertools.html) contiene distintas funciones que nos devuelven iteradores.
+El módulo [itertools](https://docs.python.org/3.4/library/itertools.html) contiene distintas funciones que nos devuelven iteradores.
 
 Veamos algunos ejemplos:
 
