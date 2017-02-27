@@ -184,8 +184,7 @@
 	* El tipo de datos dictviews
 	* Recorridos de diccionarios
 
-35. Ejercicios de diccionarios
-
+35. [Ejercicios de diccionarios](curso/u35)
 
 	### Trabajar con ficheros
 
