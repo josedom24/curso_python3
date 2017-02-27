@@ -174,7 +174,7 @@
 	* Función next(), reversed()
 	* Generadores
 
-	### Tipos de datos mapas
+ ### Tipos de datos mapas
 
 33. Tipo de datos mapa
 	* Definición de diccionarios. Constructor dict

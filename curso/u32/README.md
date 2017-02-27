@@ -31,5 +31,3 @@ Para recorrer el iterador, itilizamos la función `next()`:
 ## El módulo itertools
 
 El módulo (itertools)[https://docs.python.org/3.4/library/itertools.html] contine distintas funciones que nos devuelven iteradores.
-
-
