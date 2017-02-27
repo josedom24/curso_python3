@@ -167,7 +167,7 @@
 	* Definición de conjuntos. Constructor set
 	* Definición de frozenset. Constructor frozenset
 	* Operaciones básicas con bytes y bytearray
-	* Los set son inmutables, los frozenset son inmutables
+	* Los set son inmutables, los frozenset son mutables
 	* Métodos principales
 32. Tipo de datos iterador y generador
 	* Iteradores
