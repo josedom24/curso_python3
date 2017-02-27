@@ -176,7 +176,7 @@
 
  ### Tipos de datos mapas
 
-33. Tipo de datos mapa
+33. [Tipo de datos mapa: diccionario](curso/u33)
 	* Definición de diccionarios. Constructor dict
 	* Contar elementos de un diccionario: len
 	* Acceso, modificación y recorrido de diccionarios
