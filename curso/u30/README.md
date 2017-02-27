@@ -59,7 +59,7 @@ Como veíamos en el apartado "Tipo de datos secuencia" podemos realizar las sigu
 * Indexación
 * Slice
 
-Entre las funciones definidas podemos usar: `len`, `max`, `min`, `sorted`.
+Entre las funciones definidas podemos usar: `len`, `max`, `min`,  `sum`, `sorted`.
 
 ## Los bytes son inmutables, los bytearray son mutables
 

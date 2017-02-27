@@ -40,7 +40,7 @@ En las tuplas se pueden realizar las siguientes operaciones:
 * Indexación
 * Slice
 
-Entre las funciones definidas podemos usar: `len`, `max`, `min`, `sorted`.
+Entre las funciones definidas podemos usar: `len`, `max`, `min`,  `sum`, `sorted`.
 
 Ademas un objeto `range` posee tres atributos que nos almacenan el comienzo, final e intervalo del rango:
 
