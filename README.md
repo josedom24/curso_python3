@@ -93,13 +93,12 @@
 
 18. [Ejercicios de repetitivas](curso/u18)
 
-
 	### Tipos de datos secuencia
 
 19. [Tipo de datos secuencia](curso/u19)
 	* Enumeración de los tipos secuencias
 	* Características principales de las secuencias
-20. [Tipo de datos secuencia: Listas](curso/u20)
+20. [Tipo de datos secuencia: listas](curso/u20)
 	* Construcción de una lista
 	* Operaciones básicas con listas
 	* Las listas son mutables. ¿Cómo se copian las listas?
@@ -113,7 +112,6 @@
 	* Método de copia: copy
 
 22. [Operaciones avanzadas con secuencias](curso/u22)
-
 	* Función map
 	* Función filter
 	* Función reduce
@@ -134,7 +132,6 @@
 	* Operaciones básicas con range
 
 26. [Codificación de caracteres](curso/u26)
-
 	* Introducción a la codificación de caracteres
 	* La codificación de caracteres en python3
 	* Funciones chr() y ord()
@@ -180,7 +177,7 @@
 	* Operaciones básicas con diccionarios
 	* Los diccionarios son tipos mutables
 
-34. Métodos principales de diccionarios
+34. [Métodos principales de diccionarios](curso/u34)
 	* Métodos de eliminación: clear
 	* Métodos de agregado y creación: copy, dict.fromkeys, update, setdefault
 	* Métodos de retorno: get, has_key, items, keys, values

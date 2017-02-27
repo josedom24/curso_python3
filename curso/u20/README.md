@@ -1,4 +1,4 @@
-# Tipo de datos secuencia: Listas
+# Tipo de datos secuencia: listas
 
 Las listas (`list`) me permiten guardar un conjunto de datos que se pueden repetir y que pueden ser de distintos tipos. Es un tipo mutable.
 
