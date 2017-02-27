@@ -169,7 +169,7 @@
 	* Operaciones básicas con set y frozenset
 	* Los set son inmutables, los frozenset son mutables
 	* Métodos principales
-32. Tipo de datos iterador y generador
+32. [Tipo de datos iterador y generador](curso/u32)
 	* Iteradores
 	* Función next(), reversed()
 	* Generadores
