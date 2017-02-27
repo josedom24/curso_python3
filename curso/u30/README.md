@@ -61,7 +61,7 @@ Como veíamos en el apartado "Tipo de datos secuencia" podemos realizar las sigu
 
 Entre las funciones definidas podemos usar: `len`, `max`, `min`, `sorted`.
 
-## Los bytes son inmutables, los bytearray son inmutables
+## Los bytes son inmutables, los bytearray son mutables
 
 	>>> byte=b"hola"
 	>>> byte[2]=b'g'
