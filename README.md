@@ -119,8 +119,7 @@
 	* Función reduce
 	* list comprehension
 
-23. [Ejercicios de listas](curso/u23)
-
+23. [Ejercicios de listas](curso/u23)	
 
 24. [Tipo de datos secuencia: Tuplas](curso/u24)
 	* Construcción de una tupla
@@ -178,14 +177,15 @@
 
 33. [Tipo de datos mapa: diccionario](curso/u33)
 	* Definición de diccionarios. Constructor dict
-	* Contar elementos de un diccionario: len
-	* Acceso, modificación y recorrido de diccionarios
-	* dictviews
+	* Operaciones básicas con diccionarios
+	* Los diccionarios son tipos mutables
 
 34. Métodos principales de diccionarios
 	* Métodos de eliminación: clear
 	* Métodos de agregado y creación: copy, dict.fromkeys, update, setdefault
-	* Métodos de retorno: get, has_ket, items, Keys, values
+	* Métodos de retorno: get, has_key, items, keys, values
+	* Recorridos de diccionarios
+	* dictviews
 
 35. Ejercicios de diccionarios
 
