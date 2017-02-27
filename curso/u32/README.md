@@ -88,10 +88,10 @@ Un generador es un tipo concreto de iterador. Es una función que permite obtene
 1. Realizar una función que devuelva los valores con la palabra reservada `yield`. Lo veremos con profundidad cuando estudiemos las funciones.
 2. Utilizando la sintaxis de las "list comprehension". Por ejemplo:
 
-	>>> iter1 = (x for x in range(10) if x % 2==0)
-	>>> next(iter1)
-	0
-	>>> next(iter1)
-	2
-	>>> next(iter1)
-	4
+		>>> iter1 = (x for x in range(10) if x % 2==0)
+		>>> next(iter1)
+		0
+		>>> next(iter1)
+		2
+		>>> next(iter1)
+		4
