@@ -180,9 +180,9 @@
 34. [Métodos principales de diccionarios](curso/u34)
 	* Métodos de eliminación: clear
 	* Métodos de agregado y creación: copy, dict.fromkeys, update, setdefault
-	* Métodos de retorno: get, has_key, items, keys, values
+	* Métodos de retorno: get, pop, popitem, items, keys, values
+	* El tipo de datos dictviews
 	* Recorridos de diccionarios
-	* dictviews
 
 35. Ejercicios de diccionarios
 
