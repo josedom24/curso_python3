@@ -34,7 +34,7 @@ Los modos que podemos indicar son los siguientes:
 	<tr><td></td><td></td><td></td></tr>
 	<tr><td></td><td></td><td></td></tr>
 	<tr><td></td><td></td><td></td></tr>
-	
+</table>
 
 
 
