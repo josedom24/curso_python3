@@ -194,7 +194,8 @@
 	* Codificación de caracteres
 	* Objeto fichero
 	* Metodos principales
-2. Gestionar ficheros CSV
+	* Recorrido de ficheros
+37. [Gestionar ficheros CSV](curso/u37)
 	* Módulo csv
 	* Funciones principales
 3. Gestionar ficheros json

@@ -98,7 +98,7 @@ Podemos abrirlo y cerrarlo en la misma instrucción con la siguiente estructura:
 	>>> f.readlines()
 	['Línea 1\n', 'Línea 2\n']
 
-## Métodos de escritura
+### Métodos de escritura
 
 	>>> f = open("ejemplo3.txt","w")
 	>>> f.write("Prueba 1\n")
@@ -109,3 +109,9 @@ Podemos abrirlo y cerrarlo en la misma instrucción con la siguiente estructura:
 	>>> f = open("ejemplo3.txt","r")
 	>>> f.read()
 	'Prueba 1\nPrueba 2\n\nPrueba 3Prueba 4'
+
+## Recorrido de ficheros
+
+>>> with open("ejemplo3.txt","r") as fichero:
+...    for linea in fichero:
+...        print(linea)
