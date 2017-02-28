@@ -14,7 +14,7 @@ La función [open()](https://docs.python.org/3.4/library/functions.html#open) se
 Los modos que podemos indicar son los siguientes:
 
 Modo    Comportamiento 					Puntero
---------------------------------------------------------------------------------
+
 r 		Solo lectura 					Al inicio del archivo
 rb 		Solo lectura en modo binario 	Al inicio del archivo
 r+ 		Lectura y escritura 			Al inicio del archivo
