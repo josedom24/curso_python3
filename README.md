@@ -190,8 +190,9 @@
 
 36. [Lectura y escritura de ficheros de textos](curso/u36)
 	* Función open()
-	* Objeto fichero
 	* Modos de acceso
+	* Codificación de caracteres
+	* Objeto fichero
 	* Metodos principales
 2. Gestionar ficheros CSV
 	* Módulo csv
