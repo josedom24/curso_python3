@@ -19,11 +19,26 @@ Los modos que podemos indicar son los siguientes:
 		<td>Comportamiento</td>
 		<td>Puntero</td>
 	</tr>
-</table>
+	<tr><td>r</td><td>Solo lectura</td><td>Al inicio del archivo</td></tr>
+	<tr><td></td><td></td><td></td></tr>
+	<tr><td></td><td></td><td></td></tr>
+	<tr><td></td><td></td><td></td></tr>
+	<tr><td></td><td></td><td></td></tr>
+	<tr><td></td><td></td><td></td></tr>
+	<tr><td></td><td></td><td></td></tr>
+	<tr><td></td><td></td><td></td></tr>
+	<tr><td></td><td></td><td></td></tr>
+	<tr><td></td><td></td><td></td></tr>
+	<tr><td></td><td></td><td></td></tr>
+	<tr><td></td><td></td><td></td></tr>
+	<tr><td></td><td></td><td></td></tr>
+	<tr><td></td><td></td><td></td></tr>
+	<tr><td></td><td></td><td></td></tr>
+	
 
 
 
-r 		Solo lectura 					Al inicio del archivo
+ 		 					
 rb 		Solo lectura en modo binario 	Al inicio del archivo
 r+ 		Lectura y escritura 			Al inicio del archivo
 rb+ 	Lectura y escritura binario 	Al inicio del archivo
