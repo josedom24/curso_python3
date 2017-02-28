@@ -13,32 +13,34 @@ La función [open()](https://docs.python.org/3.4/library/functions.html#open) se
 
 Los modos que podemos indicar son los siguientes:
 
-| Modo |   Comportamiento 				  |	Puntero								   |
-|------|---------------------------------------------------------------------------|	
-|r 		Solo lectura 					  |	Al inicio del archivo
-|rb 		Solo lectura en modo binario  |	Al inicio del archivo
-|r+ 		Lectura y escritura 		  |	Al inicio del archivo
-|rb+ 	Lectura y escritura binario 	  |	Al inicio del archivo
-|w 		Solo escritura. 				  |	Al inicio del archivo
-|		Sobreescribe si existe. 
-|		Crea el archivo si no existe 	
-|wb 		Solo escritura en modo binario. Al inicio del archivo
-|		Sobreescribe si existe. 
-|		Crea el archivo si no existe 	
-|w+ 		Escritura y lectura. 			Al inicio del archivo
-|		Sobreescribe si existe. 
-|		Crea el archivo si no existe 	
-|wb+ 	Escritura y lectura binario. 		Al inicio del archivo
-|		Sobreescribe si existe. 
-|		Crea el archivo si no existe 	
-|a 		Añadido (agregar contenido).		Si el archivo existe, al final de éste. 
-|		Crea el archivo si no existe 		Si el archivo no existe, al comienzo 
-|ab 		Añadido en modo binario 		Si el archivo existe, al final de éste. 
-|		Crea si éste no existe 				Si el archivo no existe, al comienzo
-|a+ 		Añadido y lectura. 				Si el archivo existe, al final de éste.
-|		Crea el archivo si no existe. 		Si el archivo no existe, al comienzo
-|ab+ 	Añadido y lectura en binario. 		Si el archivo existe, al final de éste.
-|		Crea el archivo si no existe 		Si el archivo no existe, al comienzo
+Modo    Comportamiento 					Puntero
+
+
+
+r 		Solo lectura 					Al inicio del archivo
+rb 		Solo lectura en modo binario 	Al inicio del archivo
+r+ 		Lectura y escritura 			Al inicio del archivo
+rb+ 	Lectura y escritura binario 	Al inicio del archivo
+w 		Solo escritura. 				Al inicio del archivo
+		Sobreescribe si existe. 
+		Crea el archivo si no existe 	
+wb 		Solo escritura en modo binario. Al inicio del archivo
+		Sobreescribe si existe. 
+		Crea el archivo si no existe 	
+w+ 		Escritura y lectura. 			Al inicio del archivo
+		Sobreescribe si existe. 
+		Crea el archivo si no existe 	
+wb+ 	Escritura y lectura binario. 	Al inicio del archivo
+		Sobreescribe si existe. 
+		Crea el archivo si no existe 	
+a 		Añadido (agregar contenido).	Si el archivo existe, al final de éste. 
+		Crea el archivo si no existe 	Si el archivo no existe, al comienzo 
+ab 		Añadido en modo binario 		Si el archivo existe, al final de éste. 
+		Crea si éste no existe 			Si el archivo no existe, al comienzo
+a+ 		Añadido y lectura. 				Si el archivo existe, al final de éste.
+		Crea el archivo si no existe. 	Si el archivo no existe, al comienzo
+ab+ 	Añadido y lectura en binario. 	Si el archivo existe, al final de éste.
+		Crea el archivo si no existe 	Si el archivo no existe, al comienzo
 
 Como podemos comprobar podemos trabajar con ficheros binarios y con ficheros de textos.
 
