@@ -13,7 +13,13 @@ La función [open()](https://docs.python.org/3.4/library/functions.html#open) se
 
 Los modos que podemos indicar son los siguientes:
 
-Modo    Comportamiento 					Puntero
+<table>
+	<tr>
+		<td>Modo</td>
+		<td>Comportamiento</td>
+		<td>Puntero</td>
+	</tr>
+</table>
 
 
 
