@@ -214,8 +214,8 @@
 
 	### Módulos, paquetes y namespaces
 
-1. Definición Módulos, paquetes y namespaces
-2. Importando módulos
+40. Módulos, paquetes y namespaces
+	* Importando módulos
 	* import
 	* from ... import
 	* Función dir()
