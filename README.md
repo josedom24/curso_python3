@@ -197,7 +197,8 @@
 	* Recorrido de ficheros
 37. [Gestionar ficheros CSV](curso/u37)
 	* Módulo csv
-	* Funciones principales
+	* Leer ficheros CSV
+	* Escribir ficheros CSV
 3. Gestionar ficheros json
 	* Módulo json
 	* Funciones principales
