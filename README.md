@@ -206,11 +206,11 @@
 
 	### Errores y Excepciones
 
-1. Excepciones
+39. [Excepciones](curso/u39)
 	* Errores sintácticos y errores de ejecución
-	* Excepciones. Tipos.
 	* Manejando excepciones. try, except, else, finally
-	* Lanzando excepciones. raise
+	* Obteniendo información de las excpciones
+	* Propagando excepciones. raise
 
 	### Módulos, paquetes y namespaces
 
