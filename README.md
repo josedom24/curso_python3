@@ -199,9 +199,10 @@
 	* Módulo csv
 	* Leer ficheros CSV
 	* Escribir ficheros CSV
-3. Gestionar ficheros json
+38. [Gestionar ficheros json](curso/u38)
 	* Módulo json
-	* Funciones principales
+	* Leer ficheros json
+	* Escribir ficheros json
 
 	### Errores y Excepciones
 
