@@ -223,15 +223,19 @@
 	* Importando módulos desde paquetes
 	* Función dir()
 
-3. Introducciones a los módulos estándares
+41. [Módulos estándares: módulos de sistema](curso/u41)
 	* Módulo os
 	* Módulos sys. Ejecución se scripts con argumentos
-	* Módulo glob
-	* Módulo re
+	* Módulo
+
+42. [Módulos estándares: módulos matemáticos](curso/u42)
 	* Módulo math
 	* Módulo random
+
+43. [Módulos estándares: módulos de hora y fechas](curso/u43)
 	* Módulo datetime
 	* Módulo calendar
+	
 4. Instalación de módulos
 	* pip
 
