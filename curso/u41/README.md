@@ -158,6 +158,58 @@ html)
 	>>> salida = subprocess.Popen(["df","-h"], stdout=subprocess.PIPE)
 	>>> salida.communicate()[0]
 
+## Módulo shutil
+
+El módulo [shutil](https://docs.python.org/3.4/library/shutil.html#module-shutil) de funciones para realizar operaciones de alto nivel con archivos y directorios. Dentro de las operaciones que se pueden realizar está copiar, mover y borrar archivos y directorios; y copiar los permisos y el estado de los archivos. 
+
+	<table>
+<thead>
+<tr>
+  <th>Descripción</th>
+  <th>Método</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Copia un fichero complero o parte</td>
+  <td><code>shutil.copyfileobj(fsrc, fdst[, length])</code></td>
+</tr>
+<tr>
+  <td>Copia el contenido completo (sin metadatos) de un archivo</td>
+  <td><code>shutil.copyfile(src, dst, *, follow_symlinks=True)</code></td>
+</tr>
+<tr>
+  <td>copia los permisos de un archivo origen a uno destino</td>
+  <td><code>shutil.copymode(src, dst, *, follow_symlinks=True)</code></td>
+</tr>
+<tr>
+  <td>Copia los permisos, la fecha-hora del último acceso, la fecha-hora de la última modificación y los atributos de un archivo origen a un archivo destino</td>
+  <td><code>shutil.copystat(src, dst, *, follow_symlinks=True)</code></td>
+</tr>
+<tr>
+  <td>Copia un archivo (sólo datos y permisos)</td>
+  <td><code>shutil.copy(src, dst, *, follow_symlinks=True)</code></td>
+</tr>
+<tr>
+  <td>Copia archivos (datos, permisos y metadatos) </td>
+  <td><code>shutil.move(src, dst, copy_function=copy2)</code></td>
+</tr>
+<tr>
+  <td>Obtiene información del espacio total, usado y libre, en bytes </td>
+  <td><code>shutil.disk_usage(path)</code></td>
+</tr>
+<tr>
+  <td>Obtener la ruta de un archivo ejecutable </td>
+  <td><code>shutil.chown(path, user=None, group=None)</code></td>
+</tr>
+<tr>
+  <td>Saber si una ruta es un enlace simbólico</td>
+  <td><code>shutil.which(cmd, mode=os.F_OK | os.X_OK, path=None)</code></td>
+</tr>
+</tbody>
+</table>
+
+
 ## Módulos sys 
 
 El módulo `sys` es el encargado de proveer variables y funcionalidades, directamente relacionadas con el intérprete.

@@ -226,6 +226,7 @@
 41. [Módulos estándares: módulos de sistema](curso/u41)
 	* Módulo os
 	* Ejecutar comandos del sistema operativo. Módulo subprocess
+	* Módulo shutils
 	* Módulos sys 
 	* Ejecución se scripts con argumentos
 	
@@ -254,6 +255,7 @@
 2. Conceptos avanzados sobre funciones
 	* Parámetros con valores por defecto
 	* Tipos de argumentos: posicionales o keyword
+	* Parametro *
 	* Lista de argumentos arbitrarios
 	* Desempaquetar argumentos: pasar listas y diccionarios
 	* Devolver múltiples resultados
