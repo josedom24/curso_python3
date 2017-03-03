@@ -238,6 +238,7 @@
 	* Módulo random
 
 43. [Módulos estándares: módulos de hora y fechas](curso/u43)
+	* Módulo time
 	* Módulo datetime
 	* Módulo calendar
 
