@@ -214,10 +214,13 @@
 
 	### Módulos, paquetes y namespaces
 
-40. Módulos, paquetes y namespaces
-	* Importando módulos
-	* import
-	* from ... import
+40. [Módulos y paquetes](curso/u40)
+	* Módulos, paquetes
+	* Ejecutando módulos como scripts
+	* Importando módulos: import
+	* Namespace y alias
+	* Importando elementos de un módulo: from...import
+	* Importando módulos desde paquetes
 	* Función dir()
 
 3. Introducciones a los módulos estándares
