@@ -76,4 +76,91 @@ El módulo [os](https://docs.python.org/3.4/library/os.html#module-os) nos permi
 	>>> os.getcwd()
 	'/home/jose/github/curso_python3/curso'
 
+El módulo os también nos provee del submódulo path (os.path) el cual nos permite acceder a ciertas funcionalidades relacionadas con los nombres de las rutas de archivos y directorios.
+
+<table>
+<thead>
+<tr>
+  <th>Descripción</th>
+  <th>Método</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Ruta absoluta</td>
+  <td><code>os.path.abspath(path)</code></td>
+</tr>
+<tr>
+  <td>Directorio base</td>
+  <td><code>os.path.basename(path)</code></td>
+</tr>
+<tr>
+  <td>Saber si un directorio existe</td>
+  <td><code>os.path.exists(path)</code></td>
+</tr>
+<tr>
+  <td>Conocer último acceso a un directorio</td>
+  <td><code>os.path.getatime(path)</code></td>
+</tr>
+<tr>
+  <td>Conocer tamaño del directorio</td>
+  <td><code>os.path.getsize(path)</code></td>
+</tr>
+<tr>
+  <td>Saber si una ruta es absoluta</td>
+  <td><code>os.path.isabs(path)</code></td>
+</tr>
+<tr>
+  <td>Saber si una ruta es un archivo</td>
+  <td><code>os.path.isfile(path)</code></td>
+</tr>
+<tr>
+  <td>Saber si una ruta es un directorio</td>
+  <td><code>os.path.isdir(path)</code></td>
+</tr>
+<tr>
+  <td>Saber si una ruta es un enlace simbólico</td>
+  <td><code>os.path.islink(path)</code></td>
+</tr>
+<tr>
+  <td>Saber si una ruta es un punto de montaje</td>
+  <td><code>os.path.ismount(path)</code></td>
+</tr>
+</tbody>
+</table>
+
+### Ejecutar comandos del sistema operativo. Módulo subprocess
+
+Con la función `system()` del módulo `os` nos permite ejecutar comandos del sistema operativo.
+
+	>>> os.system("ls")
+	curso  modelo.odp  README.md
+	0
+
+La función nos devuelve un código para indicar si la instrucción se ha ejecutado con éxito.
+
+Tenemos otra forma de ejecutar comandos del sistema operativo que nos da más funcionalidad, por ejemplo nos permite guardar la salida del comando en una variable. Para ello podemos usar el módulo [subprocess](https://docs.python.org/3.4/library/subprocess.
+html)
+
+	>>> import subprocess
+	>>> subprocess.call("ls")
+	curso  modelo.odp  README.md
+	0
+
+	>>> salida=subprocess.check_output("ls")
+	>>> print(salida.decode())
+	curso
+	modelo.odp
+	README.md
+
+	>>> salida=subprocess.check_output(["df","-h"])
+
+	>>> salida = subprocess.Popen(["df","-h"], stdout=subprocess.PIPE)
+	>>> salida.communicate()[0]
+
+## Módulos sys 
+
+El módulo `sys` es el encargado de proveer variables y funcionalidades, directamente relacionadas con el intérprete.
+
+
 

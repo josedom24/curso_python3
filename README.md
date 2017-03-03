@@ -225,8 +225,10 @@
 
 41. [Módulos estándares: módulos de sistema](curso/u41)
 	* Módulo os
-	* Módulos sys. Ejecución se scripts con argumentos
-	* Módulo
+	* Ejecutar comandos del sistema operativo. Módulo subprocess
+	* Módulos sys 
+	* Ejecución se scripts con argumentos
+	
 
 42. [Módulos estándares: módulos matemáticos](curso/u42)
 	* Módulo math
@@ -235,7 +237,7 @@
 43. [Módulos estándares: módulos de hora y fechas](curso/u43)
 	* Módulo datetime
 	* Módulo calendar
-	
+
 4. Instalación de módulos
 	* pip
 
