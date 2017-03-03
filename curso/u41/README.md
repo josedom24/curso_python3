@@ -162,7 +162,7 @@ html)
 
 El módulo [shutil](https://docs.python.org/3.4/library/shutil.html#module-shutil) de funciones para realizar operaciones de alto nivel con archivos y directorios. Dentro de las operaciones que se pueden realizar está copiar, mover y borrar archivos y directorios; y copiar los permisos y el estado de los archivos. 
 
-	<table>
+<table>
 <thead>
 <tr>
   <th>Descripción</th>
