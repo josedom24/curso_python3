@@ -228,7 +228,7 @@
 	* Ejecutar comandos del sistema operativo. Módulo subprocess
 	* Módulo shutils
 	* Módulos sys 
-	* Ejecución se scripts con argumentos
+	* Ejecución de scripts con argumentos
 	
 
 42. [Módulos estándares: módulos matemáticos](curso/u42)

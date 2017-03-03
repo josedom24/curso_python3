@@ -212,7 +212,73 @@ El módulo [shutil](https://docs.python.org/3.4/library/shutil.html#module-shuti
 
 ## Módulos sys 
 
-El módulo `sys` es el encargado de proveer variables y funcionalidades, directamente relacionadas con el intérprete.
+El módulo [sys](https://docs.python.org/3.4/library/sys.html#module-sys) es el encargado de proveer variables y funcionalidades, directamente relacionadas con el intérprete.
+
+Algunas variables definidas en el módulo:
+
+<table>
+<thead>
+<tr>
+  <th>Variable</th>
+  <th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><code>sys.argv</code></td>
+  <td>Retorna una lista con todos los argumentos pasados por línea de comandos. Al ejecutar <code>python modulo.py arg1 arg2</code>, retornará una lista: <code>['modulo.py', 'arg1', 'arg2']</code></td>
+</tr>
+<tr>
+  <td><code>sys.executable</code></td>
+  <td>Retorna el path absoluto del binario ejecutable del intérprete de Python</td>
+</tr>
+<tr>
+  <td><code>sys.platform</code></td>
+  <td>Retorna la plataforma sobre la cuál se está ejecutando el intérprete</td>
+</tr>
+<tr>
+  <td><code>sys.version</code></td>
+  <td>Retorna el número de versión de Python con información adicional</td>
+</tr>
+</tbody>
+</table>
+
+Y algunos métodos:
+
+<table>
+<thead>
+<tr>
+  <th>Método</th>
+  <th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><code>sys.exit()</code></td>
+  <td>Forzar la salida del intérprete</td>
+</tr>
+<tr>
+  <td><code>sys.getdefaultencoding()</code></td>
+  <td>Retorna la codificación de caracteres por defecto</td>
+</tr>
+</tbody>
+</table>
+
+## Ejecución de scripts con argumentos
+
+Podemos enviar información (argumentos) a un programa cuando se ejecuta como un script, por ejemplo:
+
+	#!/usr/bin/env python	
+	import sys
+	print("Has instroducido",len(sys.argv),"argumento")
+	suma=0
+	for i in range(1,len(sys.argv)):
+		suma=suma+int(sys.argv[i])
+	print("La suma es ",suma)
+
+	$  python3 sumar.py 3 4 5
+	Has introducido 4 argumento
+	La suma es  12
 
 
 
