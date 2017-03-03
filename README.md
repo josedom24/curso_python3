@@ -233,6 +233,8 @@
 
 42. [Módulos estándares: módulos matemáticos](curso/u42)
 	* Módulo math
+	* Módulo fractions
+	* Módulo statistics
 	* Módulo random
 
 43. [Módulos estándares: módulos de hora y fechas](curso/u43)
