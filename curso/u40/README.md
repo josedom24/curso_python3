@@ -69,4 +69,26 @@ Podemos tener un problema al importar dos elementos de dos módulos que se llame
 
 ## Importando módulos desde paquetes
 
+Si tenemos un módulo dentro de un paquete la importación se haría de forma similar. tenemos un paquete llamado `operaciones`:
 
+	$ cd operaciones
+	$ ls
+	__init.py__  potencias.py
+
+Para importarlo:
+
+	>>> import operaciones.potencias
+	>>> operaciones.potencias.cubo(3)
+	27
+
+	>>> from operaciones.potencias import cubo
+	>>> cubo(3)
+	27
+
+# Función dir()
+
+La función `dir()` nos permite averiguar los elementos definidos en un módulo:
+
+	>>> import potencias
+	>>> dir(potencias)
+	['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'cuadrado', 'cubo']
