@@ -251,11 +251,11 @@
 
 	### Programación imperativa
 
-45. Introducción a las Funciones
-	* Introducción a la programación imperativa
+45. [Introducción a las funciones](curso/u45)
+	* Introducción a la programación estrucuturada y modular.
 	* Definición de funciones
-	* Ámbito de variables. Sentencia global
-	* Argumentos formales y argumentos reales
+	* Ámbito de variables. Sentencia global. 
+	* Parámetros formales y reales
 	* Llamada a una función
 	* La instrucción return
 
