@@ -256,26 +256,28 @@
 	* Definición de funciones
 	* Ámbito de variables. Sentencia global. 
 	* Parámetros formales y reales
-	* Llamada a una función
-	* La instrucción return
+	* Paso de parámetro por valor o por referencia
+	* Llamadas a una función
 
-45. Conceptos avanzados sobre funciones
+46. Conceptos avanzados sobre funciones
 	* Parámetros con valores por defecto
 	* Tipos de argumentos: posicionales o keyword
+	* Argumentos en funciones (*args y **kwargs)
 	* Parametro *
 	* Lista de argumentos arbitrarios
 	* Desempaquetar argumentos: pasar listas y diccionarios
 	* Devolver múltiples resultados
-	* Documentando las funciones
-	* El método main()
 	* Decoradores
-46. Funciones lambda
-47. Funciones recursivas
 
-	### Ejercicios programación imperativa
+47. Tipos especiales de funciones
+	* Funciones recursivas
+	* Funciones lambda
+	* Funciones generadoras
+
+	### Ejercicios programación estrucuturada y modular
 
 48. Ejercicios con funciones
-49. Programación imperativa: Ejemplo completo 
+49. Programación estructurada y modular: Ejemplo completo 
 
 	### Programación orientada a objetos
 
