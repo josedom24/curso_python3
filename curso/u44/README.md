@@ -32,43 +32,20 @@ Para instalar un nuevo paquete python tengo varias alternativas:
 
 Podemos utilizar este software para trabajar con cualquier distribución de python, pero evidentemente es obligatorio si estamos trabajando con python 2.x o python 3.x (una versión anterior a la 3.3). 
 
-### Instalación de los paquetes necesarios
-
-En este manual se va a realizar la instalación y configuración en una distribución GNU/Linux Debian  Jessie, en otra versión del sistema u otra distribución puede haber algunas diferencias.
-
-Instalamos los paquetes necesarios como root:
-
 	# apt-get install python-virtualenv
 
 Si queremos crear un entorno virtual con python3:
 
 	$ virtualenv -p /usr/bin/python3 entorno2
-	Already using interpreter /usr/bin/python3
-	Using base prefix '/usr'
-	New python executable in entorno2/bin/python3
-	Also creating executable in entorno2/bin/python
-	Installing setuptools, pip...done.
 
 La opción `-p` nos permite indicar el interprete que se va a utilizar en el entorno.
 
-En los dos casos se ha creado un directorio, donde se instalarán posteriormente los paquetes que necesitemos:
-
-	$ cd entorno2
-	$ ls
-	bin  lib
-
-### Activando nuestro entorno virtual
-
-Independientemente el interprete que utilicemos en nuestro entorno para activarlo tenemos que ejecutar la siguiente instrucción:
+Para activar nuestro entorno virtual:
 
 	$ source entorno2/bin/activate
 	(entorno2)$ 
 
-Podemos observar que nuestro prompt ha cambiado, a partir de ahora estamos en nuestro entorno aislado, los paquetes python instalados en el sistema no serán visibles y podremos instalar paquetes en él utilizando la herramienta `pip`.
-
-### Desactivando nuestro entono virtual
-
-Para salir del entorno que estamos ejecutando simplemente ejecutamos la siguiente instrucción:
+Y para desactivarlo:
 
 	(entorno2)$ deactivate
 	$
@@ -76,8 +53,6 @@ Para salir del entorno que estamos ejecutando simplemente ejecutamos la siguient
 ## Creando entornos virtuales con `venv`
 
 A partir de la versión 3.3 de python podemos utilizar el módulo `venv` para crear el entorno virtual.
-
-### Instalación de los paquetes necesarios
 
 Instalamos el siguiente paquete para instalar el módulos:
 
@@ -87,15 +62,9 @@ Ahora ya como un usuario sin privilegio podemos crear un entorno virtual con pyt
 
 	$ python3 -m venv entorno3
 
-La opción `-m` del interprete nos permite ejecutar un módulo como si fuera un programa. En este caso, a diferencia de usar la herramienta `virtualenv`, tenemos otra estructura de directorios en nuestro entorno virtual:
+La opción `-m` del interprete nos permite ejecutar un módulo como si fuera un programa.
 
-	$ cd entorno3
-	$ ls
-	bin  include  lib  lib64  pyvenv.cfg
-
-### Activando y desactivando nuestro entorno virtual
-
-La activación y la desactivación del entorno se realiza de forma similar a la explicada anteriormente:
+Para activar y desactivar el entono virtual:
 
 	$ source entorno3/bin/activate
 	(entorno3)$ deactivate
@@ -106,16 +75,6 @@ La activación y la desactivación del entorno se realiza de forma similar a la 
 Independientemente del sistema utilizado para crear nuestro entorno virtual, una vez que lo tenemos activado podemos instalar paquetes python en él utilizando la herramienta `pip` (que la tenemos instalada automáticamente en nuestro entorno). Partiendo de un entorno activado, podemos, por ejemplo, instalar la última versión de django:
 
 	(entorno3)$ pip install django
-	Downloading/unpacking django
-	  Downloading Django-1.10.5-py2.py3-none-any.whl (6.8MB): 6.8MB downloaded
-	Installing collected packages: django
-	Successfully installed django
-	Cleaning up...
-
-Podemos comprobar que efectivamente hemos instala la última versión de django:
-
-	(entorno3) $ django-admin --version
-	1.10.5
 
 Si queremos ver los paquetes que tenemos instalados con sus dependencias:
 
@@ -131,11 +90,6 @@ Si necesitamos buscar un paquete podemos utilizar la siguiente opción:
 Si a continuación necesitamos instalar una versión determinada del paquete, que no sea la última, podemos hacerlo de la siguiente manera:
 
 	(entorno3)$ pip install requests=="2.12"
-	Downloading/unpacking requests==2.12
-	  Downloading requests-2.12.0-py2.py3-none-any.whl (574kB): 574kB downloaded
-	Installing collected packages: requests
-	Successfully installed requests
-	Cleaning up...
 
 Si necesitamos borrar un paquete podemos ejecutar:
 
