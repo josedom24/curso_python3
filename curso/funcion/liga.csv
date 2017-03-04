@@ -1,0 +1,381 @@
+Date,Team 1,Team 2,FT,HT
+2015-08-21,Malaga,Sevilla,0-0,0-0
+2015-08-22,Ath Madrid,Las Palmas,1-0,1-0
+2015-08-22,Espanol,Getafe,1-0,1-0
+2015-08-22,La Coruna,Sociedad,0-0,0-0
+2015-08-22,Vallecano,Valencia,0-0,0-0
+2015-08-23,Ath Bilbao,Barcelona,0-1,0-0
+2015-08-23,Betis,Villarreal,1-1,0-1
+2015-08-23,Levante,Celta,1-2,0-1
+2015-08-23,Sp Gijon,Real Madrid,0-0,0-0
+2015-08-24,Granada,Eibar,1-3,0-2
+2015-08-28,Villarreal,Espanol,3-1,0-1
+2015-08-29,Barcelona,Malaga,1-0,0-0
+2015-08-29,Celta,Vallecano,3-0,1-0
+2015-08-29,Real Madrid,Betis,5-0,2-0
+2015-08-29,Sociedad,Sp Gijon,0-0,0-0
+2015-08-30,Eibar,Ath Bilbao,2-0,1-0
+2015-08-30,Getafe,Granada,1-2,0-2
+2015-08-30,Las Palmas,Levante,0-0,0-0
+2015-08-30,Sevilla,Ath Madrid,0-3,0-1
+2015-08-30,Valencia,La Coruna,1-1,1-1
+2015-09-11,Levante,Sevilla,1-1,0-1
+2015-09-12,Ath Madrid,Barcelona,1-2,0-0
+2015-09-12,Betis,Sociedad,1-0,1-0
+2015-09-12,Espanol,Real Madrid,0-6,0-4
+2015-09-12,Sp Gijon,Valencia,0-1,0-0
+2015-09-13,Ath Bilbao,Getafe,3-1,2-0
+2015-09-13,Celta,Las Palmas,3-3,2-1
+2015-09-13,Granada,Villarreal,1-3,0-0
+2015-09-13,Malaga,Eibar,0-0,0-0
+2015-09-14,Vallecano,La Coruna,1-3,1-2
+2015-09-18,Getafe,Malaga,1-0,1-0
+2015-09-19,Eibar,Ath Madrid,0-2,0-0
+2015-09-19,Real Madrid,Granada,1-0,0-0
+2015-09-19,Sociedad,Espanol,2-3,1-1
+2015-09-19,Valencia,Betis,0-0,0-0
+2015-09-20,Barcelona,Levante,4-1,0-0
+2015-09-20,La Coruna,Sp Gijon,2-3,2-3
+2015-09-20,Las Palmas,Vallecano,0-1,0-1
+2015-09-20,Sevilla,Celta,1-2,0-2
+2015-09-20,Villarreal,Ath Bilbao,3-1,1-0
+2015-09-22,Ath Madrid,Getafe,2-0,1-0
+2015-09-22,Espanol,Valencia,1-0,1-0
+2015-09-22,Granada,Sociedad,0-3,0-2
+2015-09-23,Ath Bilbao,Real Madrid,1-2,0-1
+2015-09-23,Celta,Barcelona,4-1,2-0
+2015-09-23,Las Palmas,Sevilla,2-0,1-0
+2015-09-23,Levante,Eibar,2-2,0-1
+2015-09-23,Malaga,Villarreal,0-1,0-0
+2015-09-23,Vallecano,Sp Gijon,2-1,1-0
+2015-09-24,Betis,La Coruna,1-2,0-0
+2015-09-25,Valencia,Granada,1-0,1-0
+2015-09-26,Barcelona,Las Palmas,2-1,1-0
+2015-09-26,Eibar,Celta,1-1,1-0
+2015-09-26,Real Madrid,Malaga,0-0,0-0
+2015-09-26,Sevilla,Vallecano,3-2,2-0
+2015-09-26,Villarreal,Ath Madrid,1-0,1-0
+2015-09-27,Getafe,Levante,3-0,0-0
+2015-09-27,La Coruna,Espanol,3-0,2-0
+2015-09-27,Sociedad,Ath Bilbao,0-0,0-0
+2015-09-27,Sp Gijon,Betis,1-2,1-0
+2015-10-02,Celta,Getafe,0-0,0-0
+2015-10-03,Espanol,Sp Gijon,1-2,0-1
+2015-10-03,Granada,La Coruna,1-1,0-1
+2015-10-03,Las Palmas,Eibar,0-2,0-1
+2015-10-03,Malaga,Sociedad,3-1,2-1
+2015-10-03,Sevilla,Barcelona,2-1,0-0
+2015-10-04,Ath Bilbao,Valencia,3-1,1-1
+2015-10-04,Ath Madrid,Real Madrid,1-1,0-1
+2015-10-04,Levante,Villarreal,1-0,0-0
+2015-10-04,Vallecano,Betis,0-2,0-1
+2015-10-17,Barcelona,Vallecano,5-2,2-1
+2015-10-17,Betis,Espanol,1-3,0-1
+2015-10-17,Eibar,Sevilla,1-1,1-0
+2015-10-17,Real Madrid,Levante,3-0,2-0
+2015-10-17,Valencia,Malaga,3-0,2-0
+2015-10-18,Getafe,Las Palmas,4-0,2-0
+2015-10-18,La Coruna,Ath Bilbao,2-2,0-1
+2015-10-18,Sociedad,Ath Madrid,0-2,0-1
+2015-10-18,Villarreal,Celta,1-2,0-1
+2015-10-19,Sp Gijon,Granada,3-3,1-2
+2015-10-23,Vallecano,Espanol,3-0,1-0
+2015-10-24,Celta,Real Madrid,1-3,0-2
+2015-10-24,Granada,Betis,1-1,1-1
+2015-10-24,Malaga,La Coruna,2-0,0-0
+2015-10-24,Sevilla,Getafe,5-0,2-0
+2015-10-25,Barcelona,Eibar,3-1,1-1
+2015-10-25,Las Palmas,Villarreal,0-0,0-0
+2015-10-25,Levante,Sociedad,0-4,0-2
+2015-10-25,Ath Madrid,Valencia,2-1,2-0
+2015-10-26,Ath Bilbao,Sp Gijon,3-0,2-0
+2015-10-30,La Coruna,Ath Madrid,1-1,0-1
+2015-10-31,Getafe,Barcelona,0-2,0-1
+2015-10-31,Real Madrid,Las Palmas,3-1,3-1
+2015-10-31,Sociedad,Celta,2-3,2-1
+2015-10-31,Valencia,Levante,3-0,0-0
+2015-10-31,Villarreal,Sevilla,2-1,1-0
+2015-11-01,Eibar,Vallecano,1-0,1-0
+2015-11-01,Espanol,Granada,1-1,0-0
+2015-11-01,Sp Gijon,Malaga,1-0,1-0
+2015-11-01,Betis,Ath Bilbao,1-3,0-2
+2015-11-06,Las Palmas,Sociedad,2-0,1-0
+2015-11-07,Celta,Valencia,1-5,1-2
+2015-11-07,Eibar,Getafe,3-1,2-1
+2015-11-07,Levante,La Coruna,1-1,0-1
+2015-11-07,Malaga,Betis,0-1,0-0
+2015-11-07,Vallecano,Granada,2-1,2-0
+2015-11-08,Ath Bilbao,Espanol,2-1,1-0
+2015-11-08,Ath Madrid,Sp Gijon,1-0,0-0
+2015-11-08,Barcelona,Villarreal,3-0,0-0
+2015-11-08,Sevilla,Real Madrid,3-2,1-1
+2015-11-21,Espanol,Malaga,2-0,2-0
+2015-11-21,La Coruna,Celta,2-0,1-0
+2015-11-21,Real Madrid,Barcelona,0-4,0-2
+2015-11-21,Sociedad,Sevilla,2-0,0-0
+2015-11-21,Valencia,Las Palmas,1-1,1-0
+2015-11-22,Betis,Ath Madrid,0-1,0-1
+2015-11-22,Granada,Ath Bilbao,2-0,1-0
+2015-11-22,Sp Gijon,Levante,0-3,0-3
+2015-11-22,Villarreal,Eibar,1-1,0-1
+2015-11-23,Getafe,Vallecano,1-1,0-0
+2015-11-27,Levante,Betis,0-1,0-1
+2015-11-28,Ath Madrid,Espanol,1-0,1-0
+2015-11-28,Barcelona,Sociedad,4-0,2-0
+2015-11-28,Celta,Sp Gijon,2-1,1-0
+2015-11-28,Las Palmas,La Coruna,0-2,0-1
+2015-11-28,Malaga,Granada,2-2,1-0
+2015-11-29,Eibar,Real Madrid,0-2,0-1
+2015-11-29,Getafe,Villarreal,2-0,1-0
+2015-11-29,Sevilla,Valencia,1-0,0-0
+2015-11-29,Vallecano,Ath Bilbao,0-3,0-2
+2015-12-05,Betis,Celta,1-1,0-1
+2015-12-05,Granada,Ath Madrid,0-2,0-1
+2015-12-05,La Coruna,Sevilla,1-1,1-0
+2015-12-05,Real Madrid,Getafe,4-1,4-0
+2015-12-05,Valencia,Barcelona,1-1,0-0
+2015-12-06,Sociedad,Eibar,2-1,1-1
+2015-12-06,Sp Gijon,Las Palmas,3-1,1-1
+2015-12-06,Villarreal,Vallecano,2-1,0-1
+2015-12-06,Ath Bilbao,Malaga,0-0,0-0
+2015-12-07,Espanol,Levante,1-1,0-1
+2015-12-11,Getafe,Sociedad,1-1,0-0
+2015-12-12,Barcelona,La Coruna,2-2,1-0
+2015-12-12,Celta,Espanol,1-0,1-0
+2015-12-12,Las Palmas,Betis,1-0,0-0
+2015-12-12,Levante,Granada,1-2,0-0
+2015-12-12,Sevilla,Sp Gijon,2-0,0-0
+2015-12-13,Ath Madrid,Ath Bilbao,2-1,1-1
+2015-12-13,Eibar,Valencia,1-1,1-0
+2015-12-13,Vallecano,Malaga,1-2,1-0
+2015-12-13,Villarreal,Real Madrid,1-0,1-0
+2015-12-19,Betis,Sevilla,0-0,0-0
+2015-12-19,Espanol,Las Palmas,1-0,0-0
+2015-12-19,La Coruna,Eibar,2-0,1-0
+2015-12-19,Valencia,Getafe,2-2,2-2
+2015-12-20,Ath Bilbao,Levante,2-0,0-0
+2015-12-20,Granada,Celta,0-2,0-2
+2015-12-20,Malaga,Ath Madrid,1-0,0-0
+2015-12-20,Real Madrid,Vallecano,10-2,4-2
+2015-12-20,Sociedad,Villarreal,0-2,0-1
+2015-12-30,Barcelona,Betis,4-0,2-0
+2015-12-30,Celta,Ath Bilbao,0-1,0-0
+2015-12-30,Eibar,Sp Gijon,2-0,0-0
+2015-12-30,Getafe,La Coruna,0-0,0-0
+2015-12-30,Las Palmas,Granada,4-1,1-0
+2015-12-30,Levante,Malaga,0-1,0-0
+2015-12-30,Real Madrid,Sociedad,3-1,1-0
+2015-12-30,Sevilla,Espanol,2-0,2-0
+2015-12-30,Vallecano,Ath Madrid,0-2,0-0
+2015-12-31,Villarreal,Valencia,1-0,0-0
+2016-01-02,Ath Madrid,Levante,1-0,0-0
+2016-01-02,Espanol,Barcelona,0-0,0-0
+2016-01-02,Malaga,Celta,2-0,2-0
+2016-01-03,Ath Bilbao,Las Palmas,2-2,1-0
+2016-01-03,Betis,Eibar,0-4,0-2
+2016-01-03,Granada,Sevilla,2-1,2-1
+2016-01-03,La Coruna,Villarreal,1-2,0-1
+2016-01-03,Valencia,Real Madrid,2-2,1-1
+2016-01-03,Vallecano,Sociedad,2-2,1-1
+2016-01-04,Sp Gijon,Getafe,1-2,1-0
+2016-01-09,Barcelona,Granada,4-0,2-0
+2016-01-09,Getafe,Betis,1-0,0-0
+2016-01-09,Levante,Vallecano,2-1,0-0
+2016-01-09,Real Madrid,La Coruna,5-0,2-0
+2016-01-09,Sevilla,Ath Bilbao,2-0,1-0
+2016-01-10,Eibar,Espanol,2-1,1-1
+2016-01-10,Las Palmas,Malaga,1-1,0-0
+2016-01-10,Sociedad,Valencia,2-0,0-0
+2016-01-10,Villarreal,Sp Gijon,2-0,1-0
+2016-01-10,Celta,Ath Madrid,0-2,0-0
+2016-01-16,Celta,Levante,4-3,2-0
+2016-01-16,Sevilla,Malaga,2-1,2-0
+2016-01-16,Sociedad,La Coruna,1-1,0-1
+2016-01-16,Villarreal,Betis,0-0,0-0
+2016-01-17,Barcelona,Ath Bilbao,6-0,2-0
+2016-01-17,Getafe,Espanol,3-1,2-1
+2016-01-17,Las Palmas,Ath Madrid,0-3,0-1
+2016-01-17,Real Madrid,Sp Gijon,5-1,5-0
+2016-01-17,Valencia,Vallecano,2-2,0-1
+2016-01-18,Eibar,Granada,5-1,2-0
+2016-01-22,Sp Gijon,Sociedad,5-1,3-1
+2016-01-23,Espanol,Villarreal,2-2,2-1
+2016-01-23,Granada,Getafe,3-2,2-0
+2016-01-23,Malaga,Barcelona,1-2,1-1
+2016-01-23,Vallecano,Celta,3-0,3-0
+2016-01-24,Ath Bilbao,Eibar,5-2,3-1
+2016-01-24,Ath Madrid,Sevilla,0-0,0-0
+2016-01-24,Betis,Real Madrid,1-1,1-0
+2016-01-24,La Coruna,Valencia,1-1,1-0
+2016-01-25,Levante,Las Palmas,3-2,1-0
+2016-01-30,Barcelona,Ath Madrid,2-1,2-1
+2016-01-30,Eibar,Malaga,1-2,0-1
+2016-01-30,Getafe,Ath Bilbao,0-1,0-1
+2016-01-30,Sociedad,Betis,2-1,2-0
+2016-01-30,Villarreal,Granada,1-0,0-0
+2016-01-31,Las Palmas,Celta,2-1,1-1
+2016-01-31,Sevilla,Levante,3-1,1-0
+2016-01-31,Valencia,Sp Gijon,0-1,0-0
+2016-01-31,Real Madrid,Espanol,6-0,4-0
+2016-02-01,La Coruna,Vallecano,2-2,1-2
+2016-02-05,Malaga,Getafe,3-0,3-0
+2016-02-06,Ath Bilbao,Villarreal,0-0,0-0
+2016-02-06,Ath Madrid,Eibar,3-1,0-0
+2016-02-06,Sp Gijon,La Coruna,1-1,1-1
+2016-02-06,Vallecano,Las Palmas,2-0,1-0
+2016-02-07,Betis,Valencia,1-0,0-0
+2016-02-07,Celta,Sevilla,1-1,0-1
+2016-02-07,Levante,Barcelona,0-2,0-1
+2016-02-07,Granada,Real Madrid,1-2,0-1
+2016-02-08,Espanol,Sociedad,0-5,0-2
+2016-02-12,Sp Gijon,Vallecano,2-2,2-1
+2016-02-13,La Coruna,Betis,2-2,1-2
+2016-02-13,Real Madrid,Ath Bilbao,4-2,3-1
+2016-02-13,Valencia,Espanol,2-1,0-0
+2016-02-13,Villarreal,Malaga,1-0,1-0
+2016-02-14,Eibar,Levante,2-0,1-0
+2016-02-14,Getafe,Ath Madrid,0-1,0-1
+2016-02-14,Sevilla,Las Palmas,2-0,0-0
+2016-02-14,Sociedad,Granada,3-0,2-0
+2016-02-14,Barcelona,Celta,6-1,1-1
+2016-02-17,Sp Gijon,Barcelona,1-3,1-2
+2016-02-19,Levante,Getafe,3-0,2-0
+2016-02-20,Betis,Sp Gijon,1-1,0-0
+2016-02-20,Celta,Eibar,3-2,2-0
+2016-02-20,Espanol,La Coruna,1-0,0-0
+2016-02-20,Las Palmas,Barcelona,1-2,1-2
+2016-02-21,Ath Bilbao,Sociedad,0-1,0-1
+2016-02-21,Granada,Valencia,1-2,0-0
+2016-02-21,Malaga,Real Madrid,1-1,0-1
+2016-02-21,Vallecano,Sevilla,2-2,1-2
+2016-02-21,Ath Madrid,Villarreal,0-0,0-0
+2016-02-26,Eibar,Las Palmas,0-1,0-1
+2016-02-27,Betis,Vallecano,2-2,2-0
+2016-02-27,Getafe,Celta,0-1,0-0
+2016-02-27,Real Madrid,Ath Madrid,0-1,0-0
+2016-02-27,Sociedad,Malaga,1-1,0-0
+2016-02-27,Sp Gijon,Espanol,2-4,1-1
+2016-02-28,La Coruna,Granada,0-1,0-1
+2016-02-28,Valencia,Ath Bilbao,0-3,0-0
+2016-02-28,Villarreal,Levante,3-0,2-0
+2016-02-28,Barcelona,Sevilla,2-1,1-1
+2016-03-01,Ath Madrid,Sociedad,3-0,1-0
+2016-03-01,Las Palmas,Getafe,4-0,2-0
+2016-03-02,Ath Bilbao,La Coruna,4-1,2-0
+2016-03-02,Celta,Villarreal,0-0,0-0
+2016-03-02,Levante,Real Madrid,1-3,1-2
+2016-03-02,Malaga,Valencia,1-2,1-1
+2016-03-02,Sevilla,Eibar,1-0,1-0
+2016-03-03,Espanol,Betis,0-3,0-2
+2016-03-03,Granada,Sp Gijon,2-0,0-0
+2016-03-03,Vallecano,Barcelona,1-5,0-2
+2016-03-05,Getafe,Sevilla,1-1,0-0
+2016-03-05,La Coruna,Malaga,3-3,1-1
+2016-03-05,Real Madrid,Celta,7-1,1-0
+2016-03-05,Villarreal,Las Palmas,0-1,0-1
+2016-03-06,Betis,Granada,2-0,0-0
+2016-03-06,Eibar,Barcelona,0-4,0-2
+2016-03-06,Sociedad,Levante,1-1,1-1
+2016-03-06,Sp Gijon,Ath Bilbao,0-2,0-1
+2016-03-06,Valencia,Ath Madrid,1-3,1-1
+2016-03-07,Espanol,Vallecano,2-1,1-0
+2016-03-11,Malaga,Sp Gijon,1-0,1-0
+2016-03-12,Ath Madrid,La Coruna,3-0,1-0
+2016-03-12,Barcelona,Getafe,6-0,4-0
+2016-03-12,Celta,Sociedad,1-0,1-0
+2016-03-12,Vallecano,Eibar,1-1,1-1
+2016-03-13,Ath Bilbao,Betis,3-1,2-0
+2016-03-13,Levante,Valencia,1-0,0-0
+2016-03-13,Sevilla,Villarreal,4-2,1-2
+2016-03-13,Las Palmas,Real Madrid,1-2,0-1
+2016-03-14,Granada,Espanol,1-1,1-0
+2016-03-18,Getafe,Eibar,1-1,1-0
+2016-03-19,Betis,Malaga,0-1,0-0
+2016-03-19,Granada,Vallecano,2-2,1-1
+2016-03-19,La Coruna,Levante,2-1,1-0
+2016-03-19,Sociedad,Las Palmas,0-1,0-1
+2016-03-19,Sp Gijon,Ath Madrid,2-1,0-1
+2016-03-20,Espanol,Ath Bilbao,2-1,0-1
+2016-03-20,Real Madrid,Sevilla,4-0,1-0
+2016-03-20,Valencia,Celta,0-2,0-0
+2016-03-20,Villarreal,Barcelona,2-2,0-2
+2016-04-01,Vallecano,Getafe,2-0,1-0
+2016-04-02,Ath Madrid,Betis,5-1,2-0
+2016-04-02,Barcelona,Real Madrid,1-2,0-0
+2016-04-02,Celta,La Coruna,1-1,1-1
+2016-04-02,Las Palmas,Valencia,2-1,0-1
+2016-04-03,Ath Bilbao,Granada,1-1,1-0
+2016-04-03,Eibar,Villarreal,1-2,1-1
+2016-04-03,Malaga,Espanol,1-1,1-1
+2016-04-03,Sevilla,Sociedad,1-2,0-2
+2016-04-04,Levante,Sp Gijon,0-0,0-0
+2016-04-08,Granada,Malaga,0-0,0-0
+2016-04-09,Betis,Levante,1-0,0-0
+2016-04-09,Espanol,Ath Madrid,1-3,1-1
+2016-04-09,Real Madrid,Eibar,4-0,4-0
+2016-04-09,Sociedad,Barcelona,1-0,1-0
+2016-04-10,Ath Bilbao,Vallecano,1-0,0-0
+2016-04-10,Sp Gijon,Celta,0-1,0-0
+2016-04-10,Valencia,Sevilla,2-1,1-0
+2016-04-10,Villarreal,Getafe,2-0,1-0
+2016-04-11,La Coruna,Las Palmas,1-3,0-0
+2016-04-15,Levante,Espanol,2-1,1-1
+2016-04-16,Celta,Betis,1-1,0-1
+2016-04-16,Eibar,Sociedad,2-1,1-1
+2016-04-16,Getafe,Real Madrid,1-5,0-2
+2016-04-16,Las Palmas,Sp Gijon,1-1,1-0
+2016-04-17,Ath Madrid,Granada,3-0,1-0
+2016-04-17,Barcelona,Valencia,1-2,0-2
+2016-04-17,Malaga,Ath Bilbao,0-1,0-0
+2016-04-17,Sevilla,La Coruna,1-1,1-0
+2016-04-17,Vallecano,Villarreal,2-1,1-1
+2016-04-19,Betis,Las Palmas,1-0,0-0
+2016-04-19,Espanol,Celta,1-1,1-1
+2016-04-20,Ath Bilbao,Ath Madrid,0-1,0-1
+2016-04-20,La Coruna,Barcelona,0-8,0-2
+2016-04-20,Malaga,Vallecano,1-1,0-0
+2016-04-20,Real Madrid,Villarreal,3-0,1-0
+2016-04-20,Sp Gijon,Sevilla,2-1,1-1
+2016-04-20,Valencia,Eibar,4-0,3-0
+2016-04-21,Granada,Levante,5-1,3-0
+2016-04-21,Sociedad,Getafe,1-2,1-1
+2016-04-22,Las Palmas,Espanol,4-0,1-0
+2016-04-23,Ath Madrid,Malaga,1-0,0-0
+2016-04-23,Barcelona,Sp Gijon,6-0,1-0
+2016-04-23,Eibar,La Coruna,1-1,1-0
+2016-04-23,Vallecano,Real Madrid,2-3,2-1
+2016-04-24,Getafe,Valencia,2-2,0-0
+2016-04-24,Levante,Ath Bilbao,2-2,1-0
+2016-04-24,Sevilla,Betis,2-0,0-0
+2016-04-24,Villarreal,Sociedad,0-0,0-0
+2016-04-25,Celta,Granada,2-1,1-0
+2016-04-29,Sp Gijon,Eibar,2-0,1-0
+2016-04-30,Ath Madrid,Vallecano,1-0,0-0
+2016-04-30,Betis,Barcelona,0-2,0-0
+2016-04-30,Granada,Las Palmas,3-2,2-2
+2016-04-30,Sociedad,Real Madrid,0-1,0-0
+2016-05-01,Ath Bilbao,Celta,2-1,1-1
+2016-05-01,Espanol,Sevilla,1-0,0-0
+2016-05-01,La Coruna,Getafe,0-2,0-1
+2016-05-01,Valencia,Villarreal,0-2,0-2
+2016-05-02,Malaga,Levante,3-1,1-1
+2016-05-08,Barcelona,Espanol,5-0,1-0
+2016-05-08,Celta,Malaga,1-0,1-0
+2016-05-08,Eibar,Betis,1-1,0-1
+2016-05-08,Getafe,Sp Gijon,1-1,0-0
+2016-05-08,Las Palmas,Ath Bilbao,0-0,0-0
+2016-05-08,Levante,Ath Madrid,2-1,1-1
+2016-05-08,Real Madrid,Valencia,3-2,2-0
+2016-05-08,Sevilla,Granada,1-4,0-1
+2016-05-08,Sociedad,Vallecano,2-1,1-0
+2016-05-08,Villarreal,La Coruna,0-2,0-1
+2016-05-13,Valencia,Sociedad,0-1,0-0
+2016-05-14,Ath Bilbao,Sevilla,3-1,2-0
+2016-05-14,Ath Madrid,Celta,2-0,0-0
+2016-05-14,Granada,Barcelona,0-3,0-2
+2016-05-14,La Coruna,Real Madrid,0-2,0-2
+2016-05-15,Betis,Getafe,2-1,0-0
+2016-05-15,Espanol,Eibar,4-2,2-0
+2016-05-15,Malaga,Las Palmas,4-1,2-1
+2016-05-15,Sp Gijon,Villarreal,2-0,1-0
+2016-05-15,Vallecano,Levante,3-1,2-0

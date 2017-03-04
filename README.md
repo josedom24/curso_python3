@@ -251,7 +251,7 @@
 
 	### Programación imperativa
 
-1. Introducción a las Funciones
+45. Introducción a las Funciones
 	* Introducción a la programación imperativa
 	* Definición de funciones
 	* Ámbito de variables. Sentencia global
@@ -259,7 +259,7 @@
 	* Llamada a una función
 	* La instrucción return
 
-2. Conceptos avanzados sobre funciones
+45. Conceptos avanzados sobre funciones
 	* Parámetros con valores por defecto
 	* Tipos de argumentos: posicionales o keyword
 	* Parametro *
@@ -269,13 +269,13 @@
 	* Documentando las funciones
 	* El método main()
 	* Decoradores
-3. Funciones lambda
-4. Funciones recursivas
+46. Funciones lambda
+47. Funciones recursivas
 
 	### Ejercicios programación imperativa
 
-1. Ejercicios con funciones
-2. Programación imperativa: Ejemplo completo 
+48. Ejercicios con funciones
+49. Programación imperativa: Ejemplo completo 
 
 	### Programación orientada a objetos
 
