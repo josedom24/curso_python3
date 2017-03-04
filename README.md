@@ -259,8 +259,7 @@
 	* Paso de parámetro por valor o por referencia
 	* Llamadas a una función
 
-46. Conceptos avanzados sobre funciones
-	* Parámetros con valores por defecto
+46. [Conceptos avanzados sobre funciones](curso/u46)
 	* Tipos de argumentos: posicionales o keyword
 	* Argumentos en funciones (*args y **kwargs)
 	* Parametro *
