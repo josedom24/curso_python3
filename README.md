@@ -249,7 +249,7 @@
 	* Creando entornos virtuales con `venv`
 	* Instalando paquetes en nuestro entorno virtual
 
-	### Programación imperativa
+	### Programación estrucuturada y modular
 
 45. [Introducción a las funciones](curso/u45)
 	* Introducción a la programación estrucuturada y modular.
