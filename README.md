@@ -242,8 +242,12 @@
 	* Módulo datetime
 	* Módulo calendar
 
-4. Instalación de módulos
-	* pip
+44. [Instalación de módulos](curso/u44)
+	* PyPI y pip
+	* Instalación de módulos python
+	* Creando entornos virtuales con `virtualenv`
+	* Creando entornos virtuales con `venv`
+	* Instalando paquetes en nuestro entorno virtual
 
 	### Programación imperativa
 
