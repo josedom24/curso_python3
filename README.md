@@ -252,9 +252,9 @@
 	### Programación estrucuturada y modular
 
 45. [Introducción a las funciones](curso/u45)
-	* Introducción a la programación estrucuturada y modular.
+	* Introducción a la programación estrucuturada y modular
 	* Definición de funciones
-	* Ámbito de variables. Sentencia global. 
+	* Ámbito de variables. Sentencia global
 	* Parámetros formales y reales
 	* Paso de parámetro por valor o por referencia
 	* Llamadas a una función
