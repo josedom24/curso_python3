@@ -272,7 +272,7 @@
 	* Decoradores
 	* Funciones generadoras
 
-	### Ejercicios programación estrucuturada y modular
+	### Ejercicios programación estructurada y modular
 
 48. Ejercicios con funciones
 49. Programación estructurada y modular: Ejemplo completo 
