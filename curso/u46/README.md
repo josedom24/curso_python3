@@ -125,3 +125,16 @@ Podemos tener parámetros keyword guardados en un diccionario, para enviar un di
 	'Hola jose maria pepe'
 
 ## Devolver múltiples resultados
+
+La instrucción `return` puede devolver cualquier tipo de resultados, por lo tanto es fácil devolver múltiples datos guardados en una lista o en un diccionario. Veamos un ejemplo en que devolvemos los datos en una tupla:
+
+	>>> def operar(n1,n2):
+	...   return (n1+n2,n1-n2,n1*n2)	
+
+	>>> suma,resta,producto = operar(5,2)
+	>>> suma
+	7
+	>>> resta
+	3
+	>>> producto
+	10
