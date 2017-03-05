@@ -41,7 +41,27 @@ Los parámetros keyword donde se indican el nombre del parámetro formal y su va
 
 ## Parámetro *
 
-## Argumentos arbitrarios (*args y **kwargs)
+Un parámetro `*` entre los parámetros posicionales y los keyword, obliga a a indicar el parámetro real como keyword:
+
+	>>> def sumar(n1,n2,*,op="+"):
+	...   if op=="+":
+	...     return n1+n2
+	...   elif op=="-":
+	...     return n1-n2
+	...   else:
+	...     return "error"
+	... 
+	>>> sumar(2,3)
+	5
+	>>> sumar(2,3,"-")
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	TypeError: sumar() takes 2 positional arguments but 3 were given
+	>>> sumar(2,3,op="-")
+	-1
+
+
+## Argumentos arbitrarios (\*args y \*\*kwargs)
 
 Para indicar un número indefinido de argumentos posicionales al definir una función, utilizamos el símbolo `*`:
 
