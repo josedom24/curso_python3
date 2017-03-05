@@ -266,7 +266,7 @@
 	* Desempaquetar argumentos: pasar listas y diccionarios
 	* Devolver múltiples resultados
 	
-47. Tipos especiales de funciones
+47. [Tipos especiales de funciones](curso/u47)
 	* Funciones recursivas
 	* Funciones lambda
 	* Decoradores

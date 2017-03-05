@@ -51,6 +51,16 @@ Cuando creamos una lista estamos creando un objeto de la clase `list`, que tiene
 	>>> lista
 	[5, 4, 2, 1]
 
+	>>> lista=["hola","que","tal","Hola","Que","Tal"]
+	>>> lista.sort()
+	>>> lista
+	['Hola', 'Que', 'Tal', 'hola', 'que', 'tal']
+	>>> lista=["hola","que","tal","Hola","Que","Tal"]
+	>>> lista.sort(key=str.lower)
+	>>> lista
+	['hola', 'Hola', 'que', 'Que', 'tal', 'Tal']
+
+
 ## Métodos de búsqueda: count, index
 
 	>>> lista.count(5)
