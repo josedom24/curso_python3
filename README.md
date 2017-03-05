@@ -252,7 +252,7 @@
 	### Programación estrucuturada y modular
 
 45. [Introducción a las funciones](curso/u45)
-	* Introducción a la programación estrucuturada y modular
+	* Introducción a la programación estructurada y modular
 	* Definición de funciones
 	* Ámbito de variables. Sentencia global
 	* Parámetros formales y reales
@@ -261,16 +261,15 @@
 
 46. [Conceptos avanzados sobre funciones](curso/u46)
 	* Tipos de argumentos: posicionales o keyword
-	* Argumentos en funciones (*args y **kwargs)
-	* Parametro *
-	* Lista de argumentos arbitrarios
+	* Parámetro *
+	* Argumentos arbitrarios (*args y **kwargs)
 	* Desempaquetar argumentos: pasar listas y diccionarios
 	* Devolver múltiples resultados
-	* Decoradores
-
+	
 47. Tipos especiales de funciones
 	* Funciones recursivas
 	* Funciones lambda
+	* Decoradores
 	* Funciones generadoras
 
 	### Ejercicios programación estrucuturada y modular
