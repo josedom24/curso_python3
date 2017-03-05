@@ -39,13 +39,69 @@ Los parámetros keyword donde se indican el nombre del parámetro formal y su va
 	>>> operar(4,6,respuesta="La suma es")				# dos parámetros posicionales y uno keyword
 	>>> operar(4,6,respuesta="La resta es",operador="-")# dos parámetros posicionales y dos keyword
 
-
-
+## Parámetro *
 
 ## Argumentos arbitrarios (*args y **kwargs)
 
+Para indicar un número indefinido de argumentos posicionales al definir una función, utilizamos el símbolo `*`:
+
+	>>> def sumar(n,*args):
+	...   resultado=n
+	...   for i in args:
+	...     resultado+=i
+	...   return resultado
+	... 
+	>>> sumar(2)
+	2
+	>>> sumar(2,3,4)
+	9
+
+Para indicar un número indefinido de argumentos keyword al definir una función,  utilizamos el símbolo `**`:
+
+	>>> def saludar(nombre="pepe",**kwargs):
+	...   cadena=nombre
+	...   for valor in kwargs.values():
+	...    cadena=cadena+" "+valor
+	...   return "Hola "+cadena
+	... 
+	>>> saludar()
+	'Hola pepe'
+	>>> saludar("juan")
+	'Hola juan'
+	>>> saludar(nombre="juan",nombre2="pepe")
+	'Hola juan pepe'
+	>>> saludar(nombre="juan",nombre2="pepe",nombre3="maria")
+	'Hola juan maria pepe'
+
+Por lo tanto podríamos tener definiciones de funciones del tipo:
+
+	>>> def f()
+	>>> def f(a,b=1)
+	>>> def f(a,*args,b=1)
+	>>> def f(*args,b=1)
+	>>> def f(*args,b=1,*kwargs)
+	>>> def f(*args,*kwargs)
+	>>> def f(*args)
+	>>> def f(*kwargs)
+
 ## Desempaquetar argumentos: pasar listas y diccionarios
 
-## Parametro *
+En caso contrario es cuando tenemos que pasar parámetros que lo tenemos guardados en una lista o en un diccionario.
+
+Para pasar listas utilizamos el símbolo `*`:
+
+	>>> lista=[1,2,3]
+	>>> sumar(*lista)
+	6
+	>>> sumar(2,*lista)
+	8
+	>>> sumar(2,3,*lista)
+	11
+
+Podemos tener parámetros keyword guardados en un diccionario, para enviar un diccionario utilizamos el símbolo `**`:
+
+	>>> datos={"nombre":"jose","nombre2":"pepe","nombre3":"maria"}
+	>>> saludar(**datos)
+	'Hola jose maria pepe'
 
 ## Devolver múltiples resultados
