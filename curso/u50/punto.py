@@ -7,7 +7,7 @@ class punto():
 	def __init__(self,x=0,y=0):
 		self.x=x
 		self.y=y
-
+	
 	def distancia(self, otro):
 		""" Devuelve la distancia entre ambos puntos. """
 		dx = self.x - otro.x
