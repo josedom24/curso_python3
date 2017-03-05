@@ -279,15 +279,15 @@
 
 	### Programación orientada a objetos
 
-1. Clases y objetos
-	* Introducción a la POO
-	* Definición de clases: atributos y métodos
-	* Método constructor __init__
+50. [Programación orientada a objetos](curso/u50)
+	* Introducción a la Programación Orientada a Objetos
+	* Definición de clase, objeto, atributos y métodos
 	* Atributos de objetos
+	* Método constructor __init__
 	* Definiendo métodos. El parámetro self
 	* Definición de objetos
 
-2. Conceptos avanzados de clases y objetos
+51. Conceptos avanzados de programación orientada a objetos
 	* Atributos de clase (estáticas)
 	* Atributos privados 
 	* Métodos estáticos
@@ -306,7 +306,7 @@
 
 	### Ejercicios programación orientada a objetos
 
-1. Ejercicios de clases y objetos
+1. Ejercicios de Programación orientada a objetos
 2. POO: Ejemplo completo
 
 
