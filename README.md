@@ -36,7 +36,6 @@
 	* Ayuda, función help()
 8. [Datos](curso/u8)
 	* Literales, variables y expresiones
-	* Definición de constantes
 	* Definición, borrado y ámbito de variables
 	* Operadores. Precedencia de operadores
 9. [Tipos de datos](curso/u9)
@@ -290,7 +289,7 @@
 
 51. [Conceptos avanzados de programación orientada a objetos](curso/u51)
 	* Atributos de clase (estáticas)
-	* Atributos privados 
+	* Atributos privados y ocultos
 	* Métodos estáticos
 	* Métodos de clase (estáticos)
 	* Funciones getattr,setattr,delattr,hasattr
