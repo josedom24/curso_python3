@@ -249,7 +249,7 @@
 	* Creando entornos virtuales con `venv`
 	* Instalando paquetes en nuestro entorno virtual
 
-	### Programación estrucuturada y modular
+	### Programación estructurada y modular
 
 45. [Introducción a las funciones](curso/u45)
 	* Introducción a la programación estructurada y modular
@@ -274,7 +274,7 @@
 
 	### Ejercicios programación estructurada y modular
 
-48. Ejercicios con funciones
+48. [Ejercicios con funciones](curso/u48)
 49. Programación estructurada y modular: Ejemplo completo 
 
 	### Programación orientada a objetos
