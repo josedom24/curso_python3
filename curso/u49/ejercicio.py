@@ -52,14 +52,30 @@ def Puntos(info):
 	return 3*info[0]+info[2]
 
 def Clasificacion(datos):
-	return datos.sort(key=lambda datos: datos[4])
+	datos_ordenados=datos[:]
+	datos_ordenados.sort(key=lambda datos: datos[4],reverse=True)
+	return datos_ordenados
 
-liga=LeerPartidos()
-datos=InfoEquipos(liga,*Equipos(liga))
-print(datos)
-print(Clasificacion(datos))
-for dato in Clasificacion(datos):
-	print (dato)
+def impClasificacion(liga):
+	datos=InfoEquipos(liga,*Equipos(liga))
+	print(datos)
+	print(Clasificacion(datos))
+	contador=1
+	line = '-' * 61
+	print(line)
+	print("|   №    |     Equipo      |   PG   |   PP  |  PE   |Puntos |")
+	print(line)
+	for dato in Clasificacion(datos):
+		print('| {0:^6} | {1:^15} | {2:^6} |{3:^6} |{4:^6} |{5:^6} |'.format(contador,dato[0],dato[1],dato[2],dato[3],dato[4]))
+		contador+=1
+	print(line)
+
+
+if __name__ == '__main__':
+	liga=LeerPartidos()
+	impClasificacion(liga)
+
+
 
 
 
