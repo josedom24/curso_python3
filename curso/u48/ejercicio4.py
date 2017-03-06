@@ -27,9 +27,8 @@ def main():
 			contacto[campo]=input("Introuzca valor:")
 			campo=input("Introuzca otro campo:")
 		agenda=guardar_agenda(agenda,**contacto)
-	agenda=[{'nombre': 'pepe', 'edad': '12', 'telefono': '123'}, {'nombre': 'maria', 'juan': '123', 'edad': '12', 'telefono': '123'}, {'nombre': 'juan', 'telefono': '2134'}]
-
 	print(agenda)
+	
 	## Búsqueda
 	filtro={}
 	campo=input("Introuzca un campo para buscar:")
