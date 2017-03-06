@@ -82,3 +82,22 @@ Los método estáticos (static methods) son aquellos que no necesitan acceso a n
 Nada nos impediría mover este método a una función fuera de la clase, ya que no hace uso de ningún atributo de ningún objeto, pero la dejamos dentro porque su lógica (hacer sumas) pertenece conceptualmente a Calculadora.
 
 Lo podemos llamar desde el objeto o desde la clase.
+
+## Funciones getattr,setattr,delattr,hasattr
+
+	>>> a1=Alumno("jose")
+	>>> getattr(a1,"nombre")
+	'jose'
+	>>> getattr(a1,"edad","no tiene")
+	'no tiene'
+
+	>>> setattr(a1,"nombre","pepe")
+	>>> a1.nombre
+	'pepe'
+
+	>>> hasattr(a1,"nombre")
+	True
+
+## Propiedades: getters, setters, deleter
+
+
