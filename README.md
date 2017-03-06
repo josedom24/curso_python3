@@ -275,7 +275,7 @@
 	### Ejercicios programación estructurada y modular
 
 48. [Ejercicios con funciones](curso/u48)
-49. Programación estructurada y modular: Ejemplo completo 
+49. [Programación estructurada y modular: Ejemplo completo](curso/u49)
 
 	### Programación orientada a objetos
 
