@@ -12,10 +12,11 @@ def LeerPartidos():
 	return datos
 
 def Equipos(liga):
-	return(list(set([partido["equipo1"] for partido in liga])))
+	return(tuple(set([partido["equipo1"] for partido in liga])))
 
-def InfoEquipos(equipo,liga):
-	if equipo in Equipos(liga):
+def InfoEquipos(liga,*equipos):
+	resultados=[]
+	for equipo in equipos:
 		resultado = [0,0,0]
 		for partido in liga:
 			if partido["equipo1"]==equipo and QuienGana(partido["final"])==1:
@@ -30,10 +31,13 @@ def InfoEquipos(equipo,liga):
 				resultado[1]+=1
 			if partido["equipo2"]==equipo and QuienGana(partido["final"])==0:
 				resultado[2]+=1
-		return resultado
-	else:
-		return []
+		resultado.append(Puntos(resultado))
+		resultado.insert(0,equipo)
+			
+		resultados.append(tuple(resultado))
+	return resultados
 
+	
 def QuienGana(resultado):
 	golescasa=int(resultado.split("-")[0])
 	golesvisitante=int(resultado.split("-")[1])
@@ -47,11 +51,16 @@ def QuienGana(resultado):
 def Puntos(info):
 	return 3*info[0]+info[2]
 
+def Clasificacion(datos):
+	return datos.sort(key=lambda datos: datos[4])
 
 liga=LeerPartidos()
-print(Equipos(liga))
-print(InfoEquipos("Barcelona",liga))
+datos=InfoEquipos(liga,*Equipos(liga))
+print(datos)
+print(Clasificacion(datos))
+for dato in Clasificacion(datos):
+	print (dato)
 
-for e in Equipos(liga):
-	print(e,Puntos(InfoEquipos(e,liga)))
+
+
 
