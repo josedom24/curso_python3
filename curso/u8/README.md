@@ -41,6 +41,7 @@ Con el carácter /, podemos escapar algunos caracteres, veamos algunos ejemplos:
 	\t 	ASCII Horizontal Tab (TAB) 	 
 	\v 	ASCII Vertical Tab (VT)
 
+
 ### Variables
 
 Una variables es un identificador que referencia a un valor. Estudiaremos más adelante que python utiliza tipado dinámico, lo tan no se usa el concepto de variable como almacén de información. Para que una variable reverencie a un valor se utiliza el operador de asignación `=`.

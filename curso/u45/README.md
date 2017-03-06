@@ -52,6 +52,16 @@ Una variable local se declara en su ámbito de uso (en el programa principal y d
 	>>> suma
 	9
 
+Podemos definir variables globales, que serán visibles en todo el módulo. Se recomienda declararlas en matusculas:
+
+	>>> PI = 3.1415
+	>>> def area(radio):
+	...    return PI*radio**2
+	... 
+	>>> area(2)
+	12.566
+
+
 ## Parámetros formales y reales
 
 * Parámetros formales: Son las variables que recibe la función, se crean al definir la función. Su contenido lo recibe al realizar la llamada a la función de los parámetro reales. Los parámetros formales son variables locales dentro de la función.

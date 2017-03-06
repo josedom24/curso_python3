@@ -25,7 +25,7 @@
 	### Estructura del lenguaje
 
 6. [Estructura del programa](curso/u6)
-	* Estrucutra de programa
+	* Estructura de programa
 	* Los comentarios
 	* Palabras reservadas
 	* Ejemplo
@@ -36,6 +36,7 @@
 	* Ayuda, función help()
 8. [Datos](curso/u8)
 	* Literales, variables y expresiones
+	* Definición de constantes
 	* Definición, borrado y ámbito de variables
 	* Operadores. Precedencia de operadores
 9. [Tipos de datos](curso/u9)
@@ -287,15 +288,16 @@
 	* Definiendo métodos. El parámetro self
 	* Definición de objetos
 
-51. Conceptos avanzados de programación orientada a objetos
+51. [Conceptos avanzados de programación orientada a objetos](curso/u51)
 	* Atributos de clase (estáticas)
 	* Atributos privados 
 	* Métodos estáticos
-	* Métodos de clase
+	* Métodos de clase (estáticos)
 	* Funciones getattr,setattr,delattr,hasattr
 	* Propiedades: getters, setters, deleter
 	* __str__ y __repr__
 	* Comparación de objetos __eq__
+	* Operar con objetos __add__ y __sub__
 
 3. Herencia
 	* Concepto de herencia
