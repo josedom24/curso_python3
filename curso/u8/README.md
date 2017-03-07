@@ -125,3 +125,10 @@ La procedencia de operadores es la siguiente:
 13. Operadores de pertenencia (in, in not)
 14. Operadores lógicos (not, or, and)
 
+## Función eval()
+
+La función `eval()` recibe una expresión como una cadena y la ejecuta.
+
+	>>> x=1
+	>>> eval("x + 1")
+	2

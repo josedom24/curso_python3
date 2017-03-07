@@ -38,6 +38,8 @@
 	* Literales, variables y expresiones
 	* Definición, borrado y ámbito de variables
 	* Operadores. Precedencia de operadores
+	* Función eval()
+
 9. [Tipos de datos](curso/u9)
 	* Clasificación de tipos de datos
 	* Función type()
@@ -141,7 +143,7 @@
 	* Operaciones básicas con listas
 	* Las cadenas son inmutables
 	* Comparación de cadenas
-	* Funciones str, repr, ascii, bin
+	* Funciones repr, ascii, bin
 
 28. [Métodos principales de cadenas](curso/u28)
 	* Métodos de formato

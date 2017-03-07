@@ -65,6 +65,12 @@ Las cadenas se comparan carácter a carácter, en el momento en que dos caracter
 		'range(0, 10)'
 		>>> repr("piña")
 		"'piña'"
+
+	La cadena devuelta por `repr()` debería ser aquella que, pasada a `eval()`, devuelve el mismo objeto.
+
+		>>> type(eval(repr(range(10))))
+		<class 'range'>
+
 * `ascii(objeto)`: Devuelve también la representación en cadena de un objeto pero en este caso muestra los caracteres con un código de escape \. Por ejemplo en ascii (Latin1) la `á` se presenta con `\xe1`.
 
 		>>> ascii("á")
