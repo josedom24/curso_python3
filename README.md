@@ -296,7 +296,7 @@
 	* Métodos de clase (estáticos)
 	* Funciones getattr,setattr,delattr,hasattr
 	* Propiedades: getters, setters, deleter
-	* __str__ y __repr__
+	* Representación de objetos __str__ y __repr__
 	* Comparación de objetos __eq__
 	* Operar con objetos __add__ y __sub__
 
