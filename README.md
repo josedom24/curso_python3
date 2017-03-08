@@ -304,7 +304,8 @@
 	* Operar con objetos \_\_add\_\_ y \_\_sub\_\_
 
 
-3. Herencia
+53. [Herencia](curso/u53)
+	
 	* Concepto de herencia
 	* La función super()
 	* Herencia múltiple
