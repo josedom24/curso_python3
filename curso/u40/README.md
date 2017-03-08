@@ -109,28 +109,3 @@ Los demás módulos que podemos importar se encuentran guardados en ficheros, qu
 	>>> sys.path
 	['', '/usr/lib/python3.4', '/usr/lib/python3.4/plat-x86_64-linux-gnu', '/usr/lib/python3.4/lib-dynload', '/usr/local/lib/python3.4/dist-packages', '/usr/lib/python3/dist-packages']
 
-Por ejemplo:
-
- 	/usr/lib/python3.4# ls
-	abc.py		collections		      doctest.py	  hmac.py	  mailbox.py	     pkgutil.py		    runpy.py	      string.py		   traceback.py
-	aifc.py		_collections_abc.py	      dummy_threading.py  html		  mailcap.py	     platform.py	    sched.py	      _strptime.py	   tracemalloc.py
-	antigravity.py	colorsys.py		      _dummy_thread.py	  http		  _markupbase.py     plat-x86_64-linux-gnu  selectors.py      struct.py		   trace.py
-	argparse.py	_compat_pickle.py	      email		  idlelib	  mimetypes.py	     plistlib.py	    shelve.py	      subprocess.py	   tty.py
-	ast.py		compileall.py		      encodings		  imaplib.py	  modulefinder.py    poplib.py		    shlex.py	      sunau.py		   turtle.py
-	asynchat.py	concurrent		      enum.py		  imghdr.py	  multiprocessing    posixpath.py	    shutil.py	      symbol.py		   types.py
-	asyncio		config-3.4m-x86_64-linux-gnu  filecmp.py	  importlib	  netrc.py	     pprint.py		    _sitebuiltins.py  symtable.py	   unittest
-	asyncore.py	configparser.py		      fileinput.py	  imp.py	  nntplib.py	     profile.py		    sitecustomize.py  _sysconfigdata.py    urllib
-	base64.py	contextlib.py		      fnmatch.py	  inspect.py	  ntpath.py	     pstats.py		    site.py	      sysconfig.py	   uuid.py
-	bdb.py		copy.py			      formatter.py	  io.py		  nturl2path.py      pty.py		    smtpd.py	      tabnanny.py	   uu.py
-	binhex.py	copyreg.py		      fractions.py	  ipaddress.py	  numbers.py	     __pycache__	    smtplib.py	      tarfile.py	   venv
-	bisect.py	cProfile.py		      ftplib.py		  json		  opcode.py	     pyclbr.py		    sndhdr.py	      telnetlib.py	   warnings.py
-	_bootlocale.py	crypt.py		      functools.py	  keyword.py	  operator.py	     py_compile.py	    socket.py	      tempfile.py	   wave.py
-	bz2.py		csv.py			      __future__.py	  lib2to3	  optparse.py	     pydoc_data		    socketserver.py   test		   weakref.py
-	calendar.py	ctypes			      genericpath.py	  lib-dynload	  os.py		     pydoc.py		    sqlite3	      textwrap.py	   _weakrefset.py
-	cgi.py		curses			      getopt.py		  LICENSE.txt	  _osx_support.py    _pyio.py		    sre_compile.py    this.py		   webbrowser.py
-	cgitb.py	datetime.py		      getpass.py	  linecache.py	  pathlib.py	     queue.py		    sre_constants.py  _threading_local.py  wsgiref
-	chunk.py	dbm			      gettext.py	  locale.py	  pdb.py	     quopri.py		    sre_parse.py      threading.py	   xdrlib.py
-	cmd.py		decimal.py		      glob.py		  logging	  __phello__.foo.py  random.py		    ssl.py	      timeit.py		   xml
-	codecs.py	difflib.py		      gzip.py		  lzma.py	  pickle.py	     reprlib.py		    statistics.py     tkinter		   xmlrpc
-	codeop.py	dis.py			      hashlib.py	  macpath.py	  pickletools.py     re.py		    stat.py	      tokenize.py	   zipfile.py
-	code.py		distutils		      heapq.py		  macurl2path.py  pipes.py	     rlcompleter.py	    stringprep.py     token.py
