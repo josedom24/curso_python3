@@ -116,7 +116,7 @@ Suponemos que estamos utilizando la clase `circulo` sin la instrucción `print` 
 
 ## Comparación de objetos \_\_eq\_\_
 
-Tampoco podemos comparar dos `circulos` sin definir `____eq()____`, ya que sin este método Python comparará posiciones en memoria.
+Tampoco podemos comparar dos `circulos` sin definir `__eq()__`, ya que sin este método Python comparará posiciones en memoria.
 
 Continuamos con la clase `circulo`:
 	
@@ -129,7 +129,7 @@ Continuamos con la clase `circulo`:
 	>>> c1 == c2
 	False
 
-Si queremos utilizar `<`, `<=`, `>` y `>=` tendremos que rescribir los métodos: `____lt()____`, `____le()____`, `____gt()____` y `____ge()____`
+Si queremos utilizar `<`, `<=`, `>` y `>=` tendremos que rescribir los métodos: `__lt()__`, `__le()__`, `__gt()__` y `__ge()__`
 
 ## Operar con objetos \_\_add\_\_ y \_\_sub\_\_
 
