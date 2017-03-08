@@ -299,9 +299,9 @@
 52. [Conceptos avanzados de programación orientada a objetos II](curso/u52)
 
 	* Propiedades: getters, setters, deleter
-	* Representación de objetos __str__ y __repr__
-	* Comparación de objetos __eq__
-	* Operar con objetos __add__ y __sub__
+	* Representación de objetos "__str__" y "__repr__"
+	* Comparación de objetos "__eq__"
+	* Operar con objetos "__add__" y "__sub__"
 
 
 3. Herencia
