@@ -85,10 +85,10 @@ Hay un tercera property que podemos crear: el deleter
 
 ## Representación de objetos \_\_str\_\_ y \_\_repr\_\_
 
-La documentación de Python hace referencia a que el método `\_\_str()\_\_` ha de devolver la representación "informal" del objeto, mientras que `\_\_repr()\_\_` la "formal".
+La documentación de Python hace referencia a que el método `__str()__` ha de devolver la representación "informal" del objeto, mientras que `__repr()__` la "formal".
 
-* La función `\_\_str()\_\_` debe devolver la cadena de texto que se muestra por pantalla si llamamos a la función `str()`. Esto es lo que hace Python cuando usamos `print`. Suele devolver el nombre de la clase.
-* De `\_\_repr()\_\_`, por el otro lado, se espera que nos devuelva una cadena de texto con una representación única del objeto. Idealmente, la cadena devuelta por `\_\_repr()\_\_` debería ser aquella que, pasada a `eval()`, devuelve el mismo objeto.
+* La función `__str()__` debe devolver la cadena de texto que se muestra por pantalla si llamamos a la función `str()`. Esto es lo que hace Python cuando usamos `print`. Suele devolver el nombre de la clase.
+* De `__repr()__`, por el otro lado, se espera que nos devuelva una cadena de texto con una representación única del objeto. Idealmente, la cadena devuelta por `__repr()__` debería ser aquella que, pasada a `eval()`, devuelve el mismo objeto.
 
 Continuamos con la clase `circulo`:
 
@@ -116,7 +116,7 @@ Suponemos que estamos utilizando la clase `circulo` sin la instrucción `print` 
 
 ## Comparación de objetos \_\_eq\_\_
 
-Tampoco podemos comparar dos `circulos` sin definir `\_\_eq()\_\_`, ya que sin este método Python comparará posiciones en memoria.
+Tampoco podemos comparar dos `circulos` sin definir `____eq()____`, ya que sin este método Python comparará posiciones en memoria.
 
 Continuamos con la clase `circulo`:
 	
@@ -129,7 +129,7 @@ Continuamos con la clase `circulo`:
 	>>> c1 == c2
 	False
 
-Si queremos utilizar `<`, `<=`, `>` y `>=` tendremos que rescribir los métodos: `\_\_lt()\_\_`, `\_\_le()\_\_`, `\_\_gt()\_\_` y `\_\_ge()\_\_`
+Si queremos utilizar `<`, `<=`, `>` y `>=` tendremos que rescribir los métodos: `____lt()____`, `____le()____`, `____gt()____` y `____ge()____`
 
 ## Operar con objetos \_\_add\_\_ y \_\_sub\_\_
 
