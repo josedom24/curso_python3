@@ -224,6 +224,7 @@
 	* Importando elementos de un módulo: from...import
 	* Importando módulos desde paquetes
 	* Función dir()
+	* ¿Donde se encuentran los módulos?
 
 41. [Módulos estándares: módulos de sistema](curso/u41)
 	* Módulo os
