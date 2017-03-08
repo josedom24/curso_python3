@@ -104,18 +104,62 @@ Continuamos con la clase `circulo`:
 		return msg.format(clase, self.radio)
 
 
+Suponemos que estamos utilizando la clase `circulo` sin la instrucción `print` en el getter. 
+
 	>>> c1=circulo(3)
 	>>> print(c1)
-	Estoy dando el radio
 	circulo de radio 3
 	>>> repr(c1)
-	Estoy dando el radio
 	'circulo(3)'
 	>>> type(eval(repr(c1)))
-	Estoy dando el radio
 	<class 'circulo2.circulo'>
 
 ## Comparación de objetos \_\_eq\_\_
 
 Tampoco podemos comparar dos `circulos` sin definir `\_\_eq()\_\_`, ya que sin este método Python comparará posiciones en memoria.
+
+Continuamos con la clase `circulo`:
+	
+	...
+	def __eq__(self,otro):
+		return self.radio==otro.radio
+
+	>>> c1=circulo(5)
+	>>> c2=circulo(3)
+	>>> c1 == c2
+	False
+
+Si queremos utilizar `<`, `<=`, `>` y `>=` tendremos que rescribir los métodos: `\_\_lt()\_\_`, `\_\_le()\_\_`, `\_\_gt()\_\_` y `\_\_ge()\_\_`
+
+## Operar con objetos \_\_add\_\_ y \_\_sub\_\_
+
+Si queremos operar con los operadores `+` y `-`:
+
+	def __add__(self,otro):
+		self.radio+=otro.radio
+
+	def __sub__(self,otro):
+		if self.radio-otro.radio>=0:
+			self.radio-=otro.radio
+		else:
+			raise ValueError("No se pueden restar")
+
+	>>> c1=circulo(5)
+	>>> c2=circulo(3)
+	>>> c1 + c2
+	>>> c1.radio
+	8	
+	
+
+	>>> c1=circulo(5)
+	>>> c2=circulo(3)
+	>>> c1 - c2
+	>>> c1.radio
+	2
+	>>> c1 - c2
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	  File "/home/jose/github/curso_python3/curso/u52/circulo2.py", line 42, in __sub__
+	    raise ValueError("No se pueden restar")
+	ValueError: No se pueden restar
 
