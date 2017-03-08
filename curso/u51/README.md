@@ -1,4 +1,4 @@
-# Conceptos avanzados de programación orientada a objetos
+# Conceptos avanzados de programación orientada a objetos I
 
 ## Atributos de clase (estáticas)
 
@@ -97,7 +97,3 @@ Lo podemos llamar desde el objeto o desde la clase.
 
 	>>> hasattr(a1,"nombre")
 	True
-
-## Propiedades: getters, setters, deleter
-
-

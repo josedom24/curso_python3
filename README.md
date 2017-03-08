@@ -289,16 +289,20 @@
 	* Definiendo métodos. El parámetro self
 	* Definición de objetos
 
-51. [Conceptos avanzados de programación orientada a objetos](curso/u51)
+51. [Conceptos avanzados de programación orientada a objetos I](curso/u51)
 	* Atributos de clase (estáticas)
 	* Atributos privados y ocultos
 	* Métodos estáticos
 	* Métodos de clase (estáticos)
 	* Funciones getattr,setattr,delattr,hasattr
+	
+52. [Conceptos avanzados de programación orientada a objetos II](curso/u52)
+
 	* Propiedades: getters, setters, deleter
 	* Representación de objetos __str__ y __repr__
 	* Comparación de objetos __eq__
 	* Operar con objetos __add__ y __sub__
+
 
 3. Herencia
 	* Concepto de herencia
