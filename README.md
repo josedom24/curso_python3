@@ -306,12 +306,13 @@
 	* Más métodos especiales
 
 
-53. [Herencia](curso/u53)
+53. [Polimorfismo, herencia y delegación](curso/u53)
 	
-	* Concepto de herencia
+	* Polimorfismo 
+	* Herencia
 	* La función super()
 	* Herencia múltiple
-	* Polimorfismo y delegación
+	* Delegación
 
 
 	### Ejercicios programación orientada a objetos

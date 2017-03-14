@@ -1,6 +1,6 @@
 class circulo():
 	def __init__(self,radio):
-		self.radio=radio
+		self.radio=radio  ## Este el setter
 	
 	@property
 	def radio(self):
