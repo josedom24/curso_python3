@@ -303,6 +303,7 @@
 	* Representación de objetos \_\_str\_\_ y \_\_repr\_\_
 	* Comparación de objetos \_\_eq\_\_
 	* Operar con objetos \_\_add\_\_ y \_\_sub\_\_
+	* Más métodos especiales
 
 
 53. [Herencia](curso/u53)

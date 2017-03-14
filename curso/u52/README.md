@@ -165,3 +165,6 @@ Si queremos operar con los operadores `+` y `-`:
 	    raise ValueError("No se pueden restar")
 	ValueError: No se pueden restar
 
+## Más métodos especiales
+
+Existen muchos más métodos especiales que podemos sobreescibir en nuestras clases para añadir funcionalidad a las mismas. Puedes ver la [documentación oficial](https://docs.python.org/3.4/reference/datamodel.html#special-method-names) para aprender más sobre ellas.
