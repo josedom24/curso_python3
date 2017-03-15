@@ -36,8 +36,8 @@ class punto():
 class punto3d(punto):
 	def __init__(self,otro=None,x=0,y=0,z=0):
 		if otro!=None:
-			self.x=otro.x
-			self.y=otro.y
+			super().x=otro.x
+			super().y=otro.y
 			self.z=otro.z
 		else:
 			super().__init__(x,y)
