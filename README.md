@@ -312,8 +312,8 @@
 	* Herencia
 	* La función super()
 	* Herencia múltiple
+	* Funciones issubclass() y isinstance() 
 	* Delegación
-
 
 	### Ejercicios programación orientada a objetos
 

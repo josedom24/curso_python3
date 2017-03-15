@@ -1,13 +1,9 @@
 
 class punto():
 
-	def __init__(self,otro=None,x=0,y=0):
-		if otro!=None:
-			self.x=otro.x
-			self.y=otro.y
-		else:
-			self.x=x
-			self.y=y
+	def __init__(self,x=0,y=0):
+		self.x=x
+		self.y=y
 
 	@property
 	def x(self):
@@ -34,14 +30,9 @@ class punto():
 		return (dx*dx + dy*dy)**0.5
 
 class punto3d(punto):
-	def __init__(self,otro=None,x=0,y=0,z=0):
-		if otro!=None:
-			super().x=otro.x
-			super().y=otro.y
-			self.z=otro.z
-		else:
-			super().__init__(x,y)
-			self.z=z
+	def __init__(self,x=0,y=0,z=0):
+		super().__init__(x,y)
+		self.z=z
 	@property
 	def z(self):
 		return self._z
@@ -51,7 +42,7 @@ class punto3d(punto):
 		self._z=z
 
 	def __str__(self):
-		return super().__str__+":"+str(self.z)
+		return super().__str__()+":"+str(self.z)
 
 	def distancia(self,otro):
 		dx = self.x - otro.x
