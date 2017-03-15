@@ -138,3 +138,23 @@ La función booleana `isinstance(Objeto, Clase)` se utiliza para comprobar si un
 	>>> isinstance(mimovil,Movil)
 	True
 
+## Delegación
+
+Llamamos delegación a la situación en la que una clase contiene (como atributos) una o más instancias de otra clase, a las que delegará parte de sus funcionalidades.
+
+A partir de la clase `punto`, podemos crear la clase `circulo` de esta forma:
+
+	class circulo():	
+
+		def __init__(self,centro,radio):
+			self.centro=centro
+			self.radio=radio	
+
+		def __str__(self):
+			return "Centro:{0}-Radio:{1}".format(self.centro.__str__(),self.radio)	
+
+Y creamos un objeto `circulo`:
+
+	>>> c1=circulo(punto(2,3),5)
+	>>> print(c1)
+	Centro:2:3-Radio:5
