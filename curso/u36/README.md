@@ -112,6 +112,6 @@ Podemos abrirlo y cerrarlo en la misma instrucción con la siguiente estructura:
 
 ## Recorrido de ficheros
 
->>> with open("ejemplo3.txt","r") as fichero:
-...    for linea in fichero:
-...        print(linea)
+	>>> with open("ejemplo3.txt","r") as fichero:
+	...    for linea in fichero:
+	...        print(linea)
