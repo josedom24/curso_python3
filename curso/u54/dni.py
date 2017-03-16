@@ -2,11 +2,10 @@
 
 class Dni():
 
-	def __init__(self,numero,letra=""):
+	def __init__(self,numero):
 		self.numero=numero
 
 	def __calcular_letra(self):
-		print(self.numero)
 		letras = 'TRWAGMYFPDXBNJZSQVHLCKE'
 		return letras[int(self.numero)%23]
 
@@ -19,10 +18,9 @@ class Dni():
 		if len(numero)==8 and numero.isdigit():
 			self._numero = numero
 			self._letra = self.__calcular_letra()
-		else:
-			raise ValueError("Radio positivo")
-			self._numero=""
-			self._letra=""
+		else: 
+			raise ValueError("DNI incorecto")
+
 
 	@property
 	def letra(self):
