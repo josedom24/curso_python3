@@ -1,4 +1,4 @@
-## Módulos estándares: módulos de sistema
+# Módulos estándares: módulos de sistema
 
 Python tiene sus propios módulos, los cuales forman parte de su librería de módulos estándar, que también pueden ser importados. En esta unidad vamos a estudiar las funciones porincipales de módulos realacionados con el sistema operativo.
 
