@@ -19,7 +19,7 @@
 5. [Mi primer programa en python3](curso/u5)
 	* Uso del interprete
 	* Escribimos un programa
-	* Ejecución de programas usando [shebang](https://es.wikipedia.org/wiki/Shebang)
+	* Ejecución de programas usando shebang
 	* Guía de estilo
 
 	### Estructura del lenguaje
