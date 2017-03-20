@@ -102,6 +102,7 @@ Podemos clasificaros en varios tipos:
 
 * Operadores aritméticos
 * Operadores de cadenas
+* Operadores de asignación
 * Operadores de comparación
 * Operadores lógicos
 * Operadores a nivel de bit
