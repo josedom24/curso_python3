@@ -317,7 +317,6 @@
 
 	### Ejercicios programación orientada a objetos
 
-1. Ejercicios de Programación orientada a objetos
-2. POO: Ejemplo completo
+54. Programación orientadas a objetos: Ejemplo completo
 
 
