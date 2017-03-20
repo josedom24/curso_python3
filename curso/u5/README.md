@@ -47,7 +47,7 @@ Para ejecutar este programa (guardado en `hola.py`):
 	$ python3 hola.py
 	$ Hola mundo!!!
 
-## Ejecución de programas usando [shebang](https://es.wikipedia.org/wiki/Shebangn)
+## Ejecución de programas usando [shebang](https://es.wikipedia.org/wiki/Shebang)
 
 Podemos ejecutar directamente el fichero utilizando en la primera línea el shebang, donde se indica el ejecutable que vamos a utilizar.
 

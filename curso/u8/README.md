@@ -44,7 +44,7 @@ Con el carácter /, podemos escapar algunos caracteres, veamos algunos ejemplos:
 
 ### Variables
 
-Una variables es un identificador que referencia a un valor. Estudiaremos más adelante que python utiliza tipado dinámico, lo tan no se usa el concepto de variable como almacén de información. Para que una variable reverencie a un valor se utiliza el operador de asignación `=`.
+Una variables es un identificador que referencia a un valor. Estudiaremos más adelante que python utiliza tipado dinámico, por lo tanto no se usa el concepto de variable como almacén de información. Para que una variable referencie a un valor se utiliza el operador de asignación `=`.
 
 El nombre de una variable, ha de empezar por una letra o por el carácter guión bajo, seguido de letras, números o guiones bajos. No hay que declarar la variable antes de usarla, el tipo de la variable será el mismo que el del valor al que hace referencia. Por lo tanto su tipo puede cambiar en cualquier momento:
 
