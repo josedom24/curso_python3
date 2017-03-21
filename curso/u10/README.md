@@ -22,7 +22,7 @@ Python procura no consumir más memoria que la necesaria. Ciertos objetos son **
 
 **Ejemplo**
 
-Para comprobar esto, vamos a utilizar la función `id`, que nos devuelve el identificados de la variable o el objeto en memoria.
+Para comprobar esto, vamos a utilizar la función `id`, que nos devuelve el identificador de la variable o el objeto en memoria.
 
 Veamos el siguiente código:
 
