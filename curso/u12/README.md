@@ -58,7 +58,7 @@ Como hemos visto en la unidad anterior son tipos de datos inmutables.
 
 ## Operadores a nivel de bit
 
-* `x | y`: x OR y	bitwise or of x and y 	 
+* `x | y`: x OR y	
 * `x ^ y`: x XOR y 	 
 * `x & y`: a AND y 	 
 * `x << n`: Desplazamiento a la izquierda **n** bits.
