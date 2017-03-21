@@ -13,7 +13,9 @@ Podemos concreatar aún más los tipos de datos (o clases) de los objetos que ma
 	* Tipo rango (range)
 * Tipo de datos cadenas de caracteres
 	* Tipo cadena (str)
+* Tipo de datos binarios
 	* Tipo byte (bytes)
+	* tipo bytearray (bytearray)
 * Tipo de datos conjuntos
 	* Tipo conjunto (set)
 	* Tipo conjunto inmutable (frozenset)
