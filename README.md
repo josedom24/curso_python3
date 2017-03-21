@@ -65,7 +65,7 @@
 	* Reales
 	* Complejos
 	* Operadores aritmético
-	* Funciones predefinidas que trabajan con números: abs(), divmod(), hex() oct(x), pow(), round()
+	* Funciones predefinidas que trabajan con números
 	* Operadores a nivel de bit
 	* Conversión de tipos
 13. [Tipo de dato booleanos](curso/u13) 
