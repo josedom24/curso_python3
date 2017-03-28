@@ -56,7 +56,7 @@ Se utiliza el caracter `#` para indicar los comentarios.
 	# código demasiado extensa en varias líneas:	
 
 	if condicion1 and condicion2 and condicion3 and \  
-	    condicion4 and condicion5	
+	    condicion4 and condicion5:	
 
 	# Las expresiones entre paréntesis, llaves o corchetes pueden 
 	# ocupar varias líneas:	
