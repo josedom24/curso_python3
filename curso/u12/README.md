@@ -10,6 +10,7 @@ Como hemos visto en la unidad anterior son tipos de datos inmutables.
 
 *Ejemplos*
 
+	>>> entero = 7
 	>>> type(entero)
 	<class 'int'>
 	>>> real = 7.2
