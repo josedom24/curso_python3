@@ -10,7 +10,7 @@ Tenemos una serie de funciones predefinidas en python3:
 	ascii() 	  enumerate()		input() 	 oct() 		staticmethod()
 	bin() 		  eval() 		int() 		 open() 	str()
 	bool()		  exec() 		isinstance() 	ord() 		sum()
-	bytearray()		filter() 		issubclass() pow() 		super()
+	bytearray()	filter() 		issubclass() pow() 		super()
 	bytes() 	  float() 		iter() 	 	 print() 	tuple()
 	callable() 	  format() 		len() 		 property() type()
 	chr() 		  frozenset() 	list() 		 range() 	vars()
