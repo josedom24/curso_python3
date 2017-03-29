@@ -13,11 +13,11 @@ Tenemos una serie de funciones predefinidas en python3:
 	bytearray()	  filter() 		issubclass() 	pow() 		super()
 	bytes() 	  float() 		iter() 	 	 print() 	tuple()
 	callable() 	  format() 		len() 		 property() type()
-	chr() 		  frozenset() 	list() 		 range() 	vars()
-	classmethod()	getattr() 	locals() 	 repr() 	zip()
-	compile() 	  globals() 	map() 		 reversed() __import__()
-	complex() 	  hasattr() 	max() 		 round() 	 
-	delattr() 	  hash() 	memoryview() set() 	 
+	chr() 		  frozenset() 		list() 		 range() 	vars()
+	classmethod()	  getattr() 		locals() 	 repr() 	zip()
+	compile() 	  globals() 		map() 		 reversed() __import__()
+	complex() 	  hasattr() 		max() 		 round() 	 
+	delattr() 	  hash() 		memoryview() set() 	 
 
 Todas estas funciones y algunos elmentos comunes del lenguaje están definidas en el módulo [builtins](https://docs.python.org/3/library/builtins.html).
 
