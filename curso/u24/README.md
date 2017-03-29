@@ -34,7 +34,7 @@ Si se tiene una tupla de longitud k, se puede asignar la tupla a k variables dis
 
 En las tuplas se pueden realizar las siguientes operaciones:
 
-* Las secuencias se pueden recorrer.
+* Las tuplas se pueden recorrer.
 * Operadores de pertenencia: `in` y `not in`.
 * Concatenación: `+` 
 * Repetición: `*`
