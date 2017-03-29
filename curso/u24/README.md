@@ -53,7 +53,7 @@ Entre las funciones definidas podemos usar: `len`, `max`, `min`, `sum`, `sorted`
 
 ## Métodos principales
 
-Métodos de búsqueda: count, index
+Métodos de búsqueda: `count`, `index`
 
 	>>> tupla = (1,2,3,4,1,2,3)
 	>>> tupla.count(1)
