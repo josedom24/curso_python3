@@ -35,7 +35,7 @@ Los rangos se suelen usar para ser recorrido, cuando tengo que crear un bucle cu
 
 En las tuplas se pueden realizar las siguientes operaciones:
 
-* Las secuencias se pueden recorrer.
+* Los rangos se pueden recorrer.
 * Operadores de pertenencia: `in` y `not in`.
 * Indexación
 * Slice
