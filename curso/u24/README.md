@@ -6,15 +6,15 @@ Las tuplas (`tuple`): Sirven para los mismo que las listas (me permiten guardar 
 
 Para crear una lista puedo usar varias formas:
 
-* Con los caracteres ( y ):
+	* Con los caracteres ( y ):
 
-    >>> tupla1 = ()
-    >>> tupla2 = ("a",1,True)
+    	>>> tupla1 = ()
+    	>>> tupla2 = ("a",1,True)
 
-* Utilizando el constructor tuple, que toma como parámetro un dato de algún tipo secuencia.
+	* Utilizando el constructor tuple, que toma como parámetro un dato de algún tipo secuencia.
 
-	>>> tupla3=tuple()
-	>>> tuple4=tuple([1,2,3])
+		>>> tupla3=tuple()
+		>>> tuple4=tuple([1,2,3])
 
 ## Empaquetado y desempaquetado de tuplas
 
