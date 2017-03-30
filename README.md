@@ -113,7 +113,7 @@
 	* Métodos de búsqueda: count, index
 	* Método de copia: copy
 
-22. [Ejercicios de listas](curso/u23)	
+22. [Ejercicios de listas](curso/u22)	
 
 23. [Operaciones avanzadas con secuencias](curso/u23)
 	* Función map
