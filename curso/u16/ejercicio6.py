@@ -2,5 +2,7 @@
 letra=input("Letra:")		
 if letra>="A" and letra<="Z":
 	print("Mayuscula")
+elif letra>="a" and letra<="z":
+	print("Minúscula")
 else:
-	print("No mayuscula")
+	print("Otro carácter")

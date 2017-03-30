@@ -1,4 +1,4 @@
-# Ejercicios de alternativas
+# Ejercicios de repetitivas
 
 Pedir un número por teclado y mostrar la tabla de multiplicar
 
