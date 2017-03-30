@@ -9,6 +9,3 @@ for n in lista:
     if n % 2 ==0:
         print(n,end=" ")
 print()
-# con list comprehension
-for n in [x for x in lista if x % 2 == 0]:
-	print(n)

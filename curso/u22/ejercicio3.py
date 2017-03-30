@@ -17,6 +17,3 @@ for i in range(0,apariciones):
 	lista[pos]=cadena2
 print(lista)	
 
-while cadena2 in lista:
-	lista.remove(cadena2)
-print(lista)

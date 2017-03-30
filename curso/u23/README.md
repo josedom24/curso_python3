@@ -10,7 +10,7 @@ Las funciones que vamos a estudiar en esta unidad nos acercan al paradigna de la
 
 	>>> items = [1, 2, 3, 4, 5]
 	>>> def sqr(x): return x ** 2
-	>>> list(map(sqr, ites))
+	>>> list(map(sqr, items))
 	[1, 4, 9, 16, 25]
 
 ## Función filter
