@@ -68,9 +68,9 @@ scribir un programa python que dado una palabra diga si es un palíndromo. Un pa
 
 Solución
 
-#!/usr/bin/env python
-cad1=input("Cadena:")	
-if cad1.lower()==cad1[::-1].lower():
-    print("palindromo")
-else:
-    print("no palindromo")
+	#!/usr/bin/env python
+	cad1=input("Cadena:")	
+	if cad1.lower()==cad1[::-1].lower():
+    		print("palindromo")
+	else:
+    		print("no palindromo")
