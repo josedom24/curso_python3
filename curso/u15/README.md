@@ -16,9 +16,9 @@ Si al evaluar la expresión lógica obtenermos el resultado True ejecuta un bloq
 
 ## Alternativas múltiples
 
-	if numero<0:
+	if numero>0:
 		print("Número es negativo")	
-	elif:
+	elif numero<0:
 		print("Número es positivo")
 	else:
 		print("Número es cero")
