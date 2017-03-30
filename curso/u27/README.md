@@ -17,7 +17,7 @@ También podemos crear cadenas con el constructor `str` a partir de otros tipos 
 	>>> cad2=str(2.45)
 	>>> cad3=str([1,2,3])
 
-## Operaciones básicas con listas
+## Operaciones básicas con cadenas de caracteres
 
 Como veíamos en el apartado "Tipo de datos secuencia" podemos realizar las siguientes operaciones:
 
