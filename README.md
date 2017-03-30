@@ -113,13 +113,15 @@
 	* Métodos de búsqueda: count, index
 	* Método de copia: copy
 
-22. [Operaciones avanzadas con secuencias](curso/u22)
+22. [Ejercicios de listas](curso/u23)	
+
+23. [Operaciones avanzadas con secuencias](curso/u23)
 	* Función map
 	* Función filter
 	* Función reduce
 	* list comprehension
 
-23. [Ejercicios de listas](curso/u23)	
+
 
 24. [Tipo de datos secuencia: Tuplas](curso/u24)
 	* Construcción de una tupla

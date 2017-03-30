@@ -1,51 +1,64 @@
-# Operaciones avanzadas con secuencias
+# Ejercicios de listas
 
-Las funciones que vamos a estudiar en esta unidad nos acercan al paradigna de la programación funcional que también nos ofrece python. La programación funcional es un paradigma de programación declarativa basado en el uso de funciones matemáticas, en contraste con la programación imperativa, que enfatiza los cambios de estado mediante la mutación de variables.
+Lee por teclado números y guardalo en una lista, el proceso finaliza cuando metamos un número negativo. Muestra el máximo de los números guardado en la lista, muestra los números pares.
 
-## Función map
+Solución
 
-`map(funcion,secuencia)`: Ejecuta la función enviada por parámetro sobre cada uno de los elementos de la secuencia.
+	#!/usr/bin/env python
+	num=int(input("Número:"))
+	lista=[]
+	while num>0:
+	    lista.append(num)
+	    num=int(input("Número:"))		
+	print("Maáximo: %d" % max(lista))
+	for n in lista:
+	    if n % 2 ==0:
+	        print(n,end=" ")
+	print()
+	# con list comprehension
+	for n in [x for x in lista if x % 2 == 0]:
+		print(n)
 
-*Ejemplo*
+Realizar un programa que, dada una lista, devuelva una nueva lista cuyo contenido sea igual a la original pero invertida. Así, dada la lista [‘Di’, ‘buen’, ‘día’, ‘a’, ‘papa’], deberá devolver [‘papa’, ‘a’, ‘día’, ‘buen’, ‘Di’].
 
-	>>> items = [1, 2, 3, 4, 5]
-	>>> def sqr(x): return x ** 2
-	>>> list(map(sqr, ites))
-	[1, 4, 9, 16, 25]
+Solución
 
-## Función filter
+	#!/usr/bin/env python
+	lista=['Di', 'buen', 'dia', 'a', 'papa']
+	print(lista[::-1])
 
-`filter(funcion,secuencia)`: Devuelve una secuencia con los elementos de la secuencia envíada por parámetro que devuelvan `True` al aplicarle la función envíada también como parámetro.
+Dada una lista de cadenas, pide una cadenena por teclado e indica si está en la lista, indica cuantas veces aparece en la lista,  lee otra cadena y sustituye la primera por la segunda en la lista, y por último borra la cadena de la lista
 
-*Ejemplo*
+Solución
 
-	>>> lista = [1,2,3,4,5]
-	>>> def par(x): return x % 2==0 
-	>>> list(filter(par,lista))
+	#!/usr/bin/env python
+	lista=['Di', 'buen', 'dia', 'a', 'papa',"hola","papa","buen","dia"]	
 
-## Función reduce
+	cadena=input("Cadena:")
+	if cadena in lista:
+		print("La cadena está en la lista")
+	else:
+		print("La cadena no está en la lista")	
 
-`reduce(funcion,secuencia)`: Devuelve un único valor que es el resultado de aplicar la función á los lementos de la secuencia.
-	
-*Ejemplo*
+	print(lista.count(cadena))	
 
-	>>> from functools import reduce
-	>>> lista = [1,2,3,4,5]
-	>>> def add(x,y): return x + y
-	>>> reduce(add,lista)
-	15
+	cadena2=input("Cadena a reemplazar:")
+	apariciones=lista.count(cadena)
+	pos=0
+	for i in range(0,apariciones):
+		pos=lista.index(cadena,pos)
+		lista[pos]=cadena2
+	print(lista)
 
-# list comprehension
+Dado una lista, hacer un programa que indique si está ordenada o no.
 
-`list comprehension` nos propociona una alternativa para la creación de listas. Es parecida a la función `map`, pero mientras `map` ejecuta una función por cada elemento de la secuencia, con esta técnica se aplica una expresión.
+Solución
 
-*Ejemplo*
-
-	>>> [x ** 3 for x in [1,2,3,4,5]]
-	[1, 8, 27, 64, 125]
-
-	>>> [x for x in range(10) if x % 2 == 0]
-	[0, 2, 4, 6, 8] 
-
-	>>> [x + y for x in [1,2,3] for y in [4,5,6]]
-	[5, 6, 7, 6, 7, 8, 7, 8, 9]
+	#!/usr/bin/env python
+	lista=[2,3,4,1]
+	lista2=lista[:]
+	lista.sort()
+	if lista==lista2:
+		print("Lista ordenada")
+	else:
+		print("Lista no ordenada")
