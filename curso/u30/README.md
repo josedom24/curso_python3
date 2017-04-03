@@ -17,7 +17,7 @@ También podemos crear cadenas con el constructor bytes a partir de otros tipos 
 
 	>>> byte1=bytes(10)
 	>>> byte1
-	b'\xf1a00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+	b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
 	>>> byte2=bytes(range(10))
 	>>> byte2
 	b'\x00\x01\x02\x03\x04\x05\x06\x07\x08\t'
