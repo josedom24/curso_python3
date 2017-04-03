@@ -11,7 +11,7 @@ Podemos definir un tipo `bytes` de distintas formas:
 	>>> byte1 = b"Hola"
 	>>> byte2 = b'¿Qué tal?'
 	>>> byte3 = b'''Hola,
-    	que tal?'''cd ..
+    	que tal?'''
 
 También podemos crear cadenas con el constructor bytes a partir de otros tipos de datos.
 
