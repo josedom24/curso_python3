@@ -319,6 +319,6 @@
 
 	### Ejercicios programación orientada a objetos
 
-54. Programación orientadas a objetos: Ejemplo completo
+54. [Programación orientadas a objetos: Ejemplo completo](curso/u54)
 
 
