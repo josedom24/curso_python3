@@ -6,7 +6,7 @@ Para realizar este programa vamos a construir varias funciones:
 
 * `LeerPartidos()`: Función que lee el fichero CSV y devuelve los datos del mismo en un diccionario.
 * `Equipos(datosliga)`: Función que recibe el diccionario de datos de la liga y devuelve un conjunto con los equipos de la liga.
-* `QuienGana(resultado): Función que recibe un resultado y devuelve un 0 si es un empate, un 1 si gana el equipo de casa y -1 si gana el equipo visitante.
+* `QuienGana(resultado)`: Función que recibe un resultado y devuelve un 0 si es un empate, un 1 si gana el equipo de casa y -1 si gana el equipo visitante.
 * `Puntos(info)`: Función que recibe una lista con los partidos ganados, empatados y perdidos y devuelve los puntos obtenidos.
 * `InfoEquipos(datosliga,equipos)`: Función que recibe el diccionario de datos de la liga y el conjunto de equipos y devuelve una lista de tuplas, en cada tupla se guarda un equipo con los partidos ganados, empatados y perdidos y los puntos obtenidos.
 * `Clasificacion(datos)`: Recibe la lista generada con la función anterior y la ordena según el número de puntos.
