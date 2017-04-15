@@ -33,7 +33,7 @@ El módulo [fractions](https://docs.python.org/3.4/library/fractions.html) nos p
 
 ## Módulo statistics
 
-El módulo [statistics](https://docs.python.org/3.4/library/statistics.html) nos proporciones funciones para hacer operaciones estadísticas.
+El módulo [statistics](https://docs.python.org/3.4/library/statistics.html) nos proporciona funciones para hacer operaciones estadísticas.
 
 	>>> import statistics
 	>>> statistics.mean([1,4,5,2,6])
