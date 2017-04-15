@@ -2,7 +2,7 @@
 
 ## Errores sintácticos y errores de ejecución
 
-Veamos un ejemplo de error sintactico:
+Veamos un ejemplo de error sintáctico:
 
 	>>> while True print('Hello world')
 	  File "<stdin>", line 1
@@ -10,7 +10,7 @@ Veamos un ejemplo de error sintactico:
 	                   ^
 	SyntaxError: invalid syntax
 
-Una excepción o un error de ejecución se produce durante la ejecución del programa. Las excepciones se puede manejar para que no termine el programa. Veamos algunos ejemplos de excpciones:
+Una excepción o un error de ejecución se produce durante la ejecución del programa. Las excepciones se puede manejar para que no termine el programa. Veamos algunos ejemplos de excepciones:
 
 	>>> 4/0
 	Traceback (most recent call last):
@@ -38,7 +38,7 @@ Veamos un ejemplo simple como podemos tratar una excepción:
 	...     x = int(input("Introduce un número:"))
 	...     break
 	...   except ValueError:
-	...     print ("Debes in troducir un número")
+	...     print ("Debes introducir un número")
 
 1. Se ejecuta el bloque de instrucciones de `try`.
 2. Si no se produce la excepción, el bloque de `except` no se ejecuta y continúa la ejecución secuencia.
@@ -50,7 +50,7 @@ Un bloque `except` puede manejar varios tipos de excepciones:
 	... except (RuntimeError, TypeError, NameError):
 	...     pass
 
-Si quiero controlar varios tipos de excpciones puedo poner varios bloques `except`. Teniendo en cunta que en el último, si quiero no indico el tipo de excpción:
+Si quiero controlar varios tipos de excepciones puedo poner varios bloques `except`. Teniendo en cuenta que en el último, si quiero no indico el tipo de excepción:
 
 	>>> try:
 	...   print (10/int(cad))
@@ -61,7 +61,7 @@ Si quiero controlar varios tipos de excpciones puedo poner varios bloques `excep
 	... except:
 	...   print("Otro error")
 
-Se puede utilziar también la cluasula `else`:
+Se puede utilizar también la clausula `else`:
 
 	>>> try:
 	...   print (10/int(cad))
@@ -84,7 +84,7 @@ Por último indicar que podemos indicar una clausula `finally` para indicar un b
 	...     print("Terminamos el programa")
 
 
-## Obteniendo información de las excpciones
+## Obteniendo información de las excepciones
 
 	>>> cad = "a"
 	>>> try:
@@ -100,7 +100,7 @@ Por último indicar que podemos indicar una clausula `finally` para indicar un b
 
 ## Propagando excepciones. raise
 
-Si construimos una función donde se maneje una axcepción podemos hacer que la excpción se envía a la función desde la que la hemos llamdado. Para ello utilizamos la instrucción `raise`. Veamos algunos ejemplos:
+Si construimos una función donde se maneje una excepción podemos hacer que la excepción se envía a la función desde la que la hemos llamado. Para ello utilizamos la instrucción `raise`. Veamos algunos ejemplos:
 
 	def dividir(x,y):
 		try:
@@ -108,7 +108,7 @@ Si construimos una función donde se maneje una axcepción podemos hacer que la 
 		except ZeroDivisionError:
 			raise 
 
-Con `raise` también podemos propagar una excpción en concreto:
+Con `raise` también podemos propagar una excepción en concreto:
 
 	def nivel(numero):
 		if numero<0:
