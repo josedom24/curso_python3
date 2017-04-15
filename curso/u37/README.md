@@ -3,7 +3,7 @@
 ## Módulo CSV
 
 El módulo [cvs](https://docs.python.org/3.4/library/csv.html) nos permite trabajar con ficheros CSV.
-Un fichero CSV (comma-separated values)  son un tipo de documento en formato abierto sencillo para representar datos en forma de tabla, en las que las columnas se separan por comas (o por otro carácter), que tienen las siguientes características:
+Un fichero CSV (comma-separated values)  son un tipo de documento en formato abierto sencillo para representar datos en forma de tabla, en las que las columnas se separan por comas (o por otro carácter).
 
 ## Leer ficheros CSV
 
