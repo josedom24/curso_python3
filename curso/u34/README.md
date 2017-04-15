@@ -70,9 +70,7 @@
 	>>> dict1.keys()
 	dict_keys(['one', 'two', 'three'])
 
-	>>> dict1.keys()
-	dict_keys(['one', 'two', 'three'])
-
+	
 ## El tipo de datos dictviews
 
 Los tres últimos métodos devuelven un objeto de tipo `dictviews`.
