@@ -27,7 +27,7 @@ Una excepción o un error de ejecución se produce durante la ejecución del pro
 	  File "<stdin>", line 1, in <module>
 	TypeError: Can't convert 'int' object to str implicitly
 
-Hemos obtenido varias excpciones: ZeroDivisionError, NameError y TypeError. Puedes ver la [lista de excpciones](https://docs.python.org/3.4/library/exceptions.html#bltin-exceptions) y su significado.
+Hemos obtenido varias excpciones: ZeroDivisionError, NameError y TypeError. Puedes ver la [lista de excepciones](https://docs.python.org/3.4/library/exceptions.html#bltin-exceptions) y su significado.
 
 ## Manejando excepciones. try, except, else, finally
 

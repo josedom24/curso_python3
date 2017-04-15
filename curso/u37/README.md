@@ -32,8 +32,8 @@ Podemos guardar la lista obtenida en una variable y acceder a ella indicando fil
 Por supuesto podemos recorrer el resultado:
 
 	...
-		>>> for row in contenido:
-	...   print("Fila "+str(contenido.line_num)+" "+str(row))	
+	>>> for row in contenido:
+		print("Fila "+str(contenido.line_num)+" "+str(row))	
 
 	Fila 1 ['4/5/2015 13:34', 'Apples', '73']
 	Fila 2 ['4/5/2015 3:41', 'Cherries', '85']
