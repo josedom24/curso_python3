@@ -9,6 +9,7 @@ Un fichero CSV (comma-separated values)  son un tipo de documento en formato abi
 
 Para leer un fichero CSV utilizamos la función `reader()`:
 
+	>>> import csv
 	>>> fichero = open("ejemplo1.csv")
 	>>> contenido = csv.reader(fichero)
 	>>> list(contenido)
