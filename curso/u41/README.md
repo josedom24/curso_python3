@@ -139,8 +139,7 @@ Con la función `system()` del módulo `os` nos permite ejecutar comandos del si
 
 La función nos devuelve un código para indicar si la instrucción se ha ejecutado con éxito.
 
-Tenemos otra forma de ejecutar comandos del sistema operativo que nos da más funcionalidad, por ejemplo nos permite guardar la salida del comando en una variable. Para ello podemos usar el módulo [subprocess](https://docs.python.org/3.4/library/subprocess.
-html)
+Tenemos otra forma de ejecutar comandos del sistema operativo que nos da más funcionalidad, por ejemplo nos permite guardar la salida del comando en una variable. Para ello podemos usar el módulo [subprocess](https://docs.python.org/3.4/library/subprocess.html)
 
 	>>> import subprocess
 	>>> subprocess.call("ls")
