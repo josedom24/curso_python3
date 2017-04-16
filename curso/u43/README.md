@@ -2,7 +2,7 @@
 
 ## Módulo time
 
-El tiempo es medido como un número real que representa los segundos transcurridos desde el 1 de enero de 1970. Por lo tanto es imposible representar fechas anteriores a esta y fechas a partir de 2038	(tamaño del float rn la lubraría C (32 bits)).
+El tiempo es medido como un número real que representa los segundos transcurridos desde el 1 de enero de 1970. Por lo tanto es imposible representar fechas anteriores a esta y fechas a partir de 2038	(tamaño del float en la lubraría C (32 bits)).
 
 	>>> import time
 	>>> time.time()
