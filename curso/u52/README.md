@@ -131,8 +131,6 @@ Continuamos con la clase `circulo`:
 
 Si queremos utilizar `<`, `<=`, `>` y `>=` tendremos que rescribir los métodos: `__lt()__`, `__le()__`, `__gt()__` y `__ge()__`
 
-Si 
-
 ## Operar con objetos \_\_add\_\_ y \_\_sub\_\_
 
 Si queremos operar con los operadores `+` y `-`:
