@@ -2,7 +2,7 @@
 	
 ## Polimorfismo
 
-El polimorfismo es la técnico que nos posibilita que al invocar un determinado método de un objeto, podrán obtenerse distintos resultados según la clase del objeto. Esto se debe a que distintos objetos pueden tener un método con un mismo nombre, pero que realice distintas operaciones.
+El polimorfismo es la técnica que nos posibilita que al invocar un determinado método de un objeto, podrán obtenerse distintos resultados según la clase del objeto. Esto se debe a que distintos objetos pueden tener un método con un mismo nombre, pero que realice distintas operaciones.
 
 Lo llevamos usando desde principio del curso, por ejemplo podemos recorrer con una estructura `for` distintas clases de objeto, debido a que el método especial `__iter__` está definida en cada una de las clases. Otro ejemplo sería que con la función `print` podemos imprimir distintas clases de objeto, en este caso, el método especial `__str__` está definido en todas las clases.
 
@@ -65,7 +65,7 @@ Creemos dos objetos de cada clase y veamos los atributos y métodos que tienen d
 
 ## La función super()
 
-La función `super()` me proporciona una referencia a la clase base. Y Podemos observar también que hemos reescrito el método `distancia` y `__str__`.
+La función `super()` me proporciona una referencia a la clase base. Y podemos observar también que hemos reescrito el método `distancia` y `__str__`.
 
 	>>> p.distancia(punto(5,6))
 	5.656854249492381
