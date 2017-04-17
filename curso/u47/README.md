@@ -2,7 +2,7 @@
 
 ## Funciones recursivas
 
-Una función recursiva es aquella que al ejecutarse hace llamdas a ella misma. Por lo tento tenemos que te ner "un caso base" que hace terminar el bucle de llamadas. Veamos un ejemplo:
+Una función recursiva es aquella que al ejecutarse hace llamadas a ella misma. Por lo tento tenemos que tener "un caso base" que hace terminar el bucle de llamadas. Veamos un ejemplo:
 
 	>>> def factorial(numero):
 	...     if(numero == 0 or numero == 1):
