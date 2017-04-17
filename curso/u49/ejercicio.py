@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 import csv
 def LeerPartidos():
-	"""Función que lee el fichero CSV y devuelve los datos del mismo en un 
-	diccionario."""
+	"""Función que lee el fichero CSV y devuelve los datos del mismo en una 
+	lista de diccionarios con los datos de la liga."""
 	datos=[]
 	keys=["fecha","equipo1","equipo2","final","mitad"]
 	fichero = open("liga.csv")
@@ -14,7 +14,7 @@ def LeerPartidos():
 	return datos
 
 def Equipos(liga):
-	"""Función que recibe el diccionario de datos de la liga y devuelve un
+	"""Función que recibe la lista de diccionarios con los datos de la liga y devuelve un
 	 conjunto con los equipos de la liga."""
 	return(tuple(set([partido["equipo1"] for partido in liga])))
 
@@ -37,7 +37,7 @@ def Puntos(info):
 	return 3*info[0]+info[2]
 
 def InfoEquipos(liga,*equipos):
-	"""Función que recibe el diccionario de datos de la liga y el conjunto de
+	"""Función que recibe la lista de diccionarios con los datos de la liga y el conjunto de
 	 equipos y devuelve una lista de tuplas, en cada tupla se guarda un equipo
 	  con los partidos ganados, empatados y perdidos y los puntos obtenidos."""
 	resultados=[]
@@ -71,7 +71,7 @@ def Clasificacion(datos):
 	return datos_ordenados
 
 def impClasificacion(liga):
-	"""Recibe el diccionario generado a parir del fichero csv, genera los datos
+	"""recibe la lista de diccionarios con losnerado a parir del fichero csv, genera los datos
 	 de la clasificación y los imprime por pantalla"""
 	datos=InfoEquipos(liga,*Equipos(liga))
 	contador=1
