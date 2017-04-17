@@ -44,16 +44,26 @@ def InfoEquipos(liga,*equipos):
 	for equipo in equipos:
 		resultado = [0,0,0]
 		for partido in liga:
+			#Equipo es local
+			# Gana
 			if partido["equipo1"]==equipo and QuienGana(partido["final"])==1:
 				resultado[0]+=1
+			# Pierde
 			if partido["equipo1"]==equipo and QuienGana(partido["final"])==-1:
 				resultado[1]+=1
+			# Empata
 			if partido["equipo1"]==equipo and QuienGana(partido["final"])==0:
 				resultado[2]+=1
+			
+
+			# Equipo es visitante
+			# Gana
 			if partido["equipo2"]==equipo and QuienGana(partido["final"])==-1:
 				resultado[0]+=1
+			# Pierde
 			if partido["equipo2"]==equipo and QuienGana(partido["final"])==1:
 				resultado[1]+=1
+			# Empata
 			if partido["equipo2"]==equipo and QuienGana(partido["final"])==0:
 				resultado[2]+=1
 		resultado.append(Puntos(resultado))
