@@ -52,7 +52,7 @@ Una variable local se declara en su ámbito de uso (en el programa principal y d
 	>>> suma
 	9
 
-Podemos definir variables globales, que serán visibles en todo el módulo. Se recomienda declararlas en matusculas:
+Podemos definir variables globales, que serán visibles en todo el módulo. Se recomienda declararlas en mayúsculas:
 
 	>>> PI = 3.1415
 	>>> def area(radio):
