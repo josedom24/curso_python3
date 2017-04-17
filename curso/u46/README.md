@@ -34,10 +34,10 @@ Además podemos tener parámetros con valores por defecto:
 
 Los parámetros keyword son aquellos donde se indican el nombre del parámetro formal y su valor, por lo tanto no es necesario que tengan la misma posición. Al definir una función o al llamarla, hay que indicar primero los argumentos posicionales y a continuación los argumentos con valor por defecto (keyword). 
 
-	>>> operar(5,7)										# dos parámetros posicionales
-	>>> operar(n1=4,n2=6)								# dos parámetros keyword
-	>>> operar(4,6,respuesta="La suma es")				# dos parámetros posicionales y uno keyword
-	>>> operar(4,6,respuesta="La resta es",operador="-")# dos parámetros posicionales y dos keyword
+	>>> operar(5,7)	# dos parámetros posicionales
+	>>> operar(n1=4,n2=6)	# dos parámetros keyword
+	>>> operar(4,6,respuesta="La suma es")	# dos parámetros posicionales y uno keyword
+	>>> operar(4,6,respuesta="La resta es",operador="-")	# dos parámetros posicionales y dos keyword
 
 ## Parámetro *
 
