@@ -89,7 +89,7 @@ Es este tipo de datos podemos usar las siguientes funciones:
 
 * `len()`: Devuelve número de elementos de la vista.
 * `iter()`: Nos devuelve un iterador de las claves, valores o ambas.
-* `x in dictview`: DEvuelve True si x está en las calves o valres.
+* `x in dictview`: Devuelve True si x está en las claves o valores.
 
 ## Recorrido de diccionarios
 
