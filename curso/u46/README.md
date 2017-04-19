@@ -41,7 +41,7 @@ Los parámetros keyword son aquellos donde se indican el nombre del parámetro f
 
 ## Parámetro *
 
-Un parámetro `*` entre los parámetros posicionales y los keyword, obliga a a indicar el parámetro real como keyword:
+Un parámetro `*` entre los parámetros formales de una función, nos obliga a indicar los parámetros reales posteriores como keyword:
 
 	>>> def sumar(n1,n2,*,op="+"):
 	...   if op=="+":
