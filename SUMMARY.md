@@ -1,7 +1,7 @@
 # Summary
 
-* [Introducción](README.md/README.md)
-* [Indice del curso](indice.md/README.md)
+* [Introducción](README.md)
+* [Indice del curso](indice.md)
 
 ### Introducción
 
